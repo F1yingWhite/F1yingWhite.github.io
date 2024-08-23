@@ -1,6 +1,6 @@
 ---
 title: 多模态深度学习入门
-published: 2024-07-21
+published: 2024-08-22
 description: '多模态深度学习入门导论'
 image: ''
 tags: [多模态，导论]
