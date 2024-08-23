@@ -6,7 +6,6 @@ image: ''
 tags: [多模态，导论]
 category: '导论'
 draft: true
-
 ---
 
 ## Multimodal Machine Learning:A Survey and Taxonomy
