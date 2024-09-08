@@ -3,8 +3,8 @@ title: python语法
 published: 2024-09-04
 description: ''
 image: ''
-tags: [python]
-category: ''
+tags: [python,language]
+category: 'language'
 draft: false 
 ---
 

@@ -3,8 +3,8 @@ title: pytorch基本知识
 published: 2024-07-16
 description: ''
 image: ''
-tags: [python]
-category: ''
+tags: [python,language]
+category: 'language'
 draft: false 
 ---
 

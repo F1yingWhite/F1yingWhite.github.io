@@ -4,7 +4,7 @@ published: 2024-07-16
 description: ''
 image: ''
 tags: [模型优化,机器学习]
-category: '模型优化'
+category: '机器学习'
 draft: false 
 ---
 

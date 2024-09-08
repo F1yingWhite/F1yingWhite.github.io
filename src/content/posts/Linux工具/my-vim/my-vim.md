@@ -3,8 +3,8 @@ title: my-vim
 published: 2024-07-21
 description: 'vim的基本设置和neovim配置'
 image: ''
-tags: []
-category: ''
+tags: [Linux]
+category: 'Linux工具'
 draft: true
 ---
 

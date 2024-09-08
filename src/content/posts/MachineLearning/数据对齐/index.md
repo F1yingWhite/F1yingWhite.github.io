@@ -4,7 +4,7 @@ published: 2024-07-20
 description: '数据对齐简述'
 image: ''
 tags: [机器学习,概念]
-category: '概念'
+category: '机器学习'
 draft: false 
 ---
 
