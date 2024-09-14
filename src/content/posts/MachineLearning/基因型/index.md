@@ -1,0 +1,52 @@
+---
+title: 基因型
+published: 2024-09-14
+description: ''
+image: ''
+tags: [机器学习,基因型]
+category: '导论'
+draft: true 
+---
+
+## 基因型是什么
+
+**基因型**（Genotype）是指一个生物体内的DNA包含的基因，也就是生物的细胞内所包含的她所特有的那组基因
+
+一个细胞的基因信息的总和被称为[个体基因型](https://zh.wikipedia.org/w/index.php?title=个体基因型&action=edit&redlink=1)。两个生物只要有一个[基因座](https://zh.wikipedia.org/wiki/基因座)不同，那么它们的基因型就不相同，因此基因型指的是一个个体的所有[等位基因](https://zh.wikipedia.org/wiki/等位基因)的所有基因座上的所有组合。与基因型相对的是[表现型](https://zh.wikipedia.org/wiki/表現型)(Phenotype)，表现型是一个生物体的实际外表特征如大小、重量、颜色等等。
+
+基因型对一个生物的发展有极大的影响，但是它不是唯一的因素。一般来说即使基因型相同的生物也会表现出不同的外显型。
+
+## VCF格式文件
+
+[生物基因数据文件——vcf格式详解_vcf文件](https://blog.csdn.net/u012150360/article/details/70666213)
+
+VCF是用于描述SNP（单个碱基上的变异），INDEL（插入缺失标记）和SV（结构变异位点）结果的文本文件。
+
+```
+##fileformat=VCFv4.2
+##fileDate=20090805
+##source=myImputationProgramV3.1
+##reference=file:///seq/references/1000GenomesPilot-NCBI36.fasta
+##contig=<ID=20,length=62435964,assembly=B36,md5=f126cdf8a6e0c7f379d618ff66beb2da,species="Homo sapiens",taxonomy=x>
+##phasing=partial
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral Allele">
+##INFO=<ID=DB,Number=0,Type=Flag,Description="dbSNP membership, build 129">
+##INFO=<ID=H2,Number=0,Type=Flag,Description="HapMap2 membership">
+##FILTER=<ID=q10,Description="Quality below 10">
+##FILTER=<ID=s50,Description="Less than 50% of samples have data">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=HQ,Number=2,Type=Integer,Description="Haplotype Quality">
+#CHROM POS     ID        REF    ALT     QUAL FILTER INFO                              FORMAT      NA00001        NA00002        NA00003
+    14370   rs6054257 G      A       29   PASS   NS=3;DP=14;AF=0.5;DB;H2           GT:GQ:DP:HQ 0|0:48:1:51,51 1|0:48:8:51,51 1/1:43:5:.,.
+    17330   .         T      A       3    q10    NS=3;DP=11;AF=0.017               GT:GQ:DP:HQ 0|0:49:3:58,50 0|1:3:5:65,3   0/0:41:3
+    1110696 rs6040355 A      G,T     67   PASS   NS=2;DP=10;AF=0.333,0.667;AA=T;DB GT:GQ:DP:HQ 1|2:21:6:23,27 2|1:2:0:18,2   2/2:35:4
+    1230237 .         T      .       47   PASS   NS=3;DP=13;AA=T                   GT:GQ:DP:HQ 0|0:54:7:56,60 0|0:48:4:51,51 0/0:61:2
+    1234567 microsat1 GTC    G,GTCT  50   PASS   NS=3;DP=9;AA=G                    GT:GQ:DP    0/1:35:4       0/2:17:2       1/1:40:3
+```
+
+从上面的代码中，VCF格式文件主要分为两部分，以#开头的注释和没有#开头的主体部分。注释部分有很多对VCF的介绍信息。实际上不需要本文章，只是看看这个注释部分就完全明白了VCF各行各列代表的意义。主体部分中每一行代表一个变异位点Variant的信息。
