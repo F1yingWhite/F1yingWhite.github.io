@@ -52,7 +52,7 @@ export const profileConfig: ProfileConfig = {
   bio: 'Good monring my neighbors!',
   links: [
     {
-      name: 'Twitter',
+      name: 'bilibili',
       icon: 'fa6-brands:bilibili',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`

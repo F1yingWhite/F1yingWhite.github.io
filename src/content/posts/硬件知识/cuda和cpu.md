@@ -3,8 +3,8 @@ title: cuda和cpu
 published: 2024-08-11
 description: ''
 image: ''
-tags: []
-category: '机器学习'
+tags: [cpu,gpu]
+category: '硬件'
 draft: false 
 ---
 
