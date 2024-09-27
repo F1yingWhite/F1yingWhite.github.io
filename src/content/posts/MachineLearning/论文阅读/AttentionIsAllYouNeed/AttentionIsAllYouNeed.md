@@ -64,3 +64,90 @@ $Q/K/V = W_{q/k/v}A$这里的I表示a1~a4矩阵,然后计算aii,aii的计算由:
 <img src="https://p.ipic.vip/f3j6fl.png" alt="image-20240722151714617" style="zoom:50%;" />
 
 在Transformer中大概就是这样.BatchNorm是对每个batch的相同dim做norm,而layer是对每个batch做nrom.Transformer的结构像RNN,所以这里用layernorm.
+```python
+import torch
+import torch.nn.functional as F
+from einops import rearrange, repeat
+from einops.layers.torch import Rearrange
+from torch import einsum, nn, tensor
+
+
+class PreNorm(nn.Module):
+    def __init__(self, dim, fn):
+        super().__init__()
+        self.norm = nn.LayerNorm(dim)
+        self.fn = fn
+
+    def forward(self, x, **kwargs):
+        return self.fn(self.norm(x), **kwargs)
+
+
+def pair(t):
+    return t if isinstance(t, tuple) else (t, t)
+
+
+class FeedForward(nn.Module):
+    def __init__(self, dim, hidden_dim, dropout=0.0) -> None:
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(dim, hidden_dim),
+            nn.GELU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden_dim, dim),
+            nn.Dropout(dropout),
+        )
+
+    def forward(self, x):
+        return self.net(x)
+
+
+class Attention(nn.Module):
+    def __init__(self, dim=512, heads=8, dim_head=64, dropout=0.0):
+        super().__init__()
+        inner_dim = dim_head * heads
+        project_out = not (heads == 1 and dim_head == dim)
+
+        self.heads = heads
+        self.scale = dim_head**-0.5
+
+        self.attend = nn.Softmax(dim=-1)
+        self.to_qkv = nn.Linear(dim, inner_dim * 3, bias=False)
+
+        self.to_out = (
+            nn.Sequential(
+                nn.Linear(inner_dim, dim),
+                nn.Dropout(dropout),
+            )
+            if project_out
+            else nn.Identity()
+        )
+
+    def forward(self, x):  # x的维度为batch,num,dim
+        b, n, _, h = *x.shape, self.heads
+        qkv = self.to_qkv(x).chunk(3, dim=-1)  # (b, n, dim*3) ---> 3 * (b, n, dim) 这里生成kqv
+        q, k, v = map(lambda t: rearrange(t, "b n (h d) -> b h n d", h=h), qkv)  # q, k, v   (b, h, n, dim_head(64))
+
+        dots = einsum("b h i d, b h j d -> b h i j", q, k) * self.scale
+
+        attn = self.attend(dots)
+
+        out = einsum("b h i j, b h j d -> b h i d", attn, v)
+        out = rearrange(out, "b h n d -> b n (h d)")
+        return self.to_out(out)
+
+
+class Transformer(nn.Module):
+    def __init__(self, dim, depth, heads, dim_head, mlp_dim, dropout=0.0):
+        super().__init__()
+        self.layers = nn.ModuleList([])
+        for _ in range(depth):
+            self.layers.append(nn.ModuleList([PreNorm(dim, Attention(dim, heads=heads, dim_head=dim_head, dropout=dropout)), PreNorm(dim, FeedForward(dim, mlp_dim, dropout=dropout))]))
+
+    def forward(self, x):
+        for attn, ff in self.layers:
+            x = attn(x) + x
+            x = ff(x) + x
+        return x
+
+
+```
