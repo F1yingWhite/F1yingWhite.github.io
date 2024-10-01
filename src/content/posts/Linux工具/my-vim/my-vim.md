@@ -5,7 +5,7 @@ description: 'vim的基本设置和neovim配置'
 image: ''
 tags: [Linux]
 category: 'Linux工具'
-draft: true
+draft: false
 ---
 
 ## vim基本指令
