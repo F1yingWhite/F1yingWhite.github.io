@@ -121,3 +121,5 @@ yi’、yi”、yi(、yi[、yi{、yi< -
 
 分别选中这些配对标点符号中的文本内容
 vi’、vi”、vi(、vi[、vi{、vi< -
+
+(vscode vim参考)[https://www.cnblogs.com/YunyaSir/p/15522565.html#_caption5]

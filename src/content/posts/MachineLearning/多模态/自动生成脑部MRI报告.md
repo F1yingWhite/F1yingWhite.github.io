@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: [机器学习,多模态,论文阅读]
 category: '多模态'
-draft: false 
+draft: false
 ---
 ## Abstract
 为了解决人为操作带来的影响，我们开发了自动生成报告的AI(AutoRG),我们首先从MRI解释系统入手,该系统支持对脑部进行细致的描述,支持脑部结构描述,异常定位以及结果生成.我们的贡献如下：

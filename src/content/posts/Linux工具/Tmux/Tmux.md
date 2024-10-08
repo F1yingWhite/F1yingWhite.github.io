@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: [Linux]
 category: 'Linux工具'
-draft: false 
+draft: false
 ---
 
 ## 基本概念
@@ -60,4 +60,3 @@ tmux kill-server # 关闭服务器，所有的会话都将关闭
 ```shell
 tmux ls#查看所有的会话
 ```
-
