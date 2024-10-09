@@ -41,3 +41,17 @@ draft: false
 **Feature Fusion Module**： 由Backbone得到的多尺度特征图具有语义信息丰富的高级特征，但是又具有粗糙的目标定位。低级别特征具有精确的目标定位但是语义信息少，一个常见的方案是吧高级特征上采样和第七特征进行像素级求和来使用语义信息丰富每一层。但是这种方法没有进行特征选择。为了解决这种限制，我们提出了SFF模块，该模块通过使用高级特征作为权重来过滤嵌入在低级特征中的基本语义信息，从而战略性地融合特征。
 
 ![image-20241009093105148](https://picture-bed-1325530970.cos.ap-nanjing.myqcloud.com/image-20241009093105148.png)
+### Feature Fusion Module
+给定一个高纬度的特征,和一个低纬度的特征,首先高纬度的特征使用T-Conv来进行扩张+一个3x3卷积核,让高纬度的特征大小变为Cx2Hx2W,然后为了统一高低纬度特征的维度,我们使用双线性差值的方式上下采样,然后使用高纬度的特征+CA模块生成attention weight和low-level的特征相乘,最后两个特征进行fusion得到了最终的特征.最终特征大小和low-level的一致.
+$$
+f_{fatt}=BL(T-Conv(f_{hihgh}))\\
+f_{out}=flow*CA(f_{att})+f_{att}
+$$
+
+### Deformable Self-attention Module
+变形注意力模块主要分为两个部件,一个是offset module和一个attention module.
+
+**Offset module**:向量必须先转为特征图,然后考虑参考点坐标生成查询向量.一个线性层被用来和查询向量相乘得到偏移p_q,同样的方式也被使用在特征图上用来生成content feature map,随后，根据参考点的偏移量来确定每个参考点的感兴趣点或采样点。然后采用双线性插值法实现每个点的输出𝑜𝑓𝑓𝑠𝑒𝑡𝑣𝑎𝑙𝑢𝑒。
+
+### Encoder和decoder
+编码器起着关键的作用,输入encoder的事一个多级的特征图,整合了尺度编码和位置编码,如图1所示,每个layer都包含了一个变形的attention和一个前馈神经网络FFN,考虑到参考点位置的影响,
