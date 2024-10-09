@@ -4,7 +4,7 @@ published: 2024-10-04
 description: ''
 image: ''
 tags: [机器学习,多模态,多尺度,论文阅读]
-category: '多模态'
+category: '论文阅读'
 draft: false
 ---
 ## Abstract
