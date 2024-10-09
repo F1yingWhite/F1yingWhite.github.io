@@ -22,3 +22,18 @@ draft: false
 为了应对这些问题,我们提出了这个网络.在这个网络中,一个High-level Screening-feature Fusion Pyramid被设计用来帮助不同scale的白细胞多层的特征融合.在HS-FPN中高层的特征被作为权重通过channel-attention模块来过滤底层特征的信息,被筛选的信息然后和高层次的特征进行融合,从而增强模型的特征表达能力.此外,为了解决白细胞特征缺乏问题,在编码器中引入了一种多尺度可变形的自注意机制,这有助于白细胞特征图的全局信息提取.之后,使用slef-attetion和变形的注意力机制,decoder从全局特征中学习需要被检测的目标.
 
 我们提出了创新的HS-FPN特征融合模块。与传统的基于自然图像的特征融合方法相比，该模块考虑了白细胞固有的尺度差距。这一显著的变化极大地提高了该模型在白细胞检测数据集中的特征表达能力。
+
+### Feature Fusion Module
+给定一个高纬度的特征,和一个低纬度的特征,首先高纬度的特征使用T-Conv来进行扩张+一个3x3卷积核,让高纬度的特征大小变为Cx2Hx2W,然后为了统一高低纬度特征的维度,我们使用双线性差值的方式上下采样,然后使用高纬度的特征+CA模块生成attention weight和low-level的特征相乘,最后两个特征进行fusion得到了最终的特征.最终特征大小和low-level的一致.
+$$
+f_{fatt}=BL(T-Conv(f_{hihgh}))\\
+f_{out}=flow*CA(f_{att})+f_{att}
+$$
+
+### Deformable Self-attention Module
+变形注意力模块主要分为两个部件,一个是offset module和一个attention module.
+
+**Offset module**:向量必须先转为特征图,然后考虑参考点坐标生成查询向量.一个线性层被用来和查询向量相乘得到偏移p_q,同样的方式也被使用在特征图上用来生成content feature map,随后，根据参考点的偏移量来确定每个参考点的感兴趣点或采样点。然后采用双线性插值法实现每个点的输出𝑜𝑓𝑓𝑠𝑒𝑡𝑣𝑎𝑙𝑢𝑒。
+
+### Encoder和decoder
+编码器起着关键的作用,输入encoder的事一个多级的特征图,整合了尺度编码和位置编码,如图1所示,每个layer都包含了一个变形的attention和一个前馈神经网络FFN,考虑到参考点位置的影响,

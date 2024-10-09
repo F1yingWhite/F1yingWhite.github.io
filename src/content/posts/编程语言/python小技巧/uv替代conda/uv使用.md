@@ -5,9 +5,12 @@ description: '一起来替代conda吧！'
 image: ''
 tags: [python]
 category: 'python'
-draft: false 
+draft: false
 lang: ''
 ---
+:::warning
+注意,uv的使用大多需要科学上网,如果服务器没有魔法最好不要使用
+:::
 
 ## Install
 ```bash
