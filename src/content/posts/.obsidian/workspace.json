@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/概率论/重参数化技巧.md",
+                "file": "数学/重参数化技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/希腊字母对照表.md",
+                "file": "数学/重参数化技巧.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "49963f69bb4ee256",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/概率论/重参数化技巧.md",
+                "file": "数学/重参数化技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学/概率论/重参数化技巧.md",
+                "file": "数学/重参数化技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学/概率论/重参数化技巧.md"
+                "file": "数学/重参数化技巧.md"
               }
             }
           },
@@ -170,19 +170,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4cda2df09c7802ad",
+  "active": "b55269038b42ecd6",
   "lastOpenFiles": [
+    "数学/概率论/无偏估计和有偏估计.md",
+    "数学/概率论/高斯分布.md",
+    "数学/概率论/极大似然估计.md",
     "数学/希腊字母对照表.md",
-    "数学/概率论/重参数化技巧.md",
+    "数学/重参数化技巧.md",
     "数学/概率论/协方差矩阵.md",
     "数学/爱因斯坦求和（einsum）.md",
     "MachineLearning/多模态/预测动态融合.md",
     "数学/概率论/未命名",
-    "数学/概率论/无偏估计和有偏估计.md",
-    "数学/概率论/极大似然估计.md",
     "数学/概率论/方差 协方差和相关系数.md",
     "数学/信息论/交叉熵.md",
-    "数学/概率论/高斯分布.md",
     "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
     "硬件知识/gpu算力.md",
     "2024-10-07.md",
