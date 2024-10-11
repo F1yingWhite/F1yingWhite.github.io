@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "940903796d18a471",
+        "id": "4312eec258e31176",
         "type": "tabs",
         "children": [
           {
-            "id": "0aa15a82b6d0a0e4",
+            "id": "4cda2df09c7802ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰保持不确定性.md",
+                "file": "数学/概率论/重参数化技巧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32280d2247c9dce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学/希腊字母对照表.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰保持不确定性.md",
+                "file": "数学/概率论/重参数化技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰保持不确定性.md",
+                "file": "数学/概率论/重参数化技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰保持不确定性.md"
+                "file": "数学/概率论/重参数化技巧.md"
               }
             }
           },
@@ -138,7 +150,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -157,9 +170,36 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0aa15a82b6d0a0e4",
+  "active": "4cda2df09c7802ad",
   "lastOpenFiles": [
+    "数学/希腊字母对照表.md",
+    "数学/概率论/重参数化技巧.md",
+    "数学/概率论/协方差矩阵.md",
+    "数学/爱因斯坦求和（einsum）.md",
+    "MachineLearning/多模态/预测动态融合.md",
+    "数学/概率论/未命名",
+    "数学/概率论/无偏估计和有偏估计.md",
+    "数学/概率论/极大似然估计.md",
+    "数学/概率论/方差 协方差和相关系数.md",
+    "数学/信息论/交叉熵.md",
+    "数学/概率论/高斯分布.md",
+    "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
+    "硬件知识/gpu算力.md",
+    "2024-10-07.md",
+    "Linux工具/zellij/Zellij.md",
+    "Linux工具/Tmux/Tmux.md",
+    "Linux工具/zellij",
+    "MachineLearning/多模态/多尺度/医学分割的多尺度网络.md",
+    "MachineLearning/roc曲线/roc曲线.md",
+    "MachineLearning/多模态/多尺度/针对密集预测的级联融合网络.md",
+    "MachineLearning/多模态/多尺度/基于可变形DETR和多层次特征融合的精确白细胞检测.md",
+    "MachineLearning/多模态/多尺度/多尺度特征提取的时间序列预测.md",
+    "MachineLearning/多模态/MoE.md",
+    "Template/ReadPaperTemplate.md",
     "MachineLearning/多模态/多尺度/多尺度扩张变换器在视觉识别中的应用.md",
-    "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰保持不确定性.md"
+    "通用代码/前端可视化医学影像/前端可视化医学影像.md",
+    "Template",
+    "通用代码/病理预处理通用代码/病理预处理通用代码.md",
+    "Linux工具/文件传输/文件传输.md"
   ]
 }
