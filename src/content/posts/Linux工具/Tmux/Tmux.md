@@ -2,7 +2,7 @@
 title: Tmux
 published: 2024-09-08
 description: ""
-image: 
+image: ""
 tags:
   - Linux
 category: Linux工具
