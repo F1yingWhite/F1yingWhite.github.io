@@ -23,6 +23,7 @@ tokens
 transformer
 tokenizer
 technology
+tune
 Embracing
 EAU
 Exception
@@ -35,6 +36,7 @@ Uncertainty
 URL
 Unified
 Uni
+Unpaired
 Aleatoric
 Abstract
 AI
@@ -58,6 +60,7 @@ formatter
 fusion
 feature
 focal
+fine
 Robust
 RMFI
 Related
@@ -96,6 +99,9 @@ MLP
 Methodology
 Methods
 MI
+Missing
+Modality
+Models
 Fusion
 FFN
 FPN
@@ -130,6 +136,7 @@ pathway
 paire
 pipeline
 phenotypes
+prompt
 description
 draft
 decades
@@ -185,6 +192,7 @@ concatenation
 codebook
 code
 complex
+cls
 SUFA
 SCP
 Sync
@@ -300,6 +308,7 @@ VAE
 VQ
 VCF
 Variant
+VICReg
 Bottleneck
 BytesIO
 Backbone
@@ -307,6 +316,7 @@ Basic
 Baseline
 Between
 Biological
+BitFit
 Work
 WSI
 Window
@@ -320,6 +330,7 @@ TD
 Transformers
 Transcriptomics
 TCGA
+Tuning
 vib
 vips
 viewerRef
@@ -340,6 +351,9 @@ Pathways
 Pathway
 PathOmics
 PRS
+PEFT
+Preliminaries
+Prompts
 embedding
 export
 except
@@ -414,6 +428,8 @@ ri
 roc
 rust
 regions
+rfor
+rvia
 CPU
 CNN
 Cascade
@@ -505,6 +521,7 @@ useCallback
 useRef
 utilizing
 JPEG
+Joint
 jpeg
 js
 blob
@@ -528,6 +545,9 @@ DNA
 DeepGAMI
 DeopGAMI
 DeeoGAMI
+Dc
+Da
+Db
 QKV
 HxW
 HS
