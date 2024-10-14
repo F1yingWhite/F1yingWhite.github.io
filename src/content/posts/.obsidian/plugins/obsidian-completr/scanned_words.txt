@@ -24,6 +24,7 @@ transformer
 tokenizer
 technology
 tune
+tissue
 Embracing
 EAU
 Exception
@@ -31,6 +32,7 @@ Error
 Encoder
 Extraction
 Embedding
+Entropy
 Unimodal
 Uncertainty
 URL
@@ -61,6 +63,7 @@ fusion
 feature
 focal
 fine
+fig
 Robust
 RMFI
 Related
@@ -76,6 +79,7 @@ ReLu
 Reparameterization
 Representation
 RNN
+RNA
 Multimodal
 Mehtod
 MoEs
@@ -102,6 +106,7 @@ MI
 Missing
 Modality
 Models
+MRI
 Fusion
 FFN
 FPN
@@ -156,6 +161,7 @@ detr
 decoder
 detach
 distribution
+dimension
 image
 instance
 id
@@ -175,6 +181,9 @@ individual
 important
 ij
 imputation
+invariance
+imaging
+imageing
 category
 crop
 current
@@ -193,6 +202,8 @@ codebook
 code
 complex
 cls
+codevector
+cell
 SUFA
 SCP
 Sync
@@ -237,6 +248,7 @@ IN
 II
 III
 IV
+Intrudcution
 success
 softmax
 scp
@@ -309,6 +321,7 @@ VQ
 VCF
 Variant
 VICReg
+Vector
 Bottleneck
 BytesIO
 Backbone
@@ -369,12 +382,14 @@ einsum
 entropy
 el
 eQTLs
+encoding
 KL
 zi
 zellij
 za
 zb
 zoom
+zk
 anchor
 augmented
 attention
@@ -430,6 +445,7 @@ rust
 regions
 rfor
 rvia
+rate
 CPU
 CNN
 Cascade
@@ -448,6 +464,7 @@ CMG
 Code
 CLUB
 CPC
+CT
 multiple
 magnifications
 mrxs
@@ -473,6 +490,7 @@ mRNA
 kfb
 keeping
 kill
+kmeas
 width
 wxw
 we
@@ -505,6 +523,7 @@ get
 greatest
 group
 genomic
+genomics
 or
 out
 of
@@ -532,6 +551,7 @@ block
 bit
 biological
 background
+bitVQ
 DilateFormer
 Dilated
 Dense
@@ -549,6 +569,7 @@ Dc
 Da
 Db
 QKV
+Quantization
 HxW
 HS
 High
@@ -559,3 +580,5 @@ HUMAN
 Zellij
 quantized
 qq
+xj
+yi

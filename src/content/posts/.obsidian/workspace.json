@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md"
+                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md"
               }
             }
           },
@@ -158,36 +158,36 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b55269038b42ecd6",
+  "active": "9f9cf6e0c4fd0fdc",
   "lastOpenFiles": [
-    "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
-    "MachineLearning/多模态/多尺度/医学分割的多尺度网络.md",
-    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
+    "MachineLearning/论文阅读/多模态/MoE.md",
+    "MachineLearning/论文阅读/多模态/预测动态融合.md",
+    "MachineLearning/论文阅读/多模态/用多模态统一表示实现跨模态泛化.md",
+    "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
+    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+    "MachineLearning/论文阅读/基因型/基因型.md",
+    "MachineLearning/论文阅读/基因型/病理+转录组学.md",
+    "MachineLearning/论文阅读/基因型/病理和基因组学多模态生存结果预测.md",
+    "MachineLearning/论文阅读/基因型/跨尺度的MIL算法.md",
+    "MachineLearning/论文阅读/基因型/可解释的基因分析.md",
+    "MachineLearning/论文阅读/基因型/DeepGAMI.md",
+    "数学/信息论/信息量.md",
+    "数学/信息论/KL散度.md",
+    "数学/信息论/交叉熵.md",
+    "数学/概率论/高斯分布.md",
+    "数学/信号处理/矢量量化.md",
+    "MachineLearning/论文阅读/多模态/多尺度/医学分割的多尺度网络.md",
     "数学/希腊字母对照表.md",
     "数学/互信息.md",
-    "MachineLearning/基因型/DeepGAMI.md",
-    "MachineLearning/基因型/利用深度学习技术进行整个和复杂基因组区域的基因型插补方法.md",
-    "MachineLearning/基因型/病理和基因组学多模态生存结果预测.md",
-    "MachineLearning/基因型/基因型.md",
-    "MachineLearning/基因型/病理+转录组学.md",
-    "MachineLearning/多模态/MoE.md",
-    "MachineLearning/多模态/预测动态融合.md",
+    "MachineLearning/论文阅读/基因型/利用深度学习技术进行整个和复杂基因组区域的基因型插补方法.md",
     "数学/范数.md",
     "2024-10-11.md",
     "数学/重参数化技巧.md",
-    "数学/信号处理/矢量量化.md",
     "2024-10-08.md",
-    "数学/信息论/交叉熵.md",
     "数学/信号处理",
     "数学/概率论/无偏估计和有偏估计.md",
-    "数学/概率论/高斯分布.md",
     "数学/概率论/极大似然估计.md",
-    "数学/概率论/协方差矩阵.md",
-    "数学/爱因斯坦求和（einsum）.md",
     "数学/概率论/未命名",
-    "数学/概率论/方差 协方差和相关系数.md",
-    "硬件知识/gpu算力.md",
     "Linux工具/zellij",
     "Template"
   ]
