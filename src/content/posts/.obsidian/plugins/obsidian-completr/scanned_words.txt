@@ -24,7 +24,11 @@ transformer
 tokenizer
 technology
 tune
+<<<<<<< HEAD
 tissue
+=======
+tree
+>>>>>>> refs/remotes/origin/main
 Embracing
 EAU
 Exception
@@ -49,6 +53,8 @@ Add
 ASPP
 Achieving
 ABC
+All
+Agnostic
 for
 false
 fuzzy
@@ -63,7 +69,11 @@ fusion
 feature
 focal
 fine
+<<<<<<< HEAD
 fig
+=======
+fc
+>>>>>>> refs/remotes/origin/main
 Robust
 RMFI
 Related
@@ -106,7 +116,11 @@ MI
 Missing
 Modality
 Models
+<<<<<<< HEAD
 MRI
+=======
+Modalities
+>>>>>>> refs/remotes/origin/main
 Fusion
 FFN
 FPN
@@ -116,6 +130,9 @@ Feature
 FPR
 FA
 FB
+For
+Finetune
+FNN
 published
 pair
 point
@@ -142,6 +159,7 @@ paire
 pipeline
 phenotypes
 prompt
+prefix
 description
 draft
 decades
@@ -161,7 +179,11 @@ detr
 decoder
 detach
 distribution
+<<<<<<< HEAD
 dimension
+=======
+decer
+>>>>>>> refs/remotes/origin/main
 image
 instance
 id
@@ -182,8 +204,11 @@ important
 ij
 imputation
 invariance
+<<<<<<< HEAD
 imaging
 imageing
+=======
+>>>>>>> refs/remotes/origin/main
 category
 crop
 current
@@ -202,8 +227,12 @@ codebook
 code
 complex
 cls
+<<<<<<< HEAD
 codevector
 cell
+=======
+cross
+>>>>>>> refs/remotes/origin/main
 SUFA
 SCP
 Sync
@@ -235,6 +264,8 @@ SNP
 SV
 SNPS
 STUDIES
+Seq
+SOTA
 Introduction
 Information
 Index
@@ -248,7 +279,15 @@ IN
 II
 III
 IV
+<<<<<<< HEAD
 Intrudcution
+=======
+ICML
+Instruction
+IO
+ITM
+IC
+>>>>>>> refs/remotes/origin/main
 success
 softmax
 scp
@@ -288,6 +327,8 @@ sk
 size
 sg
 swin
+seq
+self
 label
 level
 list
@@ -321,7 +362,13 @@ VQ
 VCF
 Variant
 VICReg
+<<<<<<< HEAD
 Vector
+=======
+VQA
+VG
+VGA
+>>>>>>> refs/remotes/origin/main
 Bottleneck
 BytesIO
 Backbone
@@ -330,6 +377,8 @@ Baseline
 Between
 Biological
 BitFit
+BART
+BPE
 Work
 WSI
 Window
@@ -367,6 +416,8 @@ PRS
 PEFT
 Preliminaries
 Prompts
+Pretrain
+Patch
 embedding
 export
 except
@@ -382,7 +433,11 @@ einsum
 entropy
 el
 eQTLs
+<<<<<<< HEAD
 encoding
+=======
+encodr
+>>>>>>> refs/remotes/origin/main
 KL
 zi
 zellij
@@ -428,6 +483,8 @@ GENETIC
 GAWS
 GRNs
 GNNs
+GPT
+GC
 Linux
 Learning
 rsync
@@ -464,7 +521,11 @@ CMG
 Code
 CLUB
 CPC
+<<<<<<< HEAD
 CT
+=======
+CV
+>>>>>>> refs/remotes/origin/main
 multiple
 magnifications
 mrxs
@@ -504,6 +565,8 @@ whole
 OpenSeadragonViewer
 Overall
 Offset
+OFA
+One
 nii
 niiname
 np
@@ -551,7 +614,11 @@ block
 bit
 biological
 background
+<<<<<<< HEAD
 bitVQ
+=======
+byte
+>>>>>>> refs/remotes/origin/main
 DilateFormer
 Dilated
 Dense
@@ -568,6 +635,7 @@ DeeoGAMI
 Dc
 Da
 Db
+Decoder
 QKV
 Quantization
 HxW
@@ -580,5 +648,10 @@ HUMAN
 Zellij
 quantized
 qq
+<<<<<<< HEAD
 xj
 yi
+=======
+xi
+xxx
+>>>>>>> refs/remotes/origin/main
