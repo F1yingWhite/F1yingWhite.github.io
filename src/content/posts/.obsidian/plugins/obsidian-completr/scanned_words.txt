@@ -32,6 +32,7 @@ Error
 Encoder
 Extraction
 Embedding
+Exponential
 Unimodal
 Uncertainty
 URL
@@ -50,6 +51,7 @@ Achieving
 ABC
 All
 Agnostic
+Average
 for
 false
 fuzzy
@@ -80,6 +82,8 @@ ReLu
 Reparameterization
 Representation
 RNN
+Relative
+RC
 Multimodal
 Mehtod
 MoEs
@@ -107,6 +111,8 @@ Missing
 Modality
 Models
 Modalities
+Mono
+Moving
 Fusion
 FFN
 FPN
@@ -205,6 +211,7 @@ code
 complex
 cls
 cross
+co
 SUFA
 SCP
 Sync
@@ -343,6 +350,7 @@ Biological
 BitFit
 BART
 BPE
+Belief
 Work
 WSI
 Window
@@ -480,6 +488,9 @@ Code
 CLUB
 CPC
 CV
+Confidence
+Co
+Calibration
 multiple
 magnifications
 mrxs
@@ -502,6 +513,7 @@ modal
 mutilresolutio
 multiscale
 mRNA
+mu
 kfb
 keeping
 kill
@@ -567,6 +579,7 @@ bit
 biological
 background
 byte
+brief
 DilateFormer
 Dilated
 Dense
@@ -592,6 +605,7 @@ Hx
 Histology
 HLA
 HUMAN
+Holo
 Zellij
 quantized
 qq

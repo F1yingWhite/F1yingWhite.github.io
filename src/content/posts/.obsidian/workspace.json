@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/多模态/预测动态融合.md",
+                "file": "MachineLearning/多模态/低质量多模态数据融合.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
+    "width": 365.500732421875,
     "collapsed": true
   },
   "right": {
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/多模态/预测动态融合.md",
+                "file": "MachineLearning/多模态/低质量多模态数据融合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/多模态/预测动态融合.md",
+                "file": "MachineLearning/多模态/低质量多模态数据融合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/多模态/预测动态融合.md"
+                "file": "MachineLearning/多模态/低质量多模态数据融合.md"
               }
             }
           },
@@ -160,11 +160,12 @@
   },
   "active": "3e5e24bcce6859e6",
   "lastOpenFiles": [
+    "MachineLearning/多模态/预测动态融合.md",
+    "MachineLearning/多模态/低质量多模态数据融合.md",
     "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
-    "数学/信息论/信息量.md",
     "MachineLearning/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
     "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/多模态/预测动态融合.md",
+    "数学/信息论/信息量.md",
     "MachineLearning/多模态/OFA.md",
     "MachineLearning/多模态/OFA/什么是OFA.md",
     "MachineLearning/多模态/OFA/未命名.md",
@@ -187,7 +188,6 @@
     "数学/信号处理",
     "数学/概率论/无偏估计和有偏估计.md",
     "数学/概率论/高斯分布.md",
-    "数学/概率论/极大似然估计.md",
     "数学/概率论/未命名",
     "Linux工具/zellij",
     "Template"
