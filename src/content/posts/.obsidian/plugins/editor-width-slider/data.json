@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "sliderPercentage": "52",
+=======
   "sliderPercentage": "41",
+>>>>>>> refs/remotes/origin/main
   "sliderPercentageDefault": "20",
   "sliderWidth": "100"
 }

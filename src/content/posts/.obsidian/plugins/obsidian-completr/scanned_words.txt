@@ -24,7 +24,11 @@ transformer
 tokenizer
 technology
 tune
+<<<<<<< HEAD
+tissue
+=======
 tree
+>>>>>>> refs/remotes/origin/main
 Embracing
 EAU
 Exception
@@ -32,7 +36,7 @@ Error
 Encoder
 Extraction
 Embedding
-Exponential
+Entropy
 Unimodal
 Uncertainty
 URL
@@ -66,7 +70,11 @@ fusion
 feature
 focal
 fine
+<<<<<<< HEAD
+fig
+=======
 fc
+>>>>>>> refs/remotes/origin/main
 Robust
 RMFI
 Related
@@ -82,8 +90,7 @@ ReLu
 Reparameterization
 Representation
 RNN
-Relative
-RC
+RNA
 Multimodal
 Mehtod
 MoEs
@@ -110,9 +117,11 @@ MI
 Missing
 Modality
 Models
+<<<<<<< HEAD
+MRI
+=======
 Modalities
-Mono
-Moving
+>>>>>>> refs/remotes/origin/main
 Fusion
 FFN
 FPN
@@ -171,7 +180,11 @@ detr
 decoder
 detach
 distribution
+<<<<<<< HEAD
+dimension
+=======
 decer
+>>>>>>> refs/remotes/origin/main
 image
 instance
 id
@@ -192,6 +205,11 @@ important
 ij
 imputation
 invariance
+<<<<<<< HEAD
+imaging
+imageing
+=======
+>>>>>>> refs/remotes/origin/main
 category
 crop
 current
@@ -210,8 +228,12 @@ codebook
 code
 complex
 cls
+<<<<<<< HEAD
+codevector
+cell
+=======
 cross
-co
+>>>>>>> refs/remotes/origin/main
 SUFA
 SCP
 Sync
@@ -258,11 +280,15 @@ IN
 II
 III
 IV
+<<<<<<< HEAD
+Intrudcution
+=======
 ICML
 Instruction
 IO
 ITM
 IC
+>>>>>>> refs/remotes/origin/main
 success
 softmax
 scp
@@ -337,9 +363,13 @@ VQ
 VCF
 Variant
 VICReg
+<<<<<<< HEAD
+Vector
+=======
 VQA
 VG
 VGA
+>>>>>>> refs/remotes/origin/main
 Bottleneck
 BytesIO
 Backbone
@@ -405,13 +435,18 @@ einsum
 entropy
 el
 eQTLs
+<<<<<<< HEAD
+encoding
+=======
 encodr
+>>>>>>> refs/remotes/origin/main
 KL
 zi
 zellij
 za
 zb
 zoom
+zk
 anchor
 augmented
 attention
@@ -469,6 +504,7 @@ rust
 regions
 rfor
 rvia
+rate
 CPU
 CNN
 Cascade
@@ -487,10 +523,11 @@ CMG
 Code
 CLUB
 CPC
+<<<<<<< HEAD
+CT
+=======
 CV
-Confidence
-Co
-Calibration
+>>>>>>> refs/remotes/origin/main
 multiple
 magnifications
 mrxs
@@ -517,6 +554,7 @@ mu
 kfb
 keeping
 kill
+kmeas
 width
 wxw
 we
@@ -551,6 +589,7 @@ get
 greatest
 group
 genomic
+genomics
 or
 out
 of
@@ -578,8 +617,11 @@ block
 bit
 biological
 background
+<<<<<<< HEAD
+bitVQ
+=======
 byte
-brief
+>>>>>>> refs/remotes/origin/main
 DilateFormer
 Dilated
 Dense
@@ -598,6 +640,7 @@ Da
 Db
 Decoder
 QKV
+Quantization
 HxW
 HS
 High
@@ -609,5 +652,10 @@ Holo
 Zellij
 quantized
 qq
+<<<<<<< HEAD
+xj
+yi
+=======
 xi
 xxx
+>>>>>>> refs/remotes/origin/main
