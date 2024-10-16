@@ -4,20 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "44b9e0fcdcfe5596",
+        "id": "511efdd08f5b511b",
         "type": "tabs",
         "children": [
           {
-            "id": "3e5e24bcce6859e6",
+            "id": "b895cacbeb9c0ab9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
-=======
-                "file": "MachineLearning/多模态/预测动态融合.md",
->>>>>>> refs/remotes/origin/main
+                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.500732421875,
+    "width": 267.500732421875,
     "collapsed": true
   },
   "right": {
@@ -90,11 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
-=======
-                "file": "MachineLearning/多模态/预测动态融合.md",
->>>>>>> refs/remotes/origin/main
+                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,11 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
-=======
-                "file": "MachineLearning/多模态/预测动态融合.md",
->>>>>>> refs/remotes/origin/main
+                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md"
-=======
-                "file": "MachineLearning/多模态/预测动态融合.md"
->>>>>>> refs/remotes/origin/main
+                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md"
               }
             }
           },
@@ -174,56 +158,39 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-<<<<<<< HEAD
-  "active": "9f9cf6e0c4fd0fdc",
+  "active": "b895cacbeb9c0ab9",
   "lastOpenFiles": [
-    "MachineLearning/论文阅读/多模态/MoE.md",
+    "数学/希腊字母对照表.md",
+    "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
+    "MachineLearning/论文阅读/多模态/低质量多模态数据融合.md",
     "MachineLearning/论文阅读/多模态/预测动态融合.md",
-    "MachineLearning/论文阅读/多模态/用多模态统一表示实现跨模态泛化.md",
-    "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单峰异质不确定性.md",
     "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/论文阅读/基因型/基因型.md",
+    "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
+    "MachineLearning/论文阅读/多模态/用多模态统一表示实现跨模态泛化.md",
+    "MachineLearning/多模态/低质量多模态数据融合.md",
+    "MachineLearning/论文阅读/多模态/多尺度/医学分割的多尺度网络.md",
+    "MachineLearning/论文阅读/多模态/多尺度/pyraformer.md",
+    "MachineLearning/论文阅读/多模态/多尺度/针对密集预测的级联融合网络.md",
+    "MachineLearning/论文阅读/多模态/多尺度/多尺度特征提取的时间序列预测.md",
+    "MachineLearning/论文阅读/多模态/多尺度/多尺度扩张变换器在视觉识别中的应用.md",
+    "MachineLearning/论文阅读/多模态/多尺度/基于可变形DETR和多层次特征融合的精确白细胞检测.md",
+    "MachineLearning/论文阅读/多模态/多尺度",
+    "MachineLearning/论文阅读/多模态/OFA.md",
+    "MachineLearning/论文阅读/多模态/MoE.md",
+    "MachineLearning/论文阅读/多模态",
+    "MachineLearning/论文阅读/基因型/跨尺度的MIL算法.md",
     "MachineLearning/论文阅读/基因型/病理+转录组学.md",
     "MachineLearning/论文阅读/基因型/病理和基因组学多模态生存结果预测.md",
-    "MachineLearning/论文阅读/基因型/跨尺度的MIL算法.md",
+    "MachineLearning/论文阅读/基因型/基因型.md",
     "MachineLearning/论文阅读/基因型/可解释的基因分析.md",
-    "MachineLearning/论文阅读/基因型/DeepGAMI.md",
-    "数学/信息论/信息量.md",
-    "数学/信息论/KL散度.md",
-    "数学/信息论/交叉熵.md",
-    "数学/概率论/高斯分布.md",
-    "数学/信号处理/矢量量化.md",
-    "MachineLearning/论文阅读/多模态/多尺度/医学分割的多尺度网络.md",
-    "数学/希腊字母对照表.md",
-    "数学/互信息.md",
     "MachineLearning/论文阅读/基因型/利用深度学习技术进行整个和复杂基因组区域的基因型插补方法.md",
-=======
-  "active": "3e5e24bcce6859e6",
-  "lastOpenFiles": [
+    "MachineLearning/论文阅读/基因型/DeepGAMI.md",
+    "MachineLearning/论文阅读/基因型",
+    "MachineLearning/多模态/预测动态融合.md",
     "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
     "MachineLearning/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
-    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "数学/信息论/信息量.md",
-    "MachineLearning/多模态/OFA.md",
-    "MachineLearning/多模态/OFA/什么是OFA.md",
-    "MachineLearning/多模态/OFA/未命名.md",
     "MachineLearning/多模态/OFA",
-    "MachineLearning/多模态/多尺度/医学分割的多尺度网络.md",
-    "数学/希腊字母对照表.md",
-    "数学/互信息.md",
-    "MachineLearning/基因型/DeepGAMI.md",
-    "MachineLearning/基因型/利用深度学习技术进行整个和复杂基因组区域的基因型插补方法.md",
-    "MachineLearning/基因型/病理和基因组学多模态生存结果预测.md",
-    "MachineLearning/基因型/基因型.md",
-    "MachineLearning/基因型/病理+转录组学.md",
-    "MachineLearning/多模态/MoE.md",
->>>>>>> refs/remotes/origin/main
-    "数学/范数.md",
-    "2024-10-11.md",
-    "数学/重参数化技巧.md",
-    "2024-10-08.md",
     "数学/信号处理",
-    "数学/概率论/无偏估计和有偏估计.md",
     "数学/概率论/未命名",
     "Linux工具/zellij",
     "Template"

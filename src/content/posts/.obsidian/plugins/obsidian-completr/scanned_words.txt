@@ -24,11 +24,7 @@ transformer
 tokenizer
 technology
 tune
-<<<<<<< HEAD
-tissue
-=======
 tree
->>>>>>> refs/remotes/origin/main
 Embracing
 EAU
 Exception
@@ -36,7 +32,7 @@ Error
 Encoder
 Extraction
 Embedding
-Entropy
+Exponential
 Unimodal
 Uncertainty
 URL
@@ -56,6 +52,8 @@ ABC
 All
 Agnostic
 Average
+AIMC
+Activity
 for
 false
 fuzzy
@@ -70,11 +68,7 @@ fusion
 feature
 focal
 fine
-<<<<<<< HEAD
-fig
-=======
 fc
->>>>>>> refs/remotes/origin/main
 Robust
 RMFI
 Related
@@ -90,7 +84,8 @@ ReLu
 Reparameterization
 Representation
 RNN
-RNA
+Relative
+RC
 Multimodal
 Mehtod
 MoEs
@@ -117,11 +112,11 @@ MI
 Missing
 Modality
 Models
-<<<<<<< HEAD
-MRI
-=======
 Modalities
->>>>>>> refs/remotes/origin/main
+Mono
+Moving
+Mutilmodal
+MLLM
 Fusion
 FFN
 FPN
@@ -134,6 +129,8 @@ FB
 For
 Finetune
 FNN
+Federated
+FHAR
 published
 pair
 point
@@ -180,11 +177,8 @@ detr
 decoder
 detach
 distribution
-<<<<<<< HEAD
-dimension
-=======
 decer
->>>>>>> refs/remotes/origin/main
+datra
 image
 instance
 id
@@ -205,11 +199,6 @@ important
 ij
 imputation
 invariance
-<<<<<<< HEAD
-imaging
-imageing
-=======
->>>>>>> refs/remotes/origin/main
 category
 crop
 current
@@ -228,12 +217,9 @@ codebook
 code
 complex
 cls
-<<<<<<< HEAD
-codevector
-cell
-=======
 cross
->>>>>>> refs/remotes/origin/main
+co
+common
 SUFA
 SCP
 Sync
@@ -267,6 +253,7 @@ SNPS
 STUDIES
 Seq
 SOTA
+Survey
 Introduction
 Information
 Index
@@ -280,15 +267,11 @@ IN
 II
 III
 IV
-<<<<<<< HEAD
-Intrudcution
-=======
 ICML
 Instruction
 IO
 ITM
 IC
->>>>>>> refs/remotes/origin/main
 success
 softmax
 scp
@@ -330,6 +313,7 @@ sg
 swin
 seq
 self
+specific
 label
 level
 list
@@ -363,13 +347,11 @@ VQ
 VCF
 Variant
 VICReg
-<<<<<<< HEAD
-Vector
-=======
 VQA
 VG
 VGA
->>>>>>> refs/remotes/origin/main
+Variation
+VIGAN
 Bottleneck
 BytesIO
 Backbone
@@ -385,6 +367,7 @@ Work
 WSI
 Window
 WSIs
+Weighted
 Theory
 Transformer
 TPR
@@ -395,6 +378,8 @@ Transformers
 Transcriptomics
 TCGA
 Tuning
+Total
+TV
 vib
 vips
 viewerRef
@@ -420,6 +405,7 @@ Preliminaries
 Prompts
 Pretrain
 Patch
+PMVC
 embedding
 export
 except
@@ -435,18 +421,14 @@ einsum
 entropy
 el
 eQTLs
-<<<<<<< HEAD
-encoding
-=======
 encodr
->>>>>>> refs/remotes/origin/main
 KL
+Kernel
 zi
 zellij
 za
 zb
 zoom
-zk
 anchor
 augmented
 attention
@@ -471,6 +453,7 @@ arggmax
 argmax
 and
 aggreation
+average
 Gx
 GetArrayFromImage
 GPU
@@ -489,6 +472,7 @@ GPT
 GC
 Linux
 Learning
+Low
 rsync
 return
 route
@@ -504,7 +488,9 @@ rust
 regions
 rfor
 rvia
-rate
+rA
+reduction
+rectifying
 CPU
 CNN
 Cascade
@@ -523,11 +509,13 @@ CMG
 Code
 CLUB
 CPC
-<<<<<<< HEAD
-CT
-=======
 CV
->>>>>>> refs/remotes/origin/main
+Confidence
+Co
+Calibration
+Comprehensive
+CAT
+CGAN
 multiple
 magnifications
 mrxs
@@ -554,7 +542,6 @@ mu
 kfb
 keeping
 kill
-kmeas
 width
 wxw
 we
@@ -578,18 +565,20 @@ nextImageSrc
 none
 network
 numpy
+noise
 Nii
 NiiImageViewer
 NLP
 Network
 Net
 NxN
+Nosiy
 gz
 get
 greatest
 group
 genomic
-genomics
+graph
 or
 out
 of
@@ -599,12 +588,14 @@ off
 offset
 one
 onehot
+on
 uint
 useState
 useEffect
 useCallback
 useRef
 utilizing
+ux
 JPEG
 Joint
 jpeg
@@ -617,11 +608,9 @@ block
 bit
 biological
 background
-<<<<<<< HEAD
-bitVQ
-=======
 byte
->>>>>>> refs/remotes/origin/main
+brief
+based
 DilateFormer
 Dilated
 Dense
@@ -639,8 +628,9 @@ Dc
 Da
 Db
 Decoder
+Data
+Discussion
 QKV
-Quantization
 HxW
 HS
 High
@@ -649,13 +639,10 @@ Histology
 HLA
 HUMAN
 Holo
+Human
 Zellij
 quantized
 qq
-<<<<<<< HEAD
-xj
-yi
-=======
+quality
 xi
 xxx
->>>>>>> refs/remotes/origin/main

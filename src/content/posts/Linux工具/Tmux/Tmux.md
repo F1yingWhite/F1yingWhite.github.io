@@ -61,3 +61,29 @@ tmux kill-server # 关闭服务器，所有的会话都将关闭
 ```shell
 tmux ls#查看所有的会话
 ```
+
+## 窗口操作
+ctrl+b c=>新的窗口
+ctrl+b p=>上一个窗口
+ctrl+b n=>下一个窗口
+ctrl+b w=>选择窗口
+
+tmux split-window / ctrl+b % =>划分为上下两个
+tmux split-window -h / ctrl+b " =>划分为左右
+ctrl+d 关闭窗口
+
+## 自定义配置
+安装tqm启动插件后在~/.config/tmux/tmux.conf开启配置
+
+```conf
+unbind C-b
+set -g prefix M-b  # 将前缀设置为Alt + b
+bind C-a send-prefix
+
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+# bind -n M-p previous-window
+# bind -n M-n next-window
+```
