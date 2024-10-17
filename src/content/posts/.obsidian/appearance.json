@@ -1,11 +1,1 @@
-{
-  "interfaceFontFamily": "汉仪正圆",
-  "textFontFamily": "汉仪正圆,JetBrainsMono Nerd Font",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "translucency": true,
-  "cssTheme": "Things",
-  "enabledCssSnippets": [
-    "tab",
-    "tab_underline"
-  ]
-}
+{}

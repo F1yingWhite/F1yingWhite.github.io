@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "38b7597bec3b957c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdd1546dcbd16eac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22b020e449d6bc62",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f2f1e34721294dc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd251bc95878b9c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b55269038b42ecd6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5ff24a3c05688259",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c9c7cf98bc689528",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.500732421875
+  },
+  "right": {
+    "id": "49963f69bb4ee256",
+    "type": "split",
+    "children": [
+      {
+        "id": "f334022031627436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9d96e8532c849b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "d12054acde43bb50",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "31008c9ed2fbc810",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "41e4812c07890c46",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "e2d93aca9bae28ea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "22b020e449d6bc62",
+  "lastOpenFiles": [
+    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf",
+    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
+    "template/template.md",
+    "MachineLearning/论文阅读/OFA/OFA.md",
+    "2024-01-22.md",
+    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态哦大模型/从数据中心角度看多模态大模型.md",
+    "2024-07-22.md",
+    "MachineLearning/论文阅读/ViT/ViT.md",
+    "ASurvey of Multimodal Large Language Model from A Data-centric Perspective.md",
+    "MachineLearning/论文阅读/OFA/Towards Generalist Biomedical AI.pdf",
+    "MachineLearning/论文阅读/OFA/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
+    "MachineLearning/论文阅读/OFA/OFA.pdf",
+    "MachineLearning/roc曲线/roc曲线.md",
+    "template",
+    "MachineLearning/论文阅读/OFA/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf",
+    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型",
+    "MachineLearning/论文阅读/未命名",
+    "MachineLearning/论文阅读/OFA/Capabilities of Gemini Models in Medicine.pdf",
+    "MachineLearning/论文阅读/OFA",
+    "数学/希腊字母对照表.md",
+    "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
+    "MachineLearning/论文阅读/多模态/低质量多模态数据融合.md",
+    "MachineLearning/论文阅读/多模态/预测动态融合.md",
+    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+    "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
+    "MachineLearning/论文阅读/多模态/用多模态统一表示实现跨模态泛化.md",
+    "MachineLearning/多模态/低质量多模态数据融合.md",
+    "MachineLearning/论文阅读/多模态/多尺度/医学分割的多尺度网络.md",
+    "MachineLearning/论文阅读/多模态/多尺度/pyraformer.md",
+    "MachineLearning/论文阅读/多模态/多尺度/针对密集预测的级联融合网络.md",
+    "MachineLearning/论文阅读/多模态/多尺度/多尺度特征提取的时间序列预测.md",
+    "MachineLearning/论文阅读/多模态/多尺度/多尺度扩张变换器在视觉识别中的应用.md",
+    "MachineLearning/论文阅读/多模态/多尺度/基于可变形DETR和多层次特征融合的精确白细胞检测.md",
+    "MachineLearning/论文阅读/多模态/MoE.md",
+    "MachineLearning/论文阅读/基因型/跨尺度的MIL算法.md"
+  ]
+}

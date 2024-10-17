@@ -1,22 +1,20 @@
 {
   "main": {
-    "id": "38b7597bec3b957c",
+    "id": "55c17e98592d3061",
     "type": "split",
     "children": [
       {
-        "id": "511efdd08f5b511b",
+        "id": "a99c92847c5a931b",
         "type": "tabs",
         "children": [
           {
-            "id": "b895cacbeb9c0ab9",
+            "id": "98e5055cded6cdd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -25,25 +23,27 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f2f1e34721294dc4",
+    "id": "05f7b0273afd9041",
     "type": "split",
     "children": [
       {
-        "id": "bd251bc95878b9c7",
+        "id": "e23402129359e1e1",
         "type": "tabs",
         "children": [
           {
-            "id": "b55269038b42ecd6",
+            "id": "86ad5b6a088e3d9c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
-            "id": "5ff24a3c05688259",
+            "id": "b95e7cb0befe0031",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,39 +54,41 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
-            "id": "c9c7cf98bc689528",
+            "id": "8b6e82d818d18455",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.500732421875,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "49963f69bb4ee256",
+    "id": "1ddc72e0c2e67207",
     "type": "split",
     "children": [
       {
-        "id": "f334022031627436",
+        "id": "bca9afed26f53b8b",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d96e8532c849b3",
+            "id": "7b7e43af2d30e6bf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,52 +96,48 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
-            "id": "d12054acde43bb50",
+            "id": "20c2039fc097436d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
-            "id": "31008c9ed2fbc810",
+            "id": "d5af64ea9b2da263",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
-            "id": "41e4812c07890c46",
+            "id": "57f9f816ca1c621c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md"
-              }
-            }
-          },
-          {
-            "id": "e2d93aca9bae28ea",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,46 +151,9 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "b895cacbeb9c0ab9",
-  "lastOpenFiles": [
-    "数学/希腊字母对照表.md",
-    "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
-    "MachineLearning/论文阅读/多模态/低质量多模态数据融合.md",
-    "MachineLearning/论文阅读/多模态/预测动态融合.md",
-    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
-    "MachineLearning/论文阅读/多模态/用多模态统一表示实现跨模态泛化.md",
-    "MachineLearning/多模态/低质量多模态数据融合.md",
-    "MachineLearning/论文阅读/多模态/多尺度/医学分割的多尺度网络.md",
-    "MachineLearning/论文阅读/多模态/多尺度/pyraformer.md",
-    "MachineLearning/论文阅读/多模态/多尺度/针对密集预测的级联融合网络.md",
-    "MachineLearning/论文阅读/多模态/多尺度/多尺度特征提取的时间序列预测.md",
-    "MachineLearning/论文阅读/多模态/多尺度/多尺度扩张变换器在视觉识别中的应用.md",
-    "MachineLearning/论文阅读/多模态/多尺度/基于可变形DETR和多层次特征融合的精确白细胞检测.md",
-    "MachineLearning/论文阅读/多模态/多尺度",
-    "MachineLearning/论文阅读/多模态/OFA.md",
-    "MachineLearning/论文阅读/多模态/MoE.md",
-    "MachineLearning/论文阅读/多模态",
-    "MachineLearning/论文阅读/基因型/跨尺度的MIL算法.md",
-    "MachineLearning/论文阅读/基因型/病理+转录组学.md",
-    "MachineLearning/论文阅读/基因型/病理和基因组学多模态生存结果预测.md",
-    "MachineLearning/论文阅读/基因型/基因型.md",
-    "MachineLearning/论文阅读/基因型/可解释的基因分析.md",
-    "MachineLearning/论文阅读/基因型/利用深度学习技术进行整个和复杂基因组区域的基因型插补方法.md",
-    "MachineLearning/论文阅读/基因型/DeepGAMI.md",
-    "MachineLearning/论文阅读/基因型",
-    "MachineLearning/多模态/预测动态融合.md",
-    "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
-    "MachineLearning/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
-    "MachineLearning/多模态/OFA",
-    "数学/信号处理",
-    "数学/概率论/未命名",
-    "Linux工具/zellij",
-    "Template"
-  ]
+  "active": "98e5055cded6cdd4",
+  "lastOpenFiles": []
 }
