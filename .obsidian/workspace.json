@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cdd1546dcbd16eac",
+        "id": "9a0679242b24a0c1",
         "type": "tabs",
         "children": [
           {
-            "id": "22b020e449d6bc62",
+            "id": "1fe5aeea3efc0458",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/数据对齐/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "index"
             }
           }
         ]
@@ -170,27 +174,29 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "22b020e449d6bc62",
+  "active": "1fe5aeea3efc0458",
   "lastOpenFiles": [
-    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf",
-    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
+    "Excalidraw/Drawing 2024-10-17 12.26.59.excalidraw.md",
+    "MachineLearning/论文阅读/多模态/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf",
+    "MachineLearning/论文阅读/多模态/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
+    "Excalidraw",
+    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf 1.md",
     "template/template.md",
-    "MachineLearning/论文阅读/OFA/OFA.md",
+    "MachineLearning/论文阅读/多模态/OFA/OFA.md",
     "2024-01-22.md",
     "MachineLearning/论文阅读/OFA/从数据中心角度看多模态哦大模型/从数据中心角度看多模态大模型.md",
     "2024-07-22.md",
     "MachineLearning/论文阅读/ViT/ViT.md",
     "ASurvey of Multimodal Large Language Model from A Data-centric Perspective.md",
-    "MachineLearning/论文阅读/OFA/Towards Generalist Biomedical AI.pdf",
-    "MachineLearning/论文阅读/OFA/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
-    "MachineLearning/论文阅读/OFA/OFA.pdf",
+    "MachineLearning/论文阅读/多模态/OFA/Towards Generalist Biomedical AI.pdf",
+    "MachineLearning/论文阅读/多模态/OFA/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
+    "MachineLearning/论文阅读/多模态/OFA/OFA.pdf",
     "MachineLearning/roc曲线/roc曲线.md",
     "template",
-    "MachineLearning/论文阅读/OFA/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf",
-    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型",
+    "MachineLearning/论文阅读/多模态/OFA/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf",
+    "MachineLearning/论文阅读/多模态/OFA/从数据中心角度看多模态大模型",
     "MachineLearning/论文阅读/未命名",
-    "MachineLearning/论文阅读/OFA/Capabilities of Gemini Models in Medicine.pdf",
-    "MachineLearning/论文阅读/OFA",
+    "MachineLearning/论文阅读/多模态/OFA/Capabilities of Gemini Models in Medicine.pdf",
     "数学/希腊字母对照表.md",
     "MachineLearning/论文阅读/多模态/跨模态的人类活动联邦识别.md",
     "MachineLearning/论文阅读/多模态/低质量多模态数据融合.md",
@@ -204,8 +210,6 @@
     "MachineLearning/论文阅读/多模态/多尺度/针对密集预测的级联融合网络.md",
     "MachineLearning/论文阅读/多模态/多尺度/多尺度特征提取的时间序列预测.md",
     "MachineLearning/论文阅读/多模态/多尺度/多尺度扩张变换器在视觉识别中的应用.md",
-    "MachineLearning/论文阅读/多模态/多尺度/基于可变形DETR和多层次特征融合的精确白细胞检测.md",
-    "MachineLearning/论文阅读/多模态/MoE.md",
-    "MachineLearning/论文阅读/基因型/跨尺度的MIL算法.md"
+    "MachineLearning/论文阅读/多模态/多尺度/基于可变形DETR和多层次特征融合的精确白细胞检测.md"
   ]
 }

@@ -7,7 +7,6 @@
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-icon-folder",
   "floating-toc",
   "obsidian-latex-suite",
   "obsidian-pangu",
@@ -15,5 +14,6 @@
   "editor-width-slider",
   "obsidian-completr",
   "obsidian-vimrc-support",
-  "pdf-plus"
+  "pdf-plus",
+  "obsidian-icon-folder"
 ]
