@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "sliderPercentage": "52",
-=======
-  "sliderPercentage": "41",
->>>>>>> refs/remotes/origin/main
+  "sliderPercentage": "17",
   "sliderPercentageDefault": "20",
-  "sliderWidth": "100"
+  "sliderWidth": "150"
 }

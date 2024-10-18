@@ -1886,6 +1886,7 @@ these
 thoroughly
 those
 trainging
+thereby
 Embracing
 EAU
 Exception
@@ -7566,6 +7567,7 @@ AJSq
 Another
 Analyzing
 Aignment
+Abstractor
 for
 false
 fuzzy
@@ -9574,6 +9576,9 @@ focus
 fundamental
 fastText
 fail
+forerunner
+features
+former
 Robust
 RMFI
 Related
@@ -13472,6 +13477,7 @@ MedHop
 MIMIC
 MORE
 Mahmoud
+MLLMS
 Fusion
 FFN
 FPN
@@ -15278,6 +15284,7 @@ FkP
 Fine
 Furthermore
 FastText
+Flamingo
 published
 pair
 point
@@ -19291,6 +19298,8 @@ detect
 details
 during
 difference
+design
+directly
 image
 instance
 id
@@ -21150,6 +21159,12 @@ images
 inputs
 involves
 includes
+interface
+illustrated
+interference
+interfere
+integrates
+into
 category
 crop
 current
@@ -23063,6 +23078,11 @@ certain
 components
 captions
 curation
+collaborate
+collaboration
+crossmodality
+contrast
+combine
 SUFA
 SCP
 Sync
@@ -24923,6 +24943,7 @@ Switch
 Saving
 Some
 SLHF
+Specifically
 Introduction
 Information
 Index
@@ -26905,6 +26926,7 @@ IQKR
 IQF
 ILP
 ICU
+Invalid
 success
 softmax
 scp
@@ -28860,6 +28882,9 @@ second
 synthetic
 small
 supervised
+studies
+suggest
+simultaneously
 label
 level
 list
@@ -30793,6 +30818,10 @@ law
 limited
 like
 lower
+last
+linear
+layers
+leading
 human
 height
 handleSliderChange
@@ -38030,6 +38059,7 @@ WqV
 Whzz
 Wikipedia
 WuDaoCorpora
+With
 Theory
 Transformer
 TPR
@@ -43538,6 +43568,8 @@ PBo
 PcG
 PubMed
 PADCHEST
+Previous
+PaLM
 embedding
 export
 except
@@ -45455,6 +45487,11 @@ excalidraw
 employing
 evaluate
 encoders
+effectively
+enhancing
+each
+equipped
+extracted
 KL
 Kernel
 KM
@@ -50983,6 +51020,10 @@ are
 augmentation
 approach
 alignment
+acting
+applying
+area
+applications
 Gx
 GetArrayFromImage
 GPU
@@ -54413,6 +54454,8 @@ LBqv
 LLMs
 Langdetect
 Late
+Layer
+LLaMA
 rsync
 return
 route
@@ -56404,6 +56447,7 @@ remains
 resolutions
 requiring
 researchers
+real
 CPU
 CNN
 Cascade
@@ -60004,6 +60048,10 @@ medical
 menu
 must
 metrics
+modularized
+managing
+multi
+modalitie
 kfb
 keeping
 kill
@@ -67006,6 +67054,7 @@ nFba
 nUjl
 not
 need
+numerous
 Nii
 NiiImageViewer
 NLP
@@ -70507,6 +70556,9 @@ google
 generalize
 generated
 global
+gain
+gated
+granularities
 or
 out
 of
@@ -72202,6 +72254,8 @@ online
 only
 operate
 original
+other
+overlooking
 uint
 useState
 useEffect
@@ -74025,6 +74079,10 @@ under
 using
 underperform
 usually
+utilizes
+universal
+unique
+utilize
 JPEG
 Joint
 JF
@@ -79796,6 +79854,10 @@ basename
 bases
 broader
 between
+both
+balance
+boasts
+billion
 DilateFormer
 Dilated
 Dense
@@ -89058,6 +89120,7 @@ qbX
 qnk
 qhY
 questions
+queries
 xi
 xxx
 xaa

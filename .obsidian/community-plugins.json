@@ -9,11 +9,12 @@
   "obsidian-image-auto-upload-plugin",
   "floating-toc",
   "obsidian-latex-suite",
-  "obsidian-pangu",
   "obsidian-task-progress-bar",
   "editor-width-slider",
   "obsidian-completr",
   "obsidian-vimrc-support",
   "pdf-plus",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-linter",
+  "templater-obsidian"
 ]

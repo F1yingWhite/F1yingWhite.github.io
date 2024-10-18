@@ -1,5 +1,6 @@
 {
   "things-style@@fancy-code": true,
   "things-style@@fancy-highlight": true,
-  "things-style@@active-line": true
+  "things-style@@active-line": true,
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte"
 }
