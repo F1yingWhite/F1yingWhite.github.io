@@ -19,9 +19,12 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-pnpm-lock.yaml 
+pnpm-lock.yaml
 .vercel
 
 package-lock.json
 bun.lockb
 yarn.lock
+
+# Obsidian
+**/workspace.json
