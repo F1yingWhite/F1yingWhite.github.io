@@ -2,5 +2,7 @@
   "things-style@@fancy-code": true,
   "things-style@@fancy-highlight": true,
   "things-style@@active-line": true,
-  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte"
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "Floating-side-menu-bar@@right-tab-float-choice": true,
+  "things-style@@no-kanban-styles": false
 }

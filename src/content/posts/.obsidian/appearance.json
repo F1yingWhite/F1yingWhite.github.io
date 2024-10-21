@@ -6,6 +6,7 @@
   "cssTheme": "Things",
   "enabledCssSnippets": [
     "tab",
-    "tab_underline"
+    "tab_underline",
+    "悬浮菜单栏"
   ]
 }
