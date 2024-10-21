@@ -6,7 +6,7 @@ image: ''
 tags: [数学]
 category: '数学'
 draft: false
-last modified: 2024-10-19 11:10
+last modified: 2024-10-21 12:23
 ---
 
 # KL 散度简介
@@ -23,7 +23,7 @@ $$
 
 > 规定如果 p(x_i)=0,那么 $p(x_i)\log{p(x_i)}=0$
 
-如果有两个随机变量 P，Q,且概率为 p(x),q(x),则 p 相当 q 的相对熵为：
+如果有两个随机变量 P，Q,且概率为 p(x),q(x),则 p 相当 q 的相对熵为 (**也就是用 q 来近似 p**)：
 
 $$
 D_{KL}(p||q)=\sum^n_{i=1}{p(x)log\frac{p(x)}{q(x)}}

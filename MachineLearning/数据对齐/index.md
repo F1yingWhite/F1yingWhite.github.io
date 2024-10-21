@@ -5,7 +5,7 @@ description: '数据对齐简述'
 image: ''
 tags: [机器学习,概念]
 category: '机器学习'
-draft: false 
+draft: false
 ---
 
 在多模态学习中,对齐/融合和表示是三个核心概念,他们互相关联,共同支持多模态数据的处理和分析.
