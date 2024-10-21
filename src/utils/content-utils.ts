@@ -7,6 +7,7 @@ export async function getSortedPosts(): Promise<
   { body: string, data: BlogPostData; slug: string }[]
 > {
   const allBlogPosts = (await getCollection('posts', ({ data }) => {
+    //!在这里修改不显示的文章规则
     return import.meta.env.PROD ? data.draft !== true : true
   })) as unknown as { body: string, data: BlogPostData; slug: string }[]
 

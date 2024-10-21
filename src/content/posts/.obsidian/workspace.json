@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "55c17e98592d3061",
+    "id": "38b7597bec3b957c",
     "type": "split",
     "children": [
       {
-        "id": "a99c92847c5a931b",
+        "id": "3525df8b10b6467c",
         "type": "tabs",
         "children": [
           {
-            "id": "98e5055cded6cdd4",
+            "id": "24bc9ea482978e91",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "05f7b0273afd9041",
+    "id": "f2f1e34721294dc4",
     "type": "split",
     "children": [
       {
-        "id": "e23402129359e1e1",
+        "id": "bd251bc95878b9c7",
         "type": "tabs",
         "children": [
           {
-            "id": "86ad5b6a088e3d9c",
+            "id": "b55269038b42ecd6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "b95e7cb0befe0031",
+            "id": "5ff24a3c05688259",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "8b6e82d818d18455",
+            "id": "c9c7cf98bc689528",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,18 +73,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 356.5086555480957
   },
   "right": {
-    "id": "1ddc72e0c2e67207",
+    "id": "49963f69bb4ee256",
     "type": "split",
     "children": [
       {
-        "id": "bca9afed26f53b8b",
+        "id": "f334022031627436",
         "type": "tabs",
         "children": [
           {
-            "id": "7b7e43af2d30e6bf",
+            "id": "f9d96e8532c849b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "20c2039fc097436d",
+            "id": "d12054acde43bb50",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -115,7 +115,7 @@
             }
           },
           {
-            "id": "d5af64ea9b2da263",
+            "id": "31008c9ed2fbc810",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,7 +128,7 @@
             }
           },
           {
-            "id": "57f9f816ca1c621c",
+            "id": "41e4812c07890c46",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -136,8 +136,19 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "e2d93aca9bae28ea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -151,9 +162,51 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "98e5055cded6cdd4",
-  "lastOpenFiles": []
+  "active": "b55269038b42ecd6",
+  "lastOpenFiles": [
+    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf.md",
+    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning",
+    "MachineLearning/论文阅读/多模态/LLM/Uni-Moe.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/Capabilities of Gemini Models in Medicine.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/Towards Generalist Biomedical AI.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/PaLM-E.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/OFA/OFA.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/OFA/OFA.md",
+    "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf.md",
+    "MachineLearning/论文阅读/多模态/LLM/模态协作的MLLM/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf",
+    "MachineLearning/基础模块/自注意力机制中的掩码生成.md",
+    "template/template.md",
+    "MachineLearning/论文阅读/多模态/LLM/BLIP2/BLIP2.pdf.md",
+    "MachineLearning/论文阅读/基因型/病理+转录组学.md",
+    "MachineLearning/论文阅读/多模态/LLM/模态协作的MLLM/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf.md",
+    "2024-10-08.md",
+    "src/content/posts/数学/信息论/KL散度.md",
+    "未命名.md",
+    "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf.md",
+    "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf 1.md",
+    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/Towards Generalist Biomedical AI.pdf.md",
+    "MachineLearning/论文阅读/多模态/OFA/Towards Generalist Biomedical AI.pdf.md",
+    "README.md",
+    "MachineLearning/论文阅读/AttentionIsAllYouNeed/AttentionIsAllYouNeed.md",
+    "MachineLearning/论文阅读/ViT/ViT.md",
+    "src/content/posts/数学/希腊字母对照表.md",
+    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+    "MachineLearning/论文阅读/多模态/LLM/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
+    "MachineLearning/数据对齐/index.md",
+    "Excalidraw/Drawing 2024-10-17 12.26.59.excalidraw.md",
+    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf 1.md",
+    "2024-01-22.md"
+  ]
 }

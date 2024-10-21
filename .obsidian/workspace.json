@@ -1,48 +1,20 @@
 {
   "main": {
-    "id": "38b7597bec3b957c",
+    "id": "b95dcf240de86fb0",
     "type": "split",
     "children": [
       {
-        "id": "50b2b137b01488dc",
+        "id": "d5a1905d94b7b2ce",
         "type": "tabs",
-        "dimension": 59.1728525980912,
         "children": [
           {
-            "id": "bda062c585f2c7cf",
+            "id": "18d4d24d1a2fc330",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf",
-                "page": 3,
-                "left": 100,
-                "top": 789,
-                "zoom": 2.1
-              },
-              "icon": "lucide-file-text",
-              "title": "Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ff425851affde7a6",
-        "type": "tabs",
-        "dimension": 40.8271474019088,
-        "children": [
-          {
-            "id": "6ecf8ccbe7259aa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf"
+              "title": "新标签页"
             }
           }
         ]
@@ -51,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f2f1e34721294dc4",
+    "id": "159f26d9cdf7d922",
     "type": "split",
     "children": [
       {
-        "id": "bd251bc95878b9c7",
+        "id": "91737a8a7d0c8791",
         "type": "tabs",
         "children": [
           {
-            "id": "b55269038b42ecd6",
+            "id": "5f17a4901e1bfe30",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,7 +43,7 @@
             }
           },
           {
-            "id": "5ff24a3c05688259",
+            "id": "60b1cc7e805bc19f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -88,7 +60,7 @@
             }
           },
           {
-            "id": "c9c7cf98bc689528",
+            "id": "dc540dd9ac9daa76",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -101,18 +73,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5086555480957
+    "width": 300
   },
   "right": {
-    "id": "49963f69bb4ee256",
+    "id": "864401add9d007ae",
     "type": "split",
     "children": [
       {
-        "id": "f334022031627436",
+        "id": "e6ca98ea28bc9917",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d96e8532c849b3",
+            "id": "33577b1f638d1609",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -130,7 +102,7 @@
             }
           },
           {
-            "id": "d12054acde43bb50",
+            "id": "382c2e9532056ea8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -143,7 +115,7 @@
             }
           },
           {
-            "id": "31008c9ed2fbc810",
+            "id": "801bba7f03692021",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -156,29 +128,16 @@
             }
           },
           {
-            "id": "41e4812c07890c46",
+            "id": "cb191c26d6031348",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf"
-              },
-              "icon": "lucide-list",
-              "title": "Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper 的大纲"
-            }
-          },
-          {
-            "id": "e2d93aca9bae28ea",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,51 +151,9 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "templater-obsidian:Templater": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "bda062c585f2c7cf",
-  "lastOpenFiles": [
-    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf.md",
-    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning",
-    "MachineLearning/论文阅读/多模态/LLM/Uni-Moe.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/Capabilities of Gemini Models in Medicine.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/Towards Generalist Biomedical AI.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/PaLM-E.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/OFA/OFA.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/OFA/OFA.md",
-    "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf.md",
-    "MachineLearning/论文阅读/多模态/LLM/模态协作的MLLM/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf",
-    "MachineLearning/基础模块/自注意力机制中的掩码生成.md",
-    "template/template.md",
-    "MachineLearning/论文阅读/多模态/LLM/BLIP2/BLIP2.pdf.md",
-    "MachineLearning/论文阅读/基因型/病理+转录组学.md",
-    "MachineLearning/论文阅读/多模态/LLM/模态协作的MLLM/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf.md",
-    "2024-10-08.md",
-    "src/content/posts/数学/信息论/KL散度.md",
-    "未命名.md",
-    "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf.md",
-    "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf 1.md",
-    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/Towards Generalist Biomedical AI.pdf.md",
-    "MachineLearning/论文阅读/多模态/OFA/Towards Generalist Biomedical AI.pdf.md",
-    "README.md",
-    "MachineLearning/论文阅读/AttentionIsAllYouNeed/AttentionIsAllYouNeed.md",
-    "MachineLearning/论文阅读/ViT/ViT.md",
-    "src/content/posts/数学/希腊字母对照表.md",
-    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/论文阅读/多模态/LLM/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
-    "MachineLearning/数据对齐/index.md",
-    "Excalidraw/Drawing 2024-10-17 12.26.59.excalidraw.md",
-    "MachineLearning/论文阅读/OFA/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf 1.md",
-    "2024-01-22.md"
-  ]
+  "active": "5f17a4901e1bfe30",
+  "lastOpenFiles": []
 }

@@ -7,7 +7,7 @@ tags:
   - 机器学习
   - 论文阅读
 category: 论文阅读
-draft: false
+draft: true
 ---
 
 > [!PDF|yellow] [Page.2](ASurvey%20of%20Multimodal%20Large%20Language%20Model%20from%20A%20Data-centric%20Perspective.pdf#page=2&selection=60,0,61,22&color=yellow)

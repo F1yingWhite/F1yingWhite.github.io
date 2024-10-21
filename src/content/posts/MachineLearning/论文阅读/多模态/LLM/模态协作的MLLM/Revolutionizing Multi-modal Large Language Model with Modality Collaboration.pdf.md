@@ -1,6 +1,6 @@
 ---
 title: "[[Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf|Revolutionizing Multi-modal Large Language Model with Modality Collaboration]]"
-published: 2024-10-17 00:00
+published: 2024-10-17
 last modified: 2024-10-18 11:58
 description: ""
 image: ""
