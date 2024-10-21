@@ -1,10 +1,11 @@
 ---
 title: KL散度
-published: 2024-10-08 00:00
-description: ''
-image: ''
-tags: [数学]
-category: '数学'
+published: 2024-10-08
+description: ssssss
+image: ""
+tags:
+  - 数学
+category: 数学
 draft: false
 last modified: 2024-10-21 12:23
 ---

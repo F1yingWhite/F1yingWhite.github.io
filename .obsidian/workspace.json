@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "553950ee919b5088",
+        "id": "40d0ee4dfb6929c6",
         "type": "tabs",
         "children": [
           {
-            "id": "727d9e02c8b8b41a",
+            "id": "6e5e3986af1f4e15",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/BLIP2/BLIP2.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 792,
-                "zoom": 2.2475490196078436
-              },
-              "icon": "lucide-file-text",
-              "title": "BLIP2"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -79,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.500732421875,
-    "collapsed": true
+    "width": 267.500732421875
   },
   "right": {
     "id": "49963f69bb4ee256",
@@ -178,25 +171,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "727d9e02c8b8b41a",
+  "active": "6e5e3986af1f4e15",
   "lastOpenFiles": [
-    "MachineLearning/论文阅读/多模态/LLM/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/BLIP2",
+    "2024-10-08.md",
+    "src/content/posts/数学/信息论/KL散度.md",
     "MachineLearning/论文阅读/多模态/LLM/BLIP2/BLIP2.pdf",
+    "node_modules/@fontsource",
+    "node_modules/@fontsource-variable",
+    "node_modules/@types",
+    "node_modules/@tailwindcss",
+    "node_modules/@rollup",
+    "node_modules/@iconify",
+    "node_modules/@biomejs",
+    "node_modules/@iconify-json",
+    "node_modules/@astrojs",
     "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf.md",
     "未命名.md",
-    "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf",
     "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf.md",
-    "MachineLearning/论文阅读/多模态/LLM/CLIP",
-    "MachineLearning/论文阅读/多模态/LLM/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/Capabilities of Gemini Models in Medicine.pdf",
     "MachineLearning/论文阅读/多模态/LLM/模态协作的MLLM/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf.md",
-    "MachineLearning/论文阅读/多模态/LLM/模态协作的MLLM/Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf",
-    "src/content/posts/数学/信息论/KL散度.md",
     "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏/MiniLLM.pdf 1.md",
-    "MachineLearning/论文阅读/多模态/LLM/大模型知识蒸馏",
-    "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/PaLM-E.pdf",
     "MachineLearning/论文阅读/多模态/LLM/迈向通用生物医学人工智能/Towards Generalist Biomedical AI.pdf.md",
     "MachineLearning/论文阅读/多模态/OFA/Towards Generalist Biomedical AI.pdf.md",
     "template/template.md",
