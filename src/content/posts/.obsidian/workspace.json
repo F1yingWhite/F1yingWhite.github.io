@@ -4,45 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c8c6d09a2dcc72c8",
+        "id": "63d8897a600c07f1",
         "type": "tabs",
-        "dimension": 57.86445012787724,
         "children": [
           {
-            "id": "1d795fa2c578dd31",
+            "id": "6646126d00635733",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/像素级视觉大模型/Vitron.pdf",
-                "page": 5,
-                "left": 99,
-                "top": 577,
-                "zoom": 1.6
-              },
-              "icon": "lucide-file-text",
-              "title": "Vitron"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f26ed46632eb377e",
-        "type": "tabs",
-        "dimension": 42.135549872122766,
-        "children": [
-          {
-            "id": "e0ec50fa7a68f8ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/像素级视觉大模型/Vitron.pdf.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vitron.pdf"
+              "title": "新标签页"
             }
           }
         ]
@@ -101,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5086555480957,
-    "collapsed": true
+    "width": 356.5086555480957
   },
   "right": {
     "id": "49963f69bb4ee256",
@@ -161,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MachineLearning/论文阅读/多模态/LLM/像素级视觉大模型/Vitron.pdf"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Vitron 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -202,8 +171,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1d795fa2c578dd31",
+  "active": "6646126d00635733",
   "lastOpenFiles": [
+    "MachineLearning/论文阅读/多模态/LLM/NextGPT/nextgpt.pdf.md",
+    "MachineLearning/论文阅读/多模态/LLM/NextGPT/nextgpt.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/GroupVIT.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/UniMoE/Uni-Moe.pdf",
+    "MachineLearning/论文阅读/多模态/LLM/UniMoE",
+    "MachineLearning/论文阅读/多模态/LLM/NextGPT",
     "MachineLearning/论文阅读/多模态/LLM/像素级视觉大模型/Vitron.pdf.md",
     "MachineLearning/论文阅读/多模态/LLM/像素级视觉大模型/Vitron.pdf",
     "MachineLearning/论文阅读/多模态/LLM/Gemini的医学能力/GeminiInMedicine.pdf.md",
@@ -214,13 +189,8 @@
     "template",
     "MachineLearning/论文阅读/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
     "MachineLearning/论文阅读/多模态/LLM/Gemini的医学能力",
-    "MachineLearning/论文阅读/多模态/LLM/Capabilities of Gemini Models in Medicine.pdf",
     "MachineLearning/论文阅读/ViT/ViT.md",
     "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf.md",
-    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning/Tai_Link-Context_Learning_for_Multimodal_LLMs_CVPR_2024_paper.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/MLLMLink-Context-learning",
-    "MachineLearning/论文阅读/多模态/LLM/Uni-Moe.pdf",
-    "MachineLearning/论文阅读/多模态/LLM/Uni-MoE Scaling Unified Multimodal LLMs with Mixture of Experts.pdf",
     "MachineLearning/论文阅读/多模态/LLM/OFA/OFA.md",
     "MachineLearning/论文阅读/多模态/LLM/CLIP/CLIP.pdf.md",
     "MachineLearning/基础模块/自注意力机制中的掩码生成.md",
@@ -237,7 +207,6 @@
     "README.md",
     "MachineLearning/论文阅读/AttentionIsAllYouNeed/AttentionIsAllYouNeed.md",
     "src/content/posts/数学/希腊字母对照表.md",
-    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/论文阅读/多模态/LLM/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md"
+    "MachineLearning/论文阅读/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md"
   ]
 }

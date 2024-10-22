@@ -8,7 +8,7 @@ tags:
 category: 论文阅读
 draft: false
 published: 2024-10-21
-last modified: 2024-10-21
+last modified: 2024-10-22
 ---
 
 > [!PDF|yellow] [Page.2](MachineLearning/论文阅读/多模态/LLM/像素级视觉大模型/Vitron.pdf#page=2&selection=4,2,19,15&color=yellow)
@@ -72,3 +72,15 @@ VITRON 是经典的 encoder-llm-decoder 架构,
 ### Frontend VL Encoder
 
 我们使用 CLIP ViT-L/14@336px 作为 encoder,对于 video,对每个 frame 都进行处理,然后使用跨时间维度的平均池化来获取整体表示.
+
+### 基础的理解和生成能力训练
+
+**总体的 VL 对齐学习**: 为了保证视觉与语言被映射到同一个特征空间,跟随前人的脚步,我们使用 image-caption 进行训练,让 LLM 来生成描述或者 caption(训练 projection 层)
+**调用导向的指令微调**: 在上一个训练阶段，使大语言模型（LLM）和前端编码器具备了理解视觉的能力。而这一阶段，调用导向的指令微调，旨在赋予系统准确执行命令的能力，使 LLM 能够生成合适且正确的调用文本,这一部分的输出包括
+1. LLM 的文本输出
+2. 调用模块名称
+3. 调用命令: 比如 segmentation:clock 用来分割 clock
+4. regin: 表示框选区域
+我们必须自己创建微调指令集,通过和 GPT-4 的通力协作,我们最终实现了这个数据集
+
+**嵌入导向的解码器对齐**:除了生成指令来选择下游模块,LLM还需要把特征信号传输给模块,
