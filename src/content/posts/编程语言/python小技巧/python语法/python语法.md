@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: [python,language]
 category: 'language'
-draft: false 
+draft: false
 ---
 
 ## *args和**kwargs
@@ -43,10 +43,10 @@ print(greet())
 def hi(name="yasoob"):
     def greet():
         return "now you are in the greet() function"
- 
+
     def welcome():
         return "now you are in the welcome() function"
- 
+
     if name == "yasoob":
         return greet
     else:
@@ -56,7 +56,7 @@ def hi(name="yasoob"):
 ```python
 def hi():
     return "hi yasoob!"
- 
+
 def doSomethingBeforeHi(func):
     print("I am doing some boring work before executing hi()")
     print(func())

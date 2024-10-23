@@ -177,10 +177,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a9c42feedd6d996a",
+  "active": "b55269038b42ecd6",
   "lastOpenFiles": [
-    "template/template",
     "template/template.md",
+    "template/template",
     "template/template.m",
     "MachineLearning/NLP/BEP.md",
     "MachineLearning/NLP/大模型词表.md",
@@ -197,7 +197,6 @@
     "MachineLearning/多模态/MLLM/LLaMA/未命名",
     "MachineLearning/NLP/预训练大模型/LLaMA",
     "AGGN/qwad031.pdf",
-    "AGGN/Multiscale_Attention_Networks_for_Pavement_Defect_Detection.pdf",
     "MachineLearning/基因型/病理+转录组学.md",
     "MachineLearning/基因型/AGGN/AGGN.pdf.md",
     "MachineLearning/基础模块/自注意力机制中的掩码生成.md",
