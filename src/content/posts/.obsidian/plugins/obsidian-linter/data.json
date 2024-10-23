@@ -62,7 +62,7 @@
       "date-created": true,
       "date-created-key": "published",
       "date-created-source-of-truth": "frontmatter",
-      "date-modified": true,
+      "date-modified": false,
       "date-modified-key": "last modified",
       "date-modified-source-of-truth": "user or Linter edits",
       "format": "YYYY-MM-DD",

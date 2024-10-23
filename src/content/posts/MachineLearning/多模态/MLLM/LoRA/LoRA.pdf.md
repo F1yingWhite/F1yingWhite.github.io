@@ -66,3 +66,4 @@ h=W_{0}x+\Delta W_{x}=W_{0}x+BAx
 $$
 ![image.png](https://picture-bed-1325530970.cos.ap-nanjing.myqcloud.com/20241022171123.png)
 我们使用
+
