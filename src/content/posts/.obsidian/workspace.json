@@ -13,11 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 489,
-                "zoom": 2.3088235294117645
+                "file": "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf"
               },
               "icon": "lucide-file-text",
               "title": "G-Retriever"
