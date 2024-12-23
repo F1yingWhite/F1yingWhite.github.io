@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "38b7597bec3b957c",
+    "type": "split",
+    "children": [
+      {
+        "id": "36b6260ac79982db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efc0ed3c00aaa0bc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 489,
+                "zoom": 2.3088235294117645
+              },
+              "icon": "lucide-file-text",
+              "title": "G-Retriever"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f2f1e34721294dc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd251bc95878b9c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b55269038b42ecd6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5ff24a3c05688259",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "归一化",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c9c7cf98bc689528",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.50271224975586
+  },
+  "right": {
+    "id": "49963f69bb4ee256",
+    "type": "split",
+    "children": [
+      {
+        "id": "f334022031627436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9d96e8532c849b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "d12054acde43bb50",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "31008c9ed2fbc810",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "41e4812c07890c46",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf"
+              },
+              "icon": "lucide-list",
+              "title": "G-Retriever 的大纲"
+            }
+          },
+          {
+            "id": "e2d93aca9bae28ea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "efc0ed3c00aaa0bc",
+  "lastOpenFiles": [
+    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+    "MachineLearning/NLP/RAG/GNN/GNN.md",
+    "MachineLearning/NLP/RAG/GNN",
+    "markdown-extended.md",
+    "MachineLearning/NLP/RAG/SUERY/Suery.pdf",
+    "MachineLearning/NLP/RAG/SUERY/Suery.pdf.md",
+    "数学/希腊字母对照表.md",
+    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf.md",
+    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
+    "未命名.md",
+    "MachineLearning/NLP/RAG/SUERY",
+    "MachineLearning/NLP/RAG/From Local to Globa.pdf",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
+    "MachineLearning/NLP/RAG/GNN-RAG",
+    "MachineLearning/NLP/RAG/AdaptiveRAG/AdaptiveRAG.pdf",
+    "MachineLearning/NLP/RAG/AdaptiveRAG",
+    "MachineLearning/NLP/RAG/G-Retriever/Untitled.md",
+    "MachineLearning/NLP/RAG/G-Retriever",
+    "MachineLearning/NLP/RAG/未命名.md",
+    "MachineLearning/对比学习/GAN/GAN.md",
+    "MachineLearning/基因型/病理和基因组学多模态生存结果预测.md",
+    "MachineLearning/NLP/预训练大模型/Agent/MMedAgent.pdf.md",
+    "MachineLearning/生成模型/DiT/DiT.pdf.md",
+    "MachineLearning/基础模块/Normalizaiton.md",
+    "MachineLearning/生成模型/评价指标/生成网络评价指标.md",
+    "MachineLearning/生成模型/评价指标/未命名.md",
+    "MachineLearning/生成模型/StableDiffusion/StableDiffusion3.pdf.md",
+    "MachineLearning/生成模型/LatenDiffusionModels/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf.md",
+    "IDE/vscode小寄巧/vscode小寄巧.md",
+    "MachineLearning/多模态/MLLM/CLIP/CLIP.pdf.md",
+    "MachineLearning/基因型/病理+转录组学.md",
+    "MachineLearning/基因型/CLAM/index.md",
+    "MachineLearning/多模态/多尺度/ContIG/Taleb_ContIG_Self-Supervised_Multimodal_Contrastive_Learning_for_Medical_Imaging_With_Genetics_CVPR_2022_paper.pdf.md",
+    "Linux工具/my-vim/my-vim.md",
+    "MachineLearning/多模态/MLLM/EncoderFreeVLLM/EVE.pdf.md",
+    "MachineLearning/论文阅读/未命名.canvas"
+  ]
+}

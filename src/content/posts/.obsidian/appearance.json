@@ -1,0 +1,11 @@
+{
+  "interfaceFontFamily": "汉仪正圆",
+  "textFontFamily": "JetBrainsMono Nerd Font,HarmonyOS Sans",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "translucency": true,
+  "cssTheme": "Border",
+  "enabledCssSnippets": [
+    "tab",
+    "悬浮菜单栏"
+  ]
+}
