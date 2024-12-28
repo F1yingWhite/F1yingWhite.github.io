@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "36b6260ac79982db",
+        "id": "63138f114e89cd08",
         "type": "tabs",
         "children": [
           {
-            "id": "efc0ed3c00aaa0bc",
+            "id": "9d0115086b31bf0c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf"
+                "file": "编程语言/python小技巧/Fastapi/部署.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "G-Retriever"
+              "icon": "lucide-file",
+              "title": "部署"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.50271224975586
+    "width": 304.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "49963f69bb4ee256",
@@ -175,18 +178,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "efc0ed3c00aaa0bc",
+  "active": "9d0115086b31bf0c",
   "lastOpenFiles": [
+    "编程语言/python小技巧/Fastapi/并发.md",
+    "markdown-extended.md",
+    "编程语言/python小技巧/Fastapi/部署.md",
+    "编程语言/python小技巧/Fastapi/未命名.md",
+    "编程语言/python小技巧/Fastapi/Fastapi.md",
+    "编程语言/python小技巧/Fastapi/并发",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
     "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
     "MachineLearning/NLP/RAG/GNN/GNN.md",
     "MachineLearning/NLP/RAG/GNN",
-    "markdown-extended.md",
     "MachineLearning/NLP/RAG/SUERY/Suery.pdf",
     "MachineLearning/NLP/RAG/SUERY/Suery.pdf.md",
     "数学/希腊字母对照表.md",
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf.md",
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
     "未命名.md",
     "MachineLearning/NLP/RAG/SUERY",
     "MachineLearning/NLP/RAG/From Local to Globa.pdf",
@@ -195,7 +203,6 @@
     "MachineLearning/NLP/RAG/AdaptiveRAG/AdaptiveRAG.pdf",
     "MachineLearning/NLP/RAG/AdaptiveRAG",
     "MachineLearning/NLP/RAG/G-Retriever/Untitled.md",
-    "MachineLearning/NLP/RAG/G-Retriever",
     "MachineLearning/NLP/RAG/未命名.md",
     "MachineLearning/对比学习/GAN/GAN.md",
     "MachineLearning/基因型/病理和基因组学多模态生存结果预测.md",
@@ -209,10 +216,6 @@
     "IDE/vscode小寄巧/vscode小寄巧.md",
     "MachineLearning/多模态/MLLM/CLIP/CLIP.pdf.md",
     "MachineLearning/基因型/病理+转录组学.md",
-    "MachineLearning/基因型/CLAM/index.md",
-    "MachineLearning/多模态/多尺度/ContIG/Taleb_ContIG_Self-Supervised_Multimodal_Contrastive_Learning_for_Medical_Imaging_With_Genetics_CVPR_2022_paper.pdf.md",
-    "Linux工具/my-vim/my-vim.md",
-    "MachineLearning/多模态/MLLM/EncoderFreeVLLM/EVE.pdf.md",
     "MachineLearning/论文阅读/未命名.canvas"
   ]
 }
