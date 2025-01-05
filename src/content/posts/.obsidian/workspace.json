@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf18d0638ad8a92f",
+        "id": "fb427badd8503de4",
         "type": "tabs",
         "children": [
           {
-            "id": "1682b04b0cfc9552",
+            "id": "7e80282461c3dc15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/python小技巧/python内置库/继承.md",
+                "file": "编程语言/python小技巧/sqlmodel/联系.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "继承"
+              "title": "联系"
             }
           }
         ]
@@ -178,16 +178,24 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1682b04b0cfc9552",
+  "active": "7e80282461c3dc15",
   "lastOpenFiles": [
+    "编程语言/python小技巧/sqlmodel/联系.md",
+    "编程语言/python小技巧/sqlmodel/基础使用.md",
+    "编程语言/python小技巧/sqlmodel/简介.md",
+    "template/template.md",
+    "编程语言/python小技巧/sqlmodel/未命名.md",
+    "编程语言/python小技巧/sqlmodel/未命名",
+    "编程语言/python小技巧/NLP/SentencePiece分词器.md",
+    "编程语言/python小技巧/Fastapi/生命周期事件.md",
+    "编程语言/python小技巧/sqlmodel",
+    "编程语言/python小技巧/python内置库/继承.md",
     "编程语言/python小技巧/python内置库/上下文管理器.md",
     "编程语言/python小技巧/python内置库/python语法.md",
-    "编程语言/python小技巧/python内置库/继承.md",
     "编程语言/python小技巧/python内置库/文件夹操作/文件夹操作.md",
     "编程语言/React/Hooks.md",
     "编程语言/React/未命名.md",
     "编程语言/React",
-    "编程语言/python小技巧/Fastapi/生命周期事件.md",
     "编程语言/python小技巧/进阶/未命名.md",
     "编程语言/python小技巧/进阶",
     "编程语言/python小技巧/Fastapi/部署.md",
@@ -207,15 +215,7 @@
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
     "未命名.md",
     "MachineLearning/NLP/RAG/SUERY",
-    "MachineLearning/NLP/RAG/From Local to Globa.pdf",
     "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
-    "MachineLearning/NLP/RAG/GNN-RAG",
-    "MachineLearning/NLP/RAG/G-Retriever/Untitled.md",
-    "MachineLearning/NLP/RAG/未命名.md",
-    "MachineLearning/对比学习/GAN/GAN.md",
-    "MachineLearning/基因型/病理和基因组学多模态生存结果预测.md",
-    "MachineLearning/NLP/预训练大模型/Agent/MMedAgent.pdf.md",
-    "MachineLearning/生成模型/DiT/DiT.pdf.md",
     "MachineLearning/论文阅读/未命名.canvas"
   ]
 }
