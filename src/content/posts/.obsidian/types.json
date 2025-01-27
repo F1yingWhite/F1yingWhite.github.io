@@ -22,8 +22,6 @@
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
     "excalidraw-embeddable-theme": "text",
-    "excalidraw-open-md": "checkbox",
-    "published": "date",
-    "last modified": "datetime"
+    "excalidraw-open-md": "checkbox"
   }
 }
