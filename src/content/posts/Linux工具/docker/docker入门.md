@@ -8,7 +8,6 @@ tags:
 category: Linux工具
 draft: false
 ---
-
 # 为什么要用 Docker
 
 软件开发最大的一个问题就是如何配置环境,比如一个 python 应用,必须要 python,还有依赖,有时候还有环境变量.代码能在一台机器上跑,在其他机器上可能跑不了.
@@ -86,6 +85,13 @@ docker 可以使用 exec 命令进入容器,比如 `docker exec -it [name] /bin/
 docker 管理宿主机文件系统的一部分,默认位于/var/lib/docker/volumes 下,也是最常用的方式.
 
 ## Dockerfile 文件
+| Instruction                                                                    | Description                                                                                                                                                                                              |     |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| [`FROM <image>`](https://docs.docker.com/reference/dockerfile/#from)           | Defines a base for your image.                                                                                                                                                                           |     |
+| [`RUN <command>`](https://docs.docker.com/reference/dockerfile/#run)           | Executes any commands in a new layer on top of the current image and commits the result. `RUN` also has a shell form for running commands.                                                               |     |
+| [`WORKDIR <directory>`](https://docs.docker.com/reference/dockerfile/#workdir) | Sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, and `ADD` instructions that follow it in the Dockerfile.                                                                          |     |
+| [`COPY <src> <dest>`](https://docs.docker.com/reference/dockerfile/#copy)      | Copies new files or directories from `<src>` and adds them to the filesystem of the container at the path `<dest>`.                                                                                      |     |
+| [`CMD <command>`](https://docs.docker.com/reference/dockerfile/#cmd)           | Lets you define the default program that is run once you start the container based on this image. Each Dockerfile only has one `CMD`, and only the last `CMD` instance is respected when multiple exist. | **  |
 
 学会使用 image 文件后,如何生成 image 文件?如果想要推广自己的软件,就必须要自己制作 image 文件.这就需要使用 dockerfile 文件,他是一个文本文件,用来配置 image,docker 根据该文件生成二进制的 image 文件.
 
@@ -100,8 +106,7 @@ RUN echo '这是一个本地构建的nginx镜像' > /usr/share/nginx/html/index.
 
 这里的 from 是定制时需要的基础镜像,run 后面是所需要的命令
 
-:::warning
-
+>[!warning]
 **注意**：Dockerfile 的指令每执行一次都会在 docker 上新建一层。所以过多无意义的层，会造成镜像膨胀过大。例如：
 
 ```dockerfile
@@ -120,8 +125,6 @@ RUN yum -y install wget \
     && tar -xvf redis.tar.gz
 ```
 
-:::
-
 ### 构建镜像
 
 在 dockerfile 目录下执行构建可以得到一个镜像
@@ -131,12 +134,4 @@ docker build -t nginx:v3 .
 ```
 
 这里有个 `.`,是上下文路径,docker 在构建镜像的时候,有时候会使用到本地的文件,docker build 在得知这个路径后会将路径下的所有内容打包。
-
-# Docker Compose
-
-compose 是用于定义和运行多容器的 docker 应用程序的工具,通过 compose,可以用 yaml 文件来配置应用程序需要的所有服务,然后用一个命令就可以启动 yaml 中配置的所有服务.
-
-1. 使用 dockerfile 定义环境
-2. 使用 docker-compose.yml 定义应用程序的服务
-3. 最后使用 docker-compose up 命令来启动并运行整个应用程序
 
