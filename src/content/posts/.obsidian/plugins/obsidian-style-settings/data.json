@@ -57,5 +57,7 @@
   "Editor@@border-focus-mode": false,
   "Editor@@editor-grid-background-pattren": false,
   "floating-toc-styles@@enable-background-blur-dept": false,
-  "Components@@nav-header-autohide": false
+  "Components@@nav-header-autohide": false,
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-sapphire",
+  "Plugin@@colorful-checkbox": true
 }

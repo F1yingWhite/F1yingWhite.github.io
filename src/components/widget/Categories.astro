@@ -1,15 +1,15 @@
 ---
 import WidgetLayout from './WidgetLayout.astro'
 
-import { i18n } from '../../i18n/translation'
 import I18nKey from '../../i18n/i18nKey'
+import { i18n } from '../../i18n/translation'
 import { getCategoryList } from '../../utils/content-utils'
 import { getCategoryUrl } from '../../utils/url-utils'
 import ButtonLink from '../control/ButtonLink.astro'
 
 const categories = await getCategoryList()
 
-const COLLAPSED_HEIGHT = '7.5rem'
+const COLLAPSED_HEIGHT = '30rem'
 const COLLAPSE_THRESHOLD = 5
 
 const isCollapsed = categories.length >= COLLAPSE_THRESHOLD
@@ -25,6 +25,11 @@ const style = Astro.props.style
 <WidgetLayout name={i18n(I18nKey.categories)} id="categories" isCollapsed={isCollapsed} collapsedHeight={COLLAPSED_HEIGHT}
                 class={className} style={style}
 >
+    <div style="display: flex; justify-content: center; align-items: center; height: 320px; overflow: hidden;">
+        <video autoplay loop muted>
+            <source src="/src/assets/video/neko.mp4" type="video/mp4">
+        </video>
+    </div>
     {categories.map((c) =>
         <ButtonLink
             url={getCategoryUrl(c.name)}

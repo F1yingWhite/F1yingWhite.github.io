@@ -14,6 +14,8 @@ draft: false
 
 # Introduction
 
+RAG 用来为 LLM 添加领域相关知识，减轻幻觉问题。
+
 传统 RAG 缺点:
 
 1. 忽略联系关系
@@ -49,7 +51,7 @@ GraphRAG 和 KBQA 很接近,基于 IR 的 KBQA 就是 GraphRAG 的一个子集.
 
 ## Text-Attributed Graphs
 
-缩写为 TAGs,nodes 和 edges 都是文本,能被缩写为 $\mathcal{G}=(V, \mathcal{E}, \mathcal{A}, \{ \mathbf{x}_v \}_{v \in V}, \{ \mathbf{e}_{i,j} \}_{i,j \in \mathcal{E}})$,其中 $\mathcal{V}$ 是 node 集合,$\mathcal{E}\subseteq \mathcal{V}\times \mathcal{V}$ 是边集合,A 是邻接矩阵,x 和 e 是边和节点的文字属性
+缩写为 TAGs,nodes 和 edges 都是文本,能被缩写为 $\mathcal{G}=(V, \mathcal{E}, \mathcal{A}, \{ \mathbf{x}_v \}_{v \in V}, \{ \mathbf{e}_{i,j} \}_{i,j \in \mathcal{E}})$,其中 $\mathcal{V}$ 是 node 集合,$\mathcal{E}\subseteq \mathcal{V}\times \mathcal{V}$ 是边集合,A 是邻接矩阵,x 和 e 是节点和边的文字属性。
 
 ## GNN
 
@@ -59,11 +61,11 @@ $$
 h_i^{(l)} = UPD(h_i^{(l - 1)}, AGG_{j \in N(i)} MSG(h_i^{(l - 1)}, h_j^{(l - 1)}, e_{i,j}^{(l - 1)}))
 $$
 
-Ni 是邻居节点,MSG 表示信息函数,根据邻居,边和自身计算信息.AGG 是聚合函数,把所有的信息加起来,是一种置换不变函数,比如 sum,max,min.UPD 是跟新函数,来更新属性.
+Ni 是邻居节点,MSG 表示信息函数,根据邻居,边和自身计算信息.AGG 是聚合函数,把所有的信息加起来,是一种置换不变函数,比如 sum,max,min.UPD 是更新函数,来更新属性.
 
 然后一个 readout 函数比如 mean,max pooling 来获得全局信息表示.
 
-在 GraphRAG 中,GNN 能用来在检索阶段获得图的全局表示\
+在 GraphRAG 中,GNN 能用来在检索阶段获得图的全局表示
 
 ## LM
 
@@ -174,4 +176,5 @@ GNN 通常把图数据编码然后根据和查询的相似度给分,比如 GNN-R
 检索子图有着显著优势，因为它能够捕捉图内全面的关系上下文。这种粒度使得图检索增强生成（GraphRAG）能够提取并分析嵌入在更大结构中的复杂模式、序列以及依赖关系，有助于获得更深入的见解以及对语义关联更细致入微的理解。
 
 ## 检索增强
+
 为了保证检索的质量,研究者提出了增强用户查询和图谱检索.在本文中,我们
