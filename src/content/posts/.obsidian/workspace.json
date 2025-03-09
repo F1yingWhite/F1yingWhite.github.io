@@ -4,17 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "850dffe4d6a78201",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "1aed47758ea157b3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "pdf",
+              "state": {
+                "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
+                "page": 2,
+                "left": 84,
+                "top": 437,
+                "zoom": 1.8
+              },
+              "icon": "lucide-file-text",
+              "title": "THINK-ON-GRAPH"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e85bb9b6029327f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "718dc4aaf8128343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "THINK-ON-GRAPH.pdf"
             }
           }
         ]
@@ -186,20 +212,45 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false,
-      "homepage:Open homepage": false
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "718dc4aaf8128343",
   "lastOpenFiles": [
-    "21301172-许一涵开题答辩.pdf.md",
-    "21301172-许一涵开题答辩.pdf",
-    "1..md",
-    "markdown-extended.md",
-    "MachineLearning/NLP/RAG/From Local to Globa.pdf",
-    "Linux工具/docker/Docker Compose.md",
+    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
+    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+    "MachineLearning/NLP/RAG/ThinkOnGraph",
+    "数学/概率论/变分推断.md",
+    "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf",
+    "数学/信息论/KL散度.md",
+    "数学/信息论/交叉熵.md",
+    "数学/概率论/极大似然估计.md",
+    "数学/概率论/方差 协方差和相关系数.md",
+    "数学/概率论/未命名.md",
+    "数学/概率论/未命名",
+    "数学/信息论/信息量.md",
+    "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf.md",
+    "MachineLearning/NLP/RAG/ReasoningOnGraphs",
+    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
+    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf.md",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
     "MachineLearning/NLP/RAG/SUERY/Suery.pdf",
-    "MachineLearning/NLP/RAG/SUERY/Suery.pdf.md",
-    "Linux工具/Traefk/Traefik.md"
+    "MachineLearning/NLP/RAG/KAPING/KAPING.pdf.md",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf",
+    "MachineLearning/NLP/RAG/KAPING/KAPING.pdf",
+    "MachineLearning/NLP/大模型词表.md",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
+    "MachineLearning/LLM/MoE.md",
+    "MachineLearning/LLM/KV-Cache.md",
+    "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
+    "MachineLearning/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
+    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+    "markdown-extended.md",
+    "markdown.md",
+    "编程语言/python小技巧/pytorch/parameter.md",
+    "编程语言/python小技巧/pytorch/未命名.md",
+    "编程语言/python小技巧/pytorch/未命名.md 22-11-51-335.md",
+    "编程语言/python小技巧/pytorch/DataLoader&Dataset.md"
   ]
 }

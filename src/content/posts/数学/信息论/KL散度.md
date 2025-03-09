@@ -1,7 +1,7 @@
 ---
 title: KL散度
 published: 2024-10-08
-description: ssssss
+description: 
 image: ""
 tags:
   - 数学
@@ -24,7 +24,7 @@ $$
 
 > 规定如果 p(x_i)=0,那么 $p(x_i)\log{p(x_i)}=0$
 
-如果有两个随机变量 P，Q,且概率为 p(x),q(x),则 p 相当 q 的相对熵为 (**也就是用 q 来近似 p**)：
+如果有两个随机变量 P，Q,且概率为 p(x),q(x),则 p 相当 q 的相对熵为 (**也就是用 q 来近似 p**)： 其实就是两个信息熵想减
 
 $$
 D_{KL}(p||q)=\sum^n_{i=1}{p(x)log\frac{p(x)}{q(x)}}
@@ -32,6 +32,9 @@ $$
 
 之所以叫相对熵，是因为可以通过两随机变量的交叉熵和信息熵推导到
 
+$$\begin{aligned}
+\sum_{i=1}^{N} p(x_i) \log \frac{q(x_i)}{p(x_i)} &\leq \sum_{i=1}^{N} p(x_i)\left(\frac{q(x_i)}{p(x_i)}-1\right)=\sum_{i=1}^{N}[p(x_i)-q(x_i)]=0 \\
+\end{aligned}$$这个性质非常重要，只在 px=qx 时=0，因为正是梯度下降算法需要的特性，假设模型拟合完美了就不需要下降了。所以我们需要一直降低散度。
 如果从定义出发，交叉熵就是 $H(p,q)-H(p)=\sum^n_{i=1}{p(x)log\frac{p(x)}{q(x)}}$
 
 正向和反向 KL 散度的区别在于它们关注的重点不同，具体如下：

@@ -46,44 +46,66 @@ draft: false
 >
 > > Recent research endeavors have explored translating graphs into natural language, such as by flattening nodes and edges into a text sequence, enabling their processing by LLMs for graph-based tasks
 >
->最近的研究尝试把图翻译为自然语言,比如把 node 和 edge 展开为语言序列
-
-但是这种方法有很大的扩展性问题.如果有几千个节点,那么展开之后就会有巨大的 token 开销,一种方法就是缩短 text sequence 让输入匹配 llm 的 token 限制,但是这会导致信息丢失
-
-## 调整目前的 RAG 方法
-
-现有的 rag 方法针对简单的知识图谱格式,其中信息以和图隔离的方式进行查询.因此我们提出了一种新的信息查询方式
-
-# Formalization
-
-**Textual Graphs**:Textual Graphs 就是节点和边使用文本表示.通常表示为 G=(V,E,{xn},{xe}),其中 v 和 e 分别是 nodes 和 edges,其中 xn∈$D^{ln}$,xe∈$D^{le}$是属性,D 是 vocabulary,l 是长度.
-SoftPrompt tuning 就是手工设计 prompt
-
-## Proposed GraphQA BenchMark
-
-...
+>最近的研究尝试把图翻译为自然语言,比如把 node 和 edge 展开为语言序列,但是这种方法有很大的扩展性问题.如果有几千个节点,那么展开之后就会有巨大的 token 开销,一种方法就是缩短 text sequence 让输入匹配 llm 的 token 限制,但是这会导致信息丢失
 
 ## G-Retriever
 
 在这一章节中,我们提出了 G-Retriever,结合了 LLM,GNN 和 RAG 的优点,为了保持高效微调和 LLM 的预训练能力,我们冻结了 LLM 并用 SoftPrompt 的方法.我们的方法还把输出的大小缩放到 LLM 窗口大小之内.
 
 G-Retriever 包括了 4 个部分,indexing,retrieval,subgraph construction 和 generation.
+
 ## Indexing
-我们通过使用预训练的LM生成节点和图嵌入来启动RAG方法。然后将这些嵌入存储在最近邻数据结构中。
-考虑xn作为节点n的文字表示,使用预训练的LM,比如Bert,zn=LM(xn)
+
+我们通过使用预训练的 LM 生成节点和图嵌入来启动 RAG 方法。然后将这些嵌入存储在最近邻数据结构中。
+
+考虑 xn 作为节点 n 的文字表示,使用预训练的 LM,比如 Bert,zn=LM(xn)
 
 ## Retrieval
-对于检索,我们使用同样的方式来对query做操作,zq=LM(xq),保证了一致性
-为了找到最相关的node和edge,我们使用knn,
+
+对于检索,我们使用同样的方式来对 query 做操作,zq=LM(xq),保证了一致性
+
+为了找到最相关的 node 和 edge,我们使用 knn,
+
 $$
 v_{k} = argtopk_{n \in V}Cos(z_{q},z_{n})
 $$
+
 ## Subgraph Construction
-这一步是为了构建包含足够多的node和edge,同时保持graph不会太大.这会筛选节点和边使得信息相关同时提升效率.这一步是通过求解PCST来得到的.
-prize-collecting steiner tree问题旨在找到一个连通子图能最大化节点的值同时最小化边的值(值是上面的cos()),
+
+这一步是为了构建包含足够多的 node 和 edge,同时保持 graph 不会太大.这会筛选节点和边使得信息相关同时提升效率.这一步是通过求解 PCST 来得到的.
+
+prize-collecting steiner tree 问题旨在找到一个连通子图能最大化节点的值同时最小化边的值 (值是上面的 cos()),具体来说，首先把 top k 的边和节点从高到低排序，然后其他的置为 0，也就是说 node 的值如下：
+
+$$
+\begin{aligned}
+ & \mathrm{prize}(n)=
+\begin{cases}
+k-i, & \mathrm{if~}n\in V_k\mathrm{~and~}n\text{ is the top }i\mathrm{~node,} \\
+0, & \text{otherwise.} & & 
+\end{cases}
+\end{aligned}
+$$
+
+边同理，我们的目标是得到一个子图，能够优化节点和边的总奖励，减去与子图大小相关的成本。
+
+$$
+S^*=\underset{S\text{ is connected}}{\operatorname*{\operatorname*{argmax}}}\sum_{n\in V_S}\mathrm{prize}(n)+\sum_{e\in E_S}\mathrm{prize}(e)-\mathrm{cost}(S),
+$$
+
+其中这里的 cost 计算为,这里的 ce 是事先指定的每条边的值
+
+$$
+cost(S) = |E_{S}|\times{C_{e}}
+$$
+
+最后我们才用了一种近线性复杂度的算法来解决这个问题。
 
 ## Answer Generation
-S\*表示我们构建的子图,我们使用graph Encoder来处理这个图,比如使用GAT,
+
+S\* 表示我们构建的子图,我们使用 graph Encoder 来处理这个图,比如使用 GAT,
+
 $$
 h_{G} = POOL(Gnn{N}(S))
 $$
+
+这里的 pool 是平均池化，然后过一个 MLP，这里的 MLP 主要用来对齐图 token 和 llmtoken，然后把 S\* 给展开，和图 token 一起输入。（算法能够同时利用图结构数据的抽象表示和自然语言文本的具体信息）

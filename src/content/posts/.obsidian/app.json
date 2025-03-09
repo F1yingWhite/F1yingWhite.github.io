@@ -1,7 +1,7 @@
 {
   "attachmentFolderPath": "./attachments",
   "showLineNumber": true,
-  "vimMode": false,
+  "vimMode": true,
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "readableLineLength": true,
