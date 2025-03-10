@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "850dffe4d6a78201",
+        "id": "dff46a6895bc2ecc",
         "type": "tabs",
         "children": [
           {
-            "id": "1aed47758ea157b3",
+            "id": "7725987b199f0c65",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
-                "page": 2,
-                "left": 84,
-                "top": 437,
-                "zoom": 1.8
+                "page": 9,
+                "left": -12,
+                "top": 339,
+                "zoom": 1.3517156862745099
               },
               "icon": "lucide-file-text",
               "title": "THINK-ON-GRAPH"
@@ -26,11 +26,11 @@
         ]
       },
       {
-        "id": "e85bb9b6029327f5",
+        "id": "7e9bae3a99fe613b",
         "type": "tabs",
         "children": [
           {
-            "id": "718dc4aaf8128343",
+            "id": "bbbdce3d4ce4abbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ToG",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,11 +96,13 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -176,22 +178,12 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "b4be90c6562979de",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -211,14 +203,17 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "718dc4aaf8128343",
+  "active": "bbbdce3d4ce4abbf",
   "lastOpenFiles": [
     "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
     "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
+    "Linux工具/wayland/electron在wayland下的问题.md",
+    "Linux工具/wayland/xwayland缩放问题.md",
+    "Linux工具/wayland",
     "MachineLearning/NLP/RAG/ThinkOnGraph",
     "数学/概率论/变分推断.md",
     "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf",
@@ -237,9 +232,7 @@
     "MachineLearning/NLP/RAG/SUERY/Suery.pdf",
     "MachineLearning/NLP/RAG/KAPING/KAPING.pdf.md",
     "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf",
-    "MachineLearning/NLP/RAG/KAPING/KAPING.pdf",
     "MachineLearning/NLP/大模型词表.md",
-    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
     "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
     "MachineLearning/LLM/MoE.md",
     "MachineLearning/LLM/KV-Cache.md",
@@ -249,8 +242,6 @@
     "markdown-extended.md",
     "markdown.md",
     "编程语言/python小技巧/pytorch/parameter.md",
-    "编程语言/python小技巧/pytorch/未命名.md",
-    "编程语言/python小技巧/pytorch/未命名.md 22-11-51-335.md",
-    "编程语言/python小技巧/pytorch/DataLoader&Dataset.md"
+    "编程语言/python小技巧/pytorch/未命名.md"
   ]
 }

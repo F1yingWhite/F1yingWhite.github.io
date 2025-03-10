@@ -1,15 +1,13 @@
 ---
 title: KL散度
 published: 2024-10-08
-description: 
+description: ""
 image: ""
-tags:
-  - 数学
+tags: [数学]
 category: 数学
 draft: false
 last modified: 2024-10-21 12:23
 ---
-
 # KL 散度简介
 
 KL 散度的概念来自于概率论和信息论中，KL 散度又叫相对熵，互熵等。用来衡量两个概率分布的区别
