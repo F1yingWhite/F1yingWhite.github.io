@@ -31,5 +31,5 @@ Args:
 	persistent_workers:在结束一个 epoch 后是否保持这些进程存活。
 	timeout:是用来设置数据读取的超时时间的，但超过这个时间还没读取到数据的话就会报错。
 
->[!tip]
+>[!TIP]
 >使用 `collate_fn` 的主要原因是为了处理那些不能简单地通过堆叠来组合的数据结构。例如，如果你的数据样本是不同长度的序列，那么简单地堆叠它们会导致错误。在这种情况下，你可能需要使用 `padding` 来确保所有序列具有相同的长度，然后使用 `pack_padded_sequence` 和 `pad_packed_sequence` 来处理这些序列。

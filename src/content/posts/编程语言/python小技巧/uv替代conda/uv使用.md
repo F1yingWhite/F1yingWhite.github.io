@@ -67,9 +67,9 @@ description = "Add your description here"
 readme = "README.md"
 dependencies = []
 ```
-:::tip
-关于pyproject.toml的更多信息可以在[官方文档中](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)查看
-:::
+>[!TIP]
+>关于pyproject.toml的更多信息可以在[官方文档中](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)查看
+:
 #### .python-version
 包含了python的版本
 #### .venv

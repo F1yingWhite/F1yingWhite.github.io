@@ -62,7 +62,7 @@ COPY . .
 CMD ["flask", "run", "--debug"]
 ```
 
->[!tip]
+>[!TIP]
 >- 创建 py310 镜像
 >- 设置工作目录为/code
 >- 设置一些 flask 环境变量

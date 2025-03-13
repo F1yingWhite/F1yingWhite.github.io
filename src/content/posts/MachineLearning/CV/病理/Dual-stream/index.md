@@ -71,7 +71,7 @@ c_b(B)=W_b\sum^{N-1}_{i}U(h_i,h_m)v_i
 $$
 这个操作类似self-attention,但是query只在关键instance和其他instance之间执行
 点乘的用处是度量两个queries的相似度,相似的示例值越大,因此和hm越像的instance会有更大的权重.信息向量 \( v_i \) 的额外层允许在每个实例内提取贡献信息。方程 5 中的 softmax 操作确保无论 bag 的大小如何，注意力权重的和都等于 1。
-:::tip
+:::TIP
 Softmax公式如下
 $
 \text{Softmax}(z)_i = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}

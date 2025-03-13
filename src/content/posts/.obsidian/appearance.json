@@ -1,6 +1,6 @@
 {
   "interfaceFontFamily": "HarmonyOS Sans",
-  "textFontFamily": "JetBrainsMono Nerd Font,HarmonyOS Sans",
+  "textFontFamily": "HarmonyOS Sans",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "translucency": true,
   "cssTheme": "Border",

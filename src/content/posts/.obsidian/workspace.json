@@ -4,43 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dff46a6895bc2ecc",
+        "id": "2f88588e077f3009",
         "type": "tabs",
         "children": [
           {
-            "id": "7725987b199f0c65",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
-                "page": 9,
-                "left": -12,
-                "top": 339,
-                "zoom": 1.3517156862745099
-              },
-              "icon": "lucide-file-text",
-              "title": "THINK-ON-GRAPH"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7e9bae3a99fe613b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bbbdce3d4ce4abbf",
+            "id": "8d004de4cfdc5b73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+                "file": "数学/概率论/变分推断.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "THINK-ON-GRAPH.pdf"
+              "title": "变分推断"
             }
           }
         ]
@@ -75,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ToG",
+                "query": "等",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -171,19 +148,9 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
-          },
-          {
-            "id": "cc70f9b9c8511139",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -198,50 +165,51 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bbbdce3d4ce4abbf",
+  "active": "f26b255efb4400d0",
   "lastOpenFiles": [
+    "编程语言/python小技巧/uv替代conda/uv使用.md",
+    "MachineLearning/NLP/RAG/SimpleIsEffective.md",
+    "markdown-extended.md",
+    "MachineLearning/CV/病理/Dual-stream/index.md",
+    "Linux工具/docker/Docker Compose.md",
+    "编程语言/python小技巧/pytorch/DataLoader&Dataset.md",
+    "MachineLearning/多模态/MLLM/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
+    "MachineLearning/NLP/RAG/我的总结.md",
+    "MachineLearning/NLP/RAG/未命名",
+    "Linux工具/manjaro/显卡控制.md",
+    "MachineLearning/NLP/RAG/RDF和SPARQL.md",
     "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
-    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
-    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
-    "Linux工具/wayland/electron在wayland下的问题.md",
-    "Linux工具/wayland/xwayland缩放问题.md",
-    "Linux工具/wayland",
-    "MachineLearning/NLP/RAG/ThinkOnGraph",
-    "数学/概率论/变分推断.md",
-    "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf",
-    "数学/信息论/KL散度.md",
-    "数学/信息论/交叉熵.md",
-    "数学/概率论/极大似然估计.md",
-    "数学/概率论/方差 协方差和相关系数.md",
-    "数学/概率论/未命名.md",
-    "数学/概率论/未命名",
-    "数学/信息论/信息量.md",
-    "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf.md",
-    "MachineLearning/NLP/RAG/ReasoningOnGraphs",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf.md",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
-    "MachineLearning/NLP/RAG/SUERY/Suery.pdf",
-    "MachineLearning/NLP/RAG/KAPING/KAPING.pdf.md",
-    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf",
-    "MachineLearning/NLP/大模型词表.md",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
-    "MachineLearning/LLM/MoE.md",
-    "MachineLearning/LLM/KV-Cache.md",
-    "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
+    "MachineLearning/NLP/预训练大模型/大模型扫盲.md",
     "MachineLearning/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
     "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "markdown-extended.md",
-    "markdown.md",
-    "编程语言/python小技巧/pytorch/parameter.md",
-    "编程语言/python小技巧/pytorch/未命名.md"
+    "MachineLearning/NLP/RAG/ChatKBQA.md",
+    "MachineLearning/NLP/LLM/beam search.md",
+    "MachineLearning/NLP/RAG/未命名.md",
+    "MachineLearning/NLP/RAG/导论/KGRAG导论.md",
+    "MachineLearning/NLP/RAG/导论",
+    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf",
+    "MachineLearning/NLP/RAG/LongFaith/LONGFAITH.md",
+    "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf.md",
+    "MachineLearning/NLP/RAG/LongFaith",
+    "Linux工具/manjaro/electron在wayland下的问题.md",
+    "Linux工具/manjaro/亮度调节.md",
+    "Linux工具/manjaro/xwayland缩放问题.md",
+    "Linux工具/manjaro",
+    "Linux工具/wayland",
+    "MachineLearning/NLP/RAG/ThinkOnGraph"
   ]
 }

@@ -7,5 +7,6 @@
   "readableLineLength": true,
   "promptDelete": false,
   "strictLineBreaks": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": false
 }
