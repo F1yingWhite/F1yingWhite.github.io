@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f88588e077f3009",
+        "id": "64de61e47bb42ecd",
         "type": "tabs",
         "children": [
           {
-            "id": "8d004de4cfdc5b73",
+            "id": "05cd41670c4427c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/概率论/变分推断.md",
+                "file": "Linux工具/manjaro/显卡控制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "变分推断"
+              "title": "显卡控制"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "等",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 357.505859375
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -159,6 +158,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -166,50 +168,57 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f26b255efb4400d0",
+  "active": "05cd41670c4427c5",
   "lastOpenFiles": [
-    "编程语言/python小技巧/uv替代conda/uv使用.md",
-    "MachineLearning/NLP/RAG/SimpleIsEffective.md",
-    "markdown-extended.md",
-    "MachineLearning/CV/病理/Dual-stream/index.md",
-    "Linux工具/docker/Docker Compose.md",
-    "编程语言/python小技巧/pytorch/DataLoader&Dataset.md",
-    "MachineLearning/多模态/MLLM/从数据中心角度看多模态大模型/ASurvey of Multimodal Large Language Model from A Data-centric Perspective.pdf.md",
-    "MachineLearning/NLP/RAG/我的总结.md",
-    "MachineLearning/NLP/RAG/未命名",
-    "Linux工具/manjaro/显卡控制.md",
-    "MachineLearning/NLP/RAG/RDF和SPARQL.md",
-    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
-    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
-    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf.md",
-    "MachineLearning/NLP/预训练大模型/大模型扫盲.md",
-    "MachineLearning/多模态/拥抱鲁棒多模态融合的单模态异质不确定性.md",
-    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/NLP/RAG/ChatKBQA.md",
-    "MachineLearning/NLP/LLM/beam search.md",
-    "MachineLearning/NLP/RAG/未命名.md",
-    "MachineLearning/NLP/RAG/导论/KGRAG导论.md",
-    "MachineLearning/NLP/RAG/导论",
-    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
-    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
-    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf",
-    "MachineLearning/NLP/RAG/LongFaith/LONGFAITH.md",
-    "MachineLearning/NLP/RAG/ReasoningOnGraphs/REASONING ON GRAPHS.pdf.md",
-    "MachineLearning/NLP/RAG/LongFaith",
     "Linux工具/manjaro/electron在wayland下的问题.md",
-    "Linux工具/manjaro/亮度调节.md",
     "Linux工具/manjaro/xwayland缩放问题.md",
-    "Linux工具/manjaro",
-    "Linux工具/wayland",
-    "MachineLearning/NLP/RAG/ThinkOnGraph"
+    "Linux工具/manjaro/显卡控制.md",
+    "编程语言/python小技巧/transformer/transformer.md",
+    "编程语言/python小技巧/transformer",
+    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
+    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
+    "MachineLearning/NLP/RAG/ChatKBQA.md",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf",
+    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH2.0.pdf.md",
+    "MachineLearning/NLP/RAG/PathRAG.pdf",
+    "MachineLearning/NLP/RAG/我的总结.md",
+    "MachineLearning/NLP/RAG/SimpleIsEffective.md",
+    "MachineLearning/NLP/RAG/WISE Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models.pdf",
+    "MachineLearning/NLP/RAG/GFM-RAG.pdf",
+    "MachineLearning/NLP/RAG/RDF和SPARQL.md",
+    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
+    "MachineLearning/NLP/RAG/Drawing 2025-03-14 15.36.12.excalidraw.md",
+    "MachineLearning/NLP/RAG/Be like a Goldfish, Don't Memorize! Mitigating Memorization in Generative LLMs.pdf",
+    "未命名",
+    "MachineLearning/NLP/RAG/GFM-RAG.pdf.md",
+    "Linux工具/manjaro/明日方舟linux.md",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316161633_856.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316151353_796.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143657_657.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143937_885.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250314162104_112.png",
+    "数学/信息论/信息量.md",
+    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf.md",
+    "MachineLearning/NLP/RAG/SUERY/Suery.pdf.md",
+    "MachineLearning/NLP/RAG/导论/KGRAG导论.md",
+    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "未命名.md",
+    "Linux工具/manjaro/电池控制.md",
+    "Linux工具/manjaro/亮度调节.md"
   ]
 }

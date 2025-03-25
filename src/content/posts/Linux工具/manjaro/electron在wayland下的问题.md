@@ -17,7 +17,7 @@ Exec=/usr/bin/code --ozone-platform-hint=auto --enable-wayland-ime %F
 对于chrome浏览器，我们需要额外添加代码：
 在`~/.config/chrome-flags.conf`中添加
 ```
---enable-feature=UseOzonePlatform
 --ozone-platform=wayland
 --enable-wayland-ime
+--disable-features=WaylandFractionalScaleV1
 ```
