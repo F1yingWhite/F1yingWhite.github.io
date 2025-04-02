@@ -21,3 +21,8 @@ env = XCURSOR_SIZE,32
 Exec=env QT_IM_MODULE=fcitx QT_SCALE_FACTOR=1.5 'QT_QPA_PLATFORM=wayland;xcb' /opt/wechat/wechat %U
 ```
 这个方法适用于两块屏幕dpi一致的场景
+
+https://bbs.archlinuxcn.org/viewtopic.php?id=14839
+新的办法：`sudo nvim ~/.Xresources`添加如下
+Xft.dpi: 120
+执行`xrdb -merge ~/.Xresources`即可改变所有的xwayland应用的缩放
