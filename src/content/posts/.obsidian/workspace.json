@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
+                "file": "Linux工具/docker/Docker Compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pytorch基本知识"
+              "title": "Docker Compose"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.505859375,
-    "collapsed": true
+    "width": 357.505859375
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -176,9 +175,20 @@
   },
   "active": "3798f2f96e5c6709",
   "lastOpenFiles": [
+    "Linux工具/docker/docker入门.md",
+    "Linux工具/manjaro/xwayland缩放问题.md",
+    "Linux工具/manjaro/electron在wayland下的问题.md",
+    "Linux工具/manjaro/显卡控制.md",
+    "Linux工具/manjaro/亮度调节.md",
+    "Linux工具/manjaro/明日方舟linux.md",
+    "Linux工具/my-vim/my-vim.md",
+    "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
+    "MachineLearning/NLP/RAG/我的想法.md",
+    "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
+    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
+    "MachineLearning/多模态/预测动态融合.md",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf.md",
     "数学/概率论/变分推断.md",
-    "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
     "编程语言/python小技巧/爱因斯坦标识法/爱因斯坦标识法.md",
     "编程语言/python小技巧/transformer/transformer.md",
     "编程语言/python小技巧/pytorch/DataLoader&Dataset.md",
@@ -188,30 +198,19 @@
     "硬件知识/gpu算力.md",
     "硬件知识/cuda和cpu.md",
     "expressive-code.md",
-    "MachineLearning/NLP/RAG/我的想法.md",
     "MachineLearning/NLP/RAG/Drawing 2025-03-14 15.36.12.excalidraw.md",
     "MachineLearning/基础模块/normalization",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf",
     "MachineLearning/多模态/MLLM/BLIP2/BLIP2.pdf.md",
     "MachineLearning/基础模块/DyT/DyT.md",
     "MachineLearning/基础模块/normalization/DyT",
-    "Linux工具/manjaro/xwayland缩放问题.md",
     "MachineLearning/NLP/RAG/PathRAG.pdf",
-    "MachineLearning/NLP/RAG/GFM-RAG.pdf.md",
     "MachineLearning/NLP/RAG/GFM-RAG.pdf",
-    "MachineLearning/NLP/RAG/ChatKBQA.md",
     "MachineLearning/NLP/RAG/Be like a Goldfish, Don't Memorize! Mitigating Memorization in Generative LLMs.pdf",
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
     "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
-    "2025-03-29.md",
     "1-s2.0-S1535610822003178-main.pdf",
     "Song 等 - 2025 - Deep learning informed multimodal fusion of radiology and pathology to predict outcomes in HPV-assoc.pdf",
-    "Linux工具/manjaro/显卡控制.md",
-    "Linux工具/manjaro/electron在wayland下的问题.md",
-    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH2.0.pdf.md",
-    "MachineLearning/NLP/RAG/SimpleIsEffective.md",
-    "MachineLearning/NLP/RAG/RDF和SPARQL.md",
-    "MachineLearning/NLP/RAG/FromLocalToGlobal/From Local to Globa.pdf.md",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316161633_856.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316151353_796.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143657_657.png",
