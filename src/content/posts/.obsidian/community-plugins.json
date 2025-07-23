@@ -3,7 +3,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-tasks-plugin",
   "obsidian-image-auto-upload-plugin",
-  "floating-toc",
   "obsidian-latex-suite",
   "obsidian-task-progress-bar",
   "editor-width-slider",
@@ -13,5 +12,6 @@
   "templater-obsidian",
   "obsidian-style-settings",
   "table-editor-obsidian",
-  "pdf-plus"
+  "pdf-plus",
+  "floating-toc"
 ]
