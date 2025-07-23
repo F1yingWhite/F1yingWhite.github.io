@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7b0750e437750d77",
+        "id": "b6835c3e598cf046",
         "type": "tabs",
         "children": [
           {
-            "id": "09ab9628d8123918",
+            "id": "e9717fb23016d0aa",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "MachineLearning/NLP/LLM/BLT.pdf"
+                "file": "MachineLearning/NLP/GNN/GraphToekn/GraphToken.pdf.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "BLT"
+              "icon": "lucide-file",
+              "title": "GraphToken.pdf"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.505859375,
-    "collapsed": true
+    "width": 357.505859375
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -168,38 +169,39 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-task-progress-bar:打开 Task Genius 视图": false
     }
   },
-  "active": "09ab9628d8123918",
+  "active": "e9717fb23016d0aa",
   "lastOpenFiles": [
-    "MachineLearning/NLP/LLM/beam search.md",
-    "MachineLearning/NLP/LLM/BLT.pdf",
-    "MachineLearning/NLP/LLM/MoE.md",
-    "未命名.md",
-    "Linux工具/docker/Docker Compose.md",
-    "Linux工具/docker/docker入门.md",
-    "Linux工具/manjaro/xwayland缩放问题.md",
-    "Linux工具/manjaro/electron在wayland下的问题.md",
-    "Linux工具/manjaro/显卡控制.md",
-    "Linux工具/manjaro/亮度调节.md",
-    "Linux工具/manjaro/明日方舟linux.md",
-    "Linux工具/my-vim/my-vim.md",
-    "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
-    "MachineLearning/NLP/RAG/我的想法.md",
-    "MachineLearning/多模态/用多模态统一表示实现跨模态泛化.md",
-    "MachineLearning/多模态/通过单模态模型的联合嵌入来预测未配对的多模态学习中的缺失模态预测.md",
-    "MachineLearning/多模态/预测动态融合.md",
+    "MachineLearning/生成模型/DiT/DiT.pdf.md",
+    "MachineLearning/NLP/预训练大模型/大模型扫盲.md",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf.md",
+    "MachineLearning/基础模块/注意力机制/通道空间和像素注意力.md",
+    "MachineLearning/基础模块/注意力机制/自注意力机制中的掩码生成.md",
+    "Linux工具/docker/docker入门.md",
+    "Linux工具/docker/Docker Compose.md",
+    "数学/重参数化技巧.md",
+    "Linux工具/文件传输/文件传输.md",
+    "数学/希腊字母对照表.md",
+    "数学/互信息.md",
+    "数学/范数.md",
+    "数学/爱因斯坦求和（einsum）.md",
+    "数学/概率论/协方差矩阵.md",
+    "数学/信号处理/矢量量化.md",
+    "数学/概率论/卷积.md",
     "数学/概率论/变分推断.md",
-    "编程语言/python小技巧/爱因斯坦标识法/爱因斯坦标识法.md",
-    "编程语言/python小技巧/transformer/transformer.md",
-    "编程语言/python小技巧/pytorch/DataLoader&Dataset.md",
-    "编程语言/python小技巧/pytorch/parameter.md",
-    "编程语言/python小技巧/pytorch/Model.md",
+    "数学/概率论/方差 协方差和相关系数.md",
+    "编程语言/python小技巧/sqlmodel/基础使用.md",
+    "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
+    "编程语言/python小技巧/python内置库/python语法.md",
+    "编程语言/python小技巧/python内置库/上下文管理器.md",
+    "编程语言/python小技巧/python内置库/继承.md",
+    "编程语言/python小技巧/python内置库/文件夹操作/文件夹操作.md",
+    "编程语言/python小技巧/python内置库/命令行输入获取/argparse.md",
     "编程语言/python小技巧/loguru/loguru.md",
-    "硬件知识/gpu算力.md",
-    "硬件知识/cuda和cpu.md",
+    "MachineLearning/NLP/LLM/BLT.pdf",
     "MachineLearning/基础模块/normalization",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf",
     "MachineLearning/基础模块/normalization/DyT",
