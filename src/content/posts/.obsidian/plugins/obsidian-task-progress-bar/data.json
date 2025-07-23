@@ -211,13 +211,16 @@
     "tasks": "area",
     "dataview": "area"
   },
+  "fileMetadataInheritance": {
+    "enabled": true,
+    "inheritFromFrontmatter": false,
+    "inheritFromFrontmatterForSubtasks": false
+  },
   "projectConfig": {
     "enableEnhancedProject": false,
     "pathMappings": [],
     "metadataConfig": {
       "metadataKey": "project",
-      "inheritFromFrontmatter": false,
-      "inheritFromFrontmatterForSubtasks": false,
       "enabled": false
     },
     "configFile": {
@@ -578,5 +581,68 @@
     "enabled": false,
     "mode": "blacklist",
     "rules": []
+  },
+  "onCompletion": {
+    "enableOnCompletion": true,
+    "defaultArchiveFile": "Archive/Completed Tasks.md",
+    "defaultArchiveSection": "Completed Tasks",
+    "showAdvancedOptions": false
+  },
+  "timeParsing": {
+    "enabled": true,
+    "supportedLanguages": [
+      "en",
+      "zh"
+    ],
+    "dateKeywords": {
+      "start": [
+        "start",
+        "begin",
+        "from",
+        "starting",
+        "begins",
+        "开始",
+        "从",
+        "起始",
+        "起",
+        "始于",
+        "自"
+      ],
+      "due": [
+        "due",
+        "deadline",
+        "by",
+        "until",
+        "before",
+        "expires",
+        "ends",
+        "截止",
+        "到期",
+        "之前",
+        "期限",
+        "最晚",
+        "结束",
+        "终止",
+        "完成于"
+      ],
+      "scheduled": [
+        "scheduled",
+        "on",
+        "at",
+        "planned",
+        "set for",
+        "arranged",
+        "安排",
+        "计划",
+        "在",
+        "定于",
+        "预定",
+        "约定",
+        "设定"
+      ]
+    },
+    "removeOriginalText": true,
+    "perLineProcessing": true,
+    "realTimeReplacement": true
   }
 }

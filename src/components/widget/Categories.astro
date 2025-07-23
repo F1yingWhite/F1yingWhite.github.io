@@ -23,11 +23,6 @@ const style = Astro.props.style;
 <WidgetLayout name={i18n(I18nKey.categories)} id="categories" isCollapsed={isCollapsed} collapsedHeight={COLLAPSED_HEIGHT}
                 class={className} style={style}
 >
-    <div style="display: flex; justify-content: center; align-items: center; height: 320px; overflow: hidden;">
-        <video autoplay loop muted>
-            <source src="https://picture-bed-1325530970.cos.ap-nanjing.myqcloud.com/neko.mp4" type="video/mp4">
-        </video>
-    </div>
     {categories.map((c) =>
         <ButtonLink
             url={c.url}

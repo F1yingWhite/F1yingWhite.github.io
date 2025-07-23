@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8ae475a24650e587",
+        "id": "7b0750e437750d77",
         "type": "tabs",
         "children": [
           {
-            "id": "3798f2f96e5c6709",
+            "id": "09ab9628d8123918",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Linux工具/docker/Docker Compose.md",
-                "mode": "source",
-                "source": false
+                "file": "MachineLearning/NLP/LLM/BLT.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Docker Compose"
+              "icon": "lucide-file-text",
+              "title": "BLT"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.505859375
+    "width": 357.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -169,12 +168,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-task-progress-bar:打开 Task Genius 视图": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "3798f2f96e5c6709",
+  "active": "09ab9628d8123918",
   "lastOpenFiles": [
+    "MachineLearning/NLP/LLM/beam search.md",
+    "MachineLearning/NLP/LLM/BLT.pdf",
+    "MachineLearning/NLP/LLM/MoE.md",
+    "未命名.md",
+    "Linux工具/docker/Docker Compose.md",
     "Linux工具/docker/docker入门.md",
     "Linux工具/manjaro/xwayland缩放问题.md",
     "Linux工具/manjaro/electron在wayland下的问题.md",
@@ -197,12 +200,8 @@
     "编程语言/python小技巧/loguru/loguru.md",
     "硬件知识/gpu算力.md",
     "硬件知识/cuda和cpu.md",
-    "expressive-code.md",
-    "MachineLearning/NLP/RAG/Drawing 2025-03-14 15.36.12.excalidraw.md",
     "MachineLearning/基础模块/normalization",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf",
-    "MachineLearning/多模态/MLLM/BLIP2/BLIP2.pdf.md",
-    "MachineLearning/基础模块/DyT/DyT.md",
     "MachineLearning/基础模块/normalization/DyT",
     "MachineLearning/NLP/RAG/PathRAG.pdf",
     "MachineLearning/NLP/RAG/GFM-RAG.pdf",
@@ -210,7 +209,6 @@
     "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
     "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
     "1-s2.0-S1535610822003178-main.pdf",
-    "Song 等 - 2025 - Deep learning informed multimodal fusion of radiology and pathology to predict outcomes in HPV-assoc.pdf",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316161633_856.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316151353_796.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143657_657.png",
