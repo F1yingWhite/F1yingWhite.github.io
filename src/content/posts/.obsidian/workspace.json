@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a3fef3371b2c502",
+        "id": "60e464831cdf7898",
         "type": "tabs",
         "children": [
           {
-            "id": "ad8a2397b9258f90",
+            "id": "cde1d9c353e4bf37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/RL/PPO.md",
+                "file": "数学/线性代数/线性组合.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PPO"
+              "title": "线性组合"
             }
           }
         ]
@@ -170,15 +170,34 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-task-progress-bar:打开 Task Genius 视图": false
     }
   },
-  "active": "ad8a2397b9258f90",
+  "active": "cde1d9c353e4bf37",
   "lastOpenFiles": [
-    "MachineLearning/RL/未命名.md",
+    "数学/希腊字母对照表.md",
+    "数学/线性代数/线性组合.md",
+    "数学/重参数化技巧.md",
+    "数学/线性代数",
+    "数学/互信息.md",
+    "数学/范数.md",
+    "数学/爱因斯坦求和（einsum）.md",
+    "数学/概率论/高斯分布.md",
+    "数学/概率论/方差 协方差和相关系数.md",
+    "数学/概率论/变分推断.md",
+    "MachineLearning/NLP/LLM/LLaDa.pdf",
     "MachineLearning/RL/PPO.md",
-    "MachineLearning/RL",
+    "MachineLearning/NLP/大模型词表.md",
+    "MachineLearning/生成模型/评价指标/生成网络评价指标.md",
+    "MachineLearning/NLP/LLM/MoE.md",
+    "MachineLearning/NLP/LLM/KV-Cache.md",
     "MachineLearning/NLP/LLM/BLT.pdf",
+    "MachineLearning/NLP/LLM/beam search.md",
+    "MachineLearning/NLP/LLM/大模型推理与缓存.md",
+    "MachineLearning/NLP/LLM/未命名.md",
+    "MachineLearning/RL/未命名.md",
+    "MachineLearning/RL",
     "MachineLearning/NLP/GNN/GraphToekn/GraphToken.pdf.md",
     "MachineLearning/生成模型/DiT/DiT.pdf.md",
     "MachineLearning/NLP/预训练大模型/大模型扫盲.md",
@@ -187,30 +206,12 @@
     "MachineLearning/基础模块/注意力机制/自注意力机制中的掩码生成.md",
     "Linux工具/docker/docker入门.md",
     "Linux工具/docker/Docker Compose.md",
-    "数学/重参数化技巧.md",
-    "Linux工具/文件传输/文件传输.md",
-    "数学/希腊字母对照表.md",
-    "数学/互信息.md",
-    "数学/范数.md",
-    "数学/爱因斯坦求和（einsum）.md",
-    "数学/概率论/协方差矩阵.md",
-    "数学/信号处理/矢量量化.md",
-    "数学/概率论/卷积.md",
-    "数学/概率论/变分推断.md",
-    "数学/概率论/方差 协方差和相关系数.md",
-    "编程语言/python小技巧/sqlmodel/基础使用.md",
-    "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
-    "编程语言/python小技巧/python内置库/python语法.md",
-    "编程语言/python小技巧/python内置库/上下文管理器.md",
-    "编程语言/python小技巧/python内置库/继承.md",
     "MachineLearning/基础模块/normalization",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf",
     "MachineLearning/基础模块/normalization/DyT",
     "MachineLearning/NLP/RAG/PathRAG.pdf",
     "MachineLearning/NLP/RAG/GFM-RAG.pdf",
     "MachineLearning/NLP/RAG/Be like a Goldfish, Don't Memorize! Mitigating Memorization in Generative LLMs.pdf",
-    "MachineLearning/NLP/RAG/GNN-RAG/GNN-RAG.pdf",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316161633_856.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316151353_796.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143657_657.png",
