@@ -1,10 +1,11 @@
 ---
 title: python语法
 published: 2024-09-04
-description: ''
-image: ''
-tags: [python,language]
-category: 'language'
+description: ""
+image: ""
+tags:
+  - python
+category: language
 draft: false
 ---
 

@@ -5,7 +5,6 @@ image: ""
 published: 2025-01-05
 tags:
   - python
-  - 日志
 category: python
 draft: false
 ---

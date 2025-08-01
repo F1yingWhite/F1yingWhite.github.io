@@ -1,9 +1,16 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&width=435&lines=Hi+there%2C+I+am+F1yingWhite)](https://git.io/typing-svg)
 
-::github{repo="saicaca/fuwari"}
+- 🎓 PhD student in Computer Science at Zhejiang University
+- 📫 How to reach me **81723334@qq.com**
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+    <img src="https://github-readme-stats.vercel.app/api?username=F1yingWhite&show_icons=true&theme=transparent" alt="F1yingWhite's GitHub stats" style="height: 195px;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=F1yingWhite&layout=compact&theme=transparent" alt="Top Langs" style="height: 195px;">
+</div>
+
+
+#### Thanks for visiting 💗
+Counting of visitors to this page in this section started from July 19, 2024
+</br>
+![](https://count.getloli.com/get/@F1yingWhite.github.readme?theme=booru-yuyuyui)
+</br>

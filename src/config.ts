@@ -53,8 +53,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'FlyingWhite',
-  bio: 'Good monring my neighbors!',
+  name: 'F1yingWhite',
+  bio: '🐧gugugaga!',
   links: [
     {
       name: 'bilibili',
@@ -63,11 +63,11 @@ export const profileConfig: ProfileConfig = {
                                         // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://space.bilibili.com/269409999',
     },
-    // {
-    //   name: 'Steam',
-    //   icon: 'fa6-brands:steam',
-    //   url: 'https://store.steampowered.com',
-    // },
+    {
+      name: 'Steam',
+      icon: 'fa6-brands:steam',
+      url: 'https://steamcommunity.com/profiles/76561199179002639/',
+    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',

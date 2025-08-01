@@ -7,7 +7,7 @@ tags:
   - 机器学习
   - 论文阅读
 category: 论文阅读
-draft: false
+draft: true
 ---
 
 > [!PDF|yellow] [Page.2](StableDiffusion3.pdf#page=2&selection=25,0,28,0&color=yellow)

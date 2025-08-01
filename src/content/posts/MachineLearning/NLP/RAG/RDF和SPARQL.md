@@ -28,7 +28,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>
 
 相同主语的描述可以合并
 
-```bash
+```txt
 John_Lennon      a 艺术家 .
 Paul_McCartney   a 艺术家 .
 Ringo_Starr      a 艺术家 .
@@ -47,7 +47,7 @@ Love_Me_Do       a Song ;
 
 SPARQL 是 RDF 数据库的查询语言，跟 SQL 语法类似，核心思想为根据给定的谓语动词，从三元组提取符合条件的主语或宾语。
 
-```bash
+```sql
 SELECT <variables>
 WHERE {
    <graph pattern>
@@ -56,7 +56,7 @@ WHERE {
 
 这里的 variables 就是需要提取的主语或宾语，graph pattern 就是要查询的三元组模式，比如我们要查询所有的专辑。
 
-```bash
+```sql
 SELECT ?album
 WHERE {
    ?album rdf:type :Album .

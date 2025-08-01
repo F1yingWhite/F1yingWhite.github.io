@@ -6,7 +6,7 @@ tags:
   - 机器学习
   - 论文阅读
 category: 论文阅读
-draft: true
+draft: false
 published: 2024-10-21
 last modified: 2024-10-21 13:20
 ---
@@ -16,10 +16,6 @@ last modified: 2024-10-21 13:20
 ## Abstract
 
 目前的 sota 的计算机视觉系统在一组被事先定义好的目标分类中进行训练,这种受限的监督形式限制了它们的通用性和可用性，因为需要额外的标记数据来指定任何其他视觉概念。我们证明了预测图像与哪个描述相匹配的方法是高效的并且达到了 SOTA 的效果.预训练后,模型能够使用自然语言来引用到视觉概念,使得模型可以零样本转移到下游任务汇总
-
-> [!PDF|yellow] [Page.1](CLIP.pdf#page=1&selection=57,21,59,46&color=yellow)
->
-> >  Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision
 
 ## Approach
 
