@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/wmremove-transformed.jpeg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/1755002954662.jpeg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, defaults center
     credit: {
       enable: false,         // Display the credit text of the banner image
