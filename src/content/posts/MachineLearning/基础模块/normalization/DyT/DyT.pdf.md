@@ -1,6 +1,6 @@
 ---
 title: "[[DyT.pdf|DyT]]"
-description: 
+description: normalization到底是干嘛的
 image: ""
 published: 2025-04-01
 tags:

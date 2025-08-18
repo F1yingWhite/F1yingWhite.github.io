@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8ab1afe6f3b8b21c",
+        "id": "578397cff95a6ce1",
         "type": "tabs",
         "children": [
           {
-            "id": "dec637b6f0ffd791",
+            "id": "bd8d8f8968d32069",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "MachineLearning/持续学习/持续学习综述.pdf",
-                "page": 5,
-                "left": -4,
-                "top": 509,
-                "zoom": 1.3
+                "file": "MachineLearning/持续学习/持续学习综述.pdf.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "持续学习综述"
+              "icon": "lucide-file",
+              "title": "持续学习综述.pdf"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "dyt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,13 +172,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "dec637b6f0ffd791",
+  "active": "bd8d8f8968d32069",
   "lastOpenFiles": [
     "数学/fisher信息矩阵.md",
+    "markdown-extended.md",
     "数学/拉普拉斯近似.md",
+    "MachineLearning/基础模块/normalization/DyT/DyT.pdf.md",
     "MachineLearning/持续学习/持续学习综述.pdf",
     "MachineLearning/持续学习/持续学习综述.pdf.md",
-    "MachineLearning/基础模块/normalization/DyT/DyT.pdf.md",
     "数学/希腊字母对照表.md",
     "数学/重参数化技巧.md",
     "数学/未命名.md",

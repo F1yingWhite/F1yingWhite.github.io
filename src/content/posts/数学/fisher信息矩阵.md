@@ -11,6 +11,8 @@ draft: false
 
 https://blog.csdn.net/wxc971231/article/details/135591016
 
+https://zhuanlan.zhihu.com/p/21436621842
+
 # 前言
 
 机器学习本身常常被设计为参数化概率模型 $p(x|\theta)$,同过优化损失函数 $\mathcal{L}$ 来最大化参数表示的似然函数.由于似然函数本身就是一个概率分布,当参数 $\theta$ 更新为 $\theta+d$ 的时候,可以用 KL 散度 $KL[p(x|\theta)||p(x|\theta+d)]$ 来度量模型所描述的映射的关系变化程度.这里有两个空间
@@ -18,6 +20,7 @@ https://blog.csdn.net/wxc971231/article/details/135591016
 1. 分布空间: 模型似然 $p(x|\theta)$ 取值的空间,可以用 KL 散度衡量差异
 2. 参数空间: 参数向量 $\theta$ 的取值空间.且该空间相对光滑,局部上类似欧几里得空间.
 梯度下降的公式为:$\theta_{k+1} = \theta_{k}-\alpha \nabla_{\theta}\mathcal{L}(\theta+d)$,注意到参数更新的方向是梯度方向,这是参数空间中 $\theta_{k}$ 局部最陡峭的下降方向.
+在一般的梯度下降中，我们认为目标函数梯度的负方向可以最小化一步更新后的目标函数值，这里隐含地假设了参数空间是欧氏空间，且参数构成了一组正交归一的坐标系统。在很多情况下，这一假设是不成立的，作为结果，优化过程的收敛效率可能受到影响。
 
 # 海森矩阵
 
@@ -65,6 +68,9 @@ $$
 s(x|\theta)_{m\times1} = \nabla_\theta L(x|\theta) = \nabla_\theta \log p(x|\theta)
 $$
 
+>[!IMPORTANT]
+>这里其实是不严谨的,因此，score function 只是约定俗成的一种名称，其实质就是似然函数的梯度，描述的是似然函数对于参数变化的敏感程度。
+
 注意得分函数是标量对向量 $\theta$ 求导，因此 $s(x|\theta)$ 是和 $\theta$ 相同尺寸的向量。得分函数的重要性质是其期望为 0，即：
 
 $$
@@ -75,7 +81,7 @@ $$
 
 $$
 \begin{aligned}
-\mathbb{E}_{p(x|\theta)}[s(x|\theta)] 
+\mathbb{E}_{p(x|\theta)}[s(x|\theta)]
 &= \mathbb{E}_{p(x|\theta)}[\nabla \log p(x|\theta)] \\
 &= \int \nabla \log p(x|\theta) \, p(x|\theta) \, dx \\
 &= \int \frac{\nabla p(x|\theta)}{p(x|\theta)} \, p(x|\theta) \, dx \\
@@ -83,36 +89,33 @@ $$
 &= \nabla \int p(x|\theta) \, dx \\
 &= \nabla 1 \\
 &= \mathbf{0}_{m \times 1}
-\end{aligned}$$
-因此可以用大量样本的socre来评估估计值$\hat{\theta}$的质量,也就是期望越接近0,估计越精确.
+\end{aligned}
+$$
+
+因此可以用大量样本的 socre 来评估估计值 $\hat{\theta}$ 的质量,也就是期望越接近 0,估计越精确.
 
 进一步地，参数估计值 $\hat{\theta}$ 的置信度可以由大量样本的 $s(x|\theta)$ 协方差来描述，这是一个围绕期望值的不确定度的度量。将以上期望为 0 的结果代入协方差计算公式，得到
 
 $$
-
 \mathbb{E}_{p(x|\theta)}\left[(s(x|\theta) - \mathbf{0}) \cdot (s(x|\theta) - \mathbf{0})^T\right]
-
 $$
 
 由于得分函数 $s(x|\theta)$ 是尺寸为 $m \times 1$ 的向量，以上协方差是尺寸 $m \times m$ 的协方差矩阵，**这就是 费舍尔信息矩阵（Fisher information matrix）的定义**，它描述了极大似然估计参数值的置信度（不确定度）的信息，整理如下：
 
 $$
-
 \begin{aligned}
-
 \mathbf{F}
-
 &= \mathbb{E}_{p(x|\theta)}[s(x|\theta) \cdot s(x|\theta)^T] \\
-
 &= \mathbb{E}_{p(x|\theta)}[\nabla_\theta \log p(x|\theta) \cdot (\nabla_\theta \log p(x|\theta))^T] \\
-
 &\approx \frac{1}{n} \sum_{i=1}^{n} \nabla_\theta \log p(x_i|\theta) \cdot (\nabla_\theta \log p(x_i|\theta))^T
-
 \end{aligned}
+$$
+
+# 海森矩阵和费舍尔矩阵的关系
+
+**费舍尔信息矩阵是对数似然函数的海森矩阵 $H_{\log(p(x|\theta))}$ 的期望的负值**,也就是
 
 $$
-# 海森矩阵和费舍尔矩阵的关系
-**费舍尔信息矩阵是对数似然函数的海森矩阵$H_{\log(p(x|\theta))}$的期望的负值**,也就是$$
 F = -\mathbb{E}_{p(x|\theta)}[H_{\log(p(x|\theta))}]
 $$
 
