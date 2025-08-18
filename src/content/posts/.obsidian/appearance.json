@@ -3,7 +3,7 @@
   "textFontFamily": "HarmonyOS Sans",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "translucency": true,
-  "cssTheme": "Border",
+  "cssTheme": "Typora-Vue",
   "enabledCssSnippets": [
     "tab",
     "悬浮菜单栏"
