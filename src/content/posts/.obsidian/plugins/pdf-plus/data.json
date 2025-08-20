@@ -260,7 +260,7 @@
   "copyOutlineAsHeadingsDisplayTextFormat": "p.{{pageLabel}}",
   "copyOutlineAsHeadingsMinLevel": 2,
   "newFileNameFormat": "{{file.path}}.md",
-  "newFileTemplatePath": "template.md",
+  "newFileTemplatePath": "",
   "newPDFLocation": "current",
   "newPDFFolderPath": "",
   "rectEmbedStaticImage": false,

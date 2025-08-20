@@ -6,10 +6,10 @@
   "obsidian-linter",
   "templater-obsidian",
   "obsidian-style-settings",
-  "floating-toc",
   "editing-toolbar",
   "table-editor-obsidian",
   "better-word-count",
   "editor-width-slider",
-  "pdf-plus"
+  "pdf-plus",
+  "floating-toc"
 ]

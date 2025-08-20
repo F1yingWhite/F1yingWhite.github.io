@@ -7,5 +7,7 @@
   "enabledCssSnippets": [
     "tab",
     "悬浮菜单栏"
-  ]
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
 }

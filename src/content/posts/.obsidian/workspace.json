@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "578397cff95a6ce1",
+        "id": "fee1105ed945e102",
         "type": "tabs",
         "children": [
           {
-            "id": "bd8d8f8968d32069",
+            "id": "82b75157e12f0a87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/持续学习/持续学习综述.pdf.md",
+                "file": "template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "持续学习综述.pdf"
+              "title": "template"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dyt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.49999618530273
+    "width": 301.5
   },
   "right": {
     "id": "550837f62a3d8186",
@@ -140,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MachineLearning/持续学习/Meta_Continual_Learning_R (1).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Meta_Continual_Learning_R (1) 的大纲"
             }
           }
         ],
@@ -158,6 +159,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -172,44 +174,42 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bd8d8f8968d32069",
+  "active": "82b75157e12f0a87",
   "lastOpenFiles": [
-    "数学/fisher信息矩阵.md",
-    "markdown-extended.md",
+    "template.md",
+    "MachineLearning/CL/MMCL/survey/MMCL-Survey.pdf",
+    "MachineLearning/CL/MMCL/survey/MMCL-Survey.pdf.md",
+    "MachineLearning/CL/MMCL/Prompt/NeurIPS-2022-s-prompts-learning-with-pre-trained-transformers-an-occams-razor-for-domain-incremental-learning-Paper-Conference.pdf",
+    "MachineLearning/RL/PPO.md",
+    "MachineLearning/NLP/大模型词表.md",
+    "MachineLearning/NLP/LLM/LLaDa.pdf",
+    "MachineLearning/CL/MMCL/Prompt",
+    "MachineLearning/CL/MMCL/Regularization",
+    "MachineLearning/CL/Regularization/Meta_Continual_Learning_REVISITED.md",
+    "MachineLearning/CL/Regularization/Meta_Continual_Learning_R (1).pdf",
+    "MachineLearning/CL/survey/持续学习综述.pdf",
+    "MachineLearning/CL/Regularization",
+    "MachineLearning/CL/survey/持续学习综述.pdf.md",
+    "MachineLearning/CL/survey",
+    "MachineLearning/CL/MMCL/survey",
+    "MachineLearning/持续学习/MLLM中的持续学习.md",
     "数学/拉普拉斯近似.md",
+    "数学/fisher信息矩阵.md",
+    "数学/未命名.md",
+    "2025-08-10.md",
+    "markdown-extended.md",
+    "markdown.md",
+    "数学/Untitled.md",
+    "{{ file.path }}.md",
+    "2025-03-01.md",
+    "数学/变分推断.md",
     "MachineLearning/基础模块/normalization/DyT/DyT.pdf.md",
-    "MachineLearning/持续学习/持续学习综述.pdf",
-    "MachineLearning/持续学习/持续学习综述.pdf.md",
     "数学/希腊字母对照表.md",
     "数学/重参数化技巧.md",
-    "数学/未命名.md",
-    "数学/微积分/数学分析(第二版)+上下册+陈纪修.pdf",
     "数学/概率论/概率论.md",
-    "数学/概率论/概率论与数理统计-电子教材.pdf",
     "数学/线性代数/线性代数.md",
     "数学/线性代数/未命名.md",
-    "数学/微积分",
     "数学/概率论/变分推断.md",
-    "数学/概率论",
-    "数学/概率论/方差 协方差和相关系数.md",
-    "数学/概率论/极大似然估计.md",
-    "数学/概率论/高斯分布.md",
-    "数学/概率论/卷积.md",
-    "数学/概率论/协方差矩阵.md",
-    "expressive-code.md",
-    "编程语言/python小技巧/python内置库/继承.md",
-    "编程语言/python小技巧/python内置库/上下文管理器.md",
-    "编程语言/python小技巧/python内置库/文件夹操作.md",
-    "编程语言/python小技巧/python内置库/python语法.md",
-    "编程语言/python小技巧/python内置库/Collections.md",
-    "MachineLearning/持续学习/持续学习综述.md",
-    "template.md",
-    "MachineLearning/持续学习",
-    "MachineLearning/生成模型/DDPM/DDPM.md",
-    "MachineLearning/NLP/RAG/GFM-RAG.pdf",
-    "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf",
-    "MachineLearning/NLP/RAG/G-Retriever/G-Retriever.pdf",
-    "MachineLearning/生成模型/DiT/DiT.pdf",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316161633_856.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316151353_796.png",
     "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143657_657.png",

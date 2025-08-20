@@ -1,12 +1,12 @@
 ---
 title: template
-description: ""
+description: '""'
 image: ""
-published: 2025-03-01
+published: 2025-07-23
 tags:
   - 论文阅读
 category: 论文阅读
 draft: true
-path: "[[{{ file.path }}|{{ file.basename }}]]"
 ---
-这是pdf模班
+
+这是 pdf 模班
