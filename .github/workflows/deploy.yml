@@ -20,13 +20,6 @@ jobs:
     steps:
       - name: Checkout repository (including submodules)
         uses: actions/checkout@v4
-        with:
-          # Recursively initialize and update submodules
-          submodules: 'recursive'
-          # Fetch full history to avoid shallow-clone issues
-          fetch-depth: 0
-          # Keep credentials available for submodule fetch (useful for private submodules)
-          persist-credentials: true
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         # with:
