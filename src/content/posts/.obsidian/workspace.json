@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d725b21b2f65cc53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cd95ed13ebbb0e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a790c84b25546d4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a105fb9323d3e635",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05728e86ada987f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f26b255efb4400d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "52e87d1860f6b594",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 431.5
+  },
+  "right": {
+    "id": "550837f62a3d8186",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddefd815245e983f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "472e29f41cb972ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "438aa0a158a66700",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "ea371a6e467183b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2223649d856fbb91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question 的大纲"
+            }
+          },
+          {
+            "id": "de11bec9d54b57f4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "9cd95ed13ebbb0e8",
+  "lastOpenFiles": [
+    "MachineLearning/CL/MMCL/regulization/EMNLP_2023_OLoRA.pdf",
+    "MachineLearning/CL/MMCL/Replay/CVPR_2025_Synthetic_Data_is_an_Elegant_GIFT_for_Continual_Vision-Language_Models.md",
+    "markdown-extended.md",
+    "MachineLearning/CL/MMCL/Replay/CVPR_2025_Synthetic_Data_is_an_Elegant_GIFT_for_Continual_Vision-Language_Models.pdf",
+    "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question.pdf.md",
+    "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question.pdf",
+    "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference.md",
+    "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.md",
+    "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference.pdf",
+    "MachineLearning/CL/MMCL/prompt/ECCV2024-Mind_the_inference.pdf",
+    "MachineLearning/CL/MMCL/prompt/NeurIPS-2022-s-prompts-learning-with-pre-trained-transformers-an-occams-razor-for-domain-incremental-learning-Paper-Conference.pdf",
+    "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.pdf",
+    "MachineLearning/CL/MMCL/Replay/23",
+    "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference",
+    "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question",
+    "MachineLearning/CL/MMCL/survey/MMCL-Survey/MMCL-Survey.pdf.md",
+    "MachineLearning/CL/survey/持续学习综述.pdf.md",
+    "MachineLearning/CL/Regularization/Meta_Continual_Learning_REVISITED.md",
+    "markdown.md",
+    "expressive-code.md",
+    "template.md",
+    "MachineLearning/CL/MMCL/未命名.md",
+    "未命名.md",
+    "2025-07-23.md",
+    "MachineLearning/RL/PPO.md",
+    "MachineLearning/NLP/大模型词表.md",
+    "MachineLearning/持续学习/MLLM中的持续学习.md",
+    "数学/拉普拉斯近似.md",
+    "数学/fisher信息矩阵.md",
+    "数学/未命名.md",
+    "2025-08-10.md",
+    "数学/Untitled.md",
+    "{{ file.path }}.md",
+    "2025-03-01.md",
+    "数学/变分推断.md",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316161633_856.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316151353_796.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143657_657.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250316143937_885.png",
+    "MachineLearning/NLP/RAG/attachments/Pasted Image 20250314162104_112.png",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg"
+  ]
+}

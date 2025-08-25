@@ -1,0 +1,18 @@
+{
+  "attachmentFolderPath": "./attachments",
+  "showLineNumber": true,
+  "vimMode": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "readableLineLength": true,
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
