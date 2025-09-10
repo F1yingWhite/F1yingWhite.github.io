@@ -11,14 +11,16 @@
             "id": "dc47427c92a5f3e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.md",
-                "mode": "source",
-                "source": false
+                "file": "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 306,
+                "zoom": 2.6017156862745097
               },
-              "icon": "lucide-file",
-              "title": "ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper"
+              "icon": "lucide-file-text",
+              "title": "ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference"
             }
           }
         ]
@@ -41,7 +43,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -189,8 +191,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "05728e86ada987f3",
+  "active": "dc47427c92a5f3e8",
   "lastOpenFiles": [
+    "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference.pdf",
+    "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.md",
     "MachineLearning/CL/MMCL/regulization/CVPR_2025_CL-MoE_Enhancing_Multimodal_Large_Language_Model_with_Dual_Momentum_Mixture-of-Experts.pdf",
     "MachineLearning/CL/Regularization/ICLR_2024_Prompt_Gradient_Projection.pdf",
     "MachineLearning/CL/MMCL/prompt/Continual Learning for Multiple Modalities.pdf",
@@ -198,12 +202,10 @@
     "MachineLearning/CL/MMCL/prompt/ECCV2024-Mind_the_inference.pdf",
     "MachineLearning/CL/MMCL/Replay/CVPR_2025_Synthetic_Data_is_an_Elegant_GIFT_for_Continual_Vision-Language_Models.pdf",
     "MachineLearning/CL/Prompt/CVPR_2022_Wang_Learning_To_Prompt_for_Continual_Learning.pdf",
-    "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.md",
     "MachineLearning/CL/Prompt/DualPrompt.pdf",
     "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.pdf",
     "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question.pdf.md",
     "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question.pdf",
-    "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference.pdf",
     "MachineLearning/CL/MMCL/prompt/ICLR-2025-c-clip-multimodal-continual-learning-for-vision-language-model-Paper-Conference.md",
     "MachineLearning/CL/Regularization/Meta_Continual_Learning_REVISITED.md",
     "数学/线性代数/线性代数.md",
