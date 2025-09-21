@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/1755002954662.jpeg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/a9dd87d632b11c10172ce9de9a071b93.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'top', // Equivalent to object-position, defaults center
     credit: {
       enable: false,         // Display the credit text of the banner image
@@ -52,7 +52,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/muzimi.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'F1yingWhite',
   bio: '🐧gugugaga!',
   links: [
