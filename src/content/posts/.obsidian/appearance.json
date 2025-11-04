@@ -2,7 +2,7 @@
   "interfaceFontFamily": "HarmonyOS Sans",
   "textFontFamily": "HarmonyOS Sans",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "translucency": true,
+  "translucency": false,
   "cssTheme": "Typora-Vue",
   "enabledCssSnippets": [
     "tab",
