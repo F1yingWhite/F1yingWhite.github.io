@@ -30,3 +30,8 @@ yarn.lock
 .idea
 *.iml
 **/*.pdf
+
+# Personal note sources and per-device paths stay outside the public repository.
+**/.obsidian/
+.notes-publish.local.json
+*.tmp-*

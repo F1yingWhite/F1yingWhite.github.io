@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "entries": {
+    "note:2d097889-02db-4138-84b9-0326277c1915": {
+      "slug": "linux工具/manjaro/electron在wayland下的问题",
+      "file": "Linux工具/manjaro/electron在wayland下的问题.md",
+      "source": "系统与工具/Linux/Wayland/electron在wayland下的问题.md",
+      "published": "2025-03-10",
+      "sha256": "e40048971ad53a6dbcbb2a8c03e762f7c18be7c4fceaa0529b2896387b0e3a77",
+      "legacy": true
+    },
+    "note:846a4298-1a07-4680-9de2-12276e94d9d5": {
+      "slug": "linux工具/manjaro/xwayland缩放问题",
+      "file": "Linux工具/manjaro/xwayland缩放问题.md",
+      "source": "系统与工具/Linux/Wayland/xwayland缩放问题.md",
+      "published": "2025-03-10",
+      "sha256": "2f9f9553102088a548eeb6895c3b4cd3485a1e4b6914c7bcc5dea6c5107da247",
+      "legacy": true
+    },
+    "note:a0afa525-5c17-4098-9f4d-8f78ad1cc3c0": {
+      "slug": "linux工具/manjaro/亮度调节",
+      "file": "Linux工具/manjaro/亮度调节.md",
+      "source": "系统与工具/Linux/Wayland/亮度调节.md",
+      "published": "2025-03-10",
+      "sha256": "6055beff4e5980e703fb2a18081ba1967b2fe64fd0ab97f60162fba0a24245c5",
+      "legacy": true
+    },
+    "note:a6f7fd4b-1f66-4023-8291-b5603d3593df": {
+      "slug": "linux工具/manjaro/显卡控制",
+      "file": "Linux工具/manjaro/显卡控制.md",
+      "source": "系统与工具/Linux/Wayland/显卡控制.md",
+      "published": "2025-03-10",
+      "sha256": "f2f92677869c4485bdc8213ac3c89f6d7bd811ede94cfa3d9ac32d72a6aeff86",
+      "legacy": true
+    },
+    "zotero:UQJI2EXI": {
+      "slug": "machinelearning/cl/mmcl/replay/cvpr_2025_synthetic_data_is_an_elegant_gift_for_continual_vision-language_models",
+      "file": "MachineLearning/CL/MMCL/Replay/CVPR_2025_Synthetic_Data_is_an_Elegant_GIFT_for_Continual_Vision-Language_Models.md",
+      "source": "机器学习/持续学习/回放/Synthetic Data is an Elegant GIFT for Continual Vision-Language Models.md",
+      "published": "2025-08-24 19:22:25",
+      "sha256": "744447f941e55e6af466194168895989ae3e4cb0b7d424df9954d8464758a0fe",
+      "legacy": true
+    },
+    "zotero:MAAJNNAS": {
+      "slug": "machinelearning/cl/mmcl/prompt/iccv-2023_decouple_before_interact_multi-modal_prompt_learning_for_continual_visual_questionpdf",
+      "file": "MachineLearning/CL/MMCL/prompt/ICCV-2023_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question.pdf.md",
+      "source": "机器学习/持续学习/提示学习/Decouple Before Interact：持续视觉问答的多模态提示学习.md",
+      "published": "2025-08-21 09:40:03",
+      "sha256": "81cdbf2e68d0b5b46c4ca05a2634e841085c6ee5b68bb921d8369623e49fae4d",
+      "legacy": true
+    },
+    "zotero:EU87VKLK": {
+      "slug": "machinelearning/cl/mmcl/regulization/iccv_2023_preventing_zero-shot_transfer_degradation_in_continual_learning_of_vision-language_models_paper",
+      "file": "MachineLearning/CL/MMCL/regulization/ICCV_2023_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_paper.md",
+      "source": "机器学习/持续学习/正则化/Preventing Zero-Shot Transfer Degradation in Continual Learning of Vision-Language Models.md",
+      "published": "2025-08-22 14:30:58",
+      "sha256": "90199f87e1fa18b75b667de781152804877a050b0e605996c632302510997250",
+      "legacy": true
+    },
+    "zotero:W8IN7VHN": {
+      "slug": "machinelearning/cl/mmcl/survey/mmcl-survey/mmcl-surveypdf",
+      "file": "MachineLearning/CL/MMCL/survey/MMCL-Survey/MMCL-Survey.pdf.md",
+      "source": "机器学习/持续学习/综述/多模态持续学习综述.md",
+      "published": "2025-08-20",
+      "sha256": "0a600f22d4d18e5f3f939e70fbd95858f636ed75e0932c43e2da7673e7040262",
+      "legacy": true
+    },
+    "zotero:WELLFUA4": {
+      "slug": "machinelearning/cl/regularization/meta_continual_learning_revisited",
+      "file": "MachineLearning/CL/Regularization/Meta_Continual_Learning_REVISITED.md",
+      "source": "机器学习/持续学习/正则化/Meta-Continual Learning Revisited.md",
+      "published": "2025-08-19 00:00:00",
+      "sha256": "5a9acfbacd2277cfa1b4a91d93fa62550d96862835a93175d9494cb72b8b512e",
+      "legacy": true
+    },
+    "zotero:3TMQRXC9": {
+      "slug": "machinelearning/cl/survey/持续学习综述pdf",
+      "file": "MachineLearning/CL/survey/持续学习综述.pdf.md",
+      "source": "机器学习/持续学习/综述/持续学习综述.md",
+      "published": "2025-08-18",
+      "sha256": "32485b6c8b48aca786da8e8e0ea078b3f01d67c332b70f2e81aaed40983d1a41",
+      "legacy": true
+    },
+    "note:36cf18fd-e82f-4eb3-b645-9d816ba4226f": {
+      "slug": "machinelearning/nlp/llm/kv-cache",
+      "file": "MachineLearning/NLP/LLM/KV-Cache.md",
+      "source": "机器学习/大语言模型/KV-Cache.md",
+      "published": "2025-02-02",
+      "sha256": "8db624b7f83e30f803c38b07f70b69fe7dde5901b1e5ec76e5cf0928f1f24db0",
+      "legacy": true
+    },
+    "zotero:VJKLG5F8": {
+      "slug": "machinelearning/nlp/llm/mllm/baiqwen25vltechnicalreport2025",
+      "file": "MachineLearning/NLP/LLM/MLLM/baiQwen25VLTechnicalReport2025.md",
+      "source": "机器学习/多模态/Qwen2.5-VL Technical Report.md",
+      "published": "2025-11-06 08:39:28",
+      "sha256": "3d06e177f0dc81b3d113034e0a842bb8a3b23e9e8fc1f91dd3dca42a21eca853",
+      "legacy": true
+    },
+    "zotero:XMIY94KJ": {
+      "slug": "machinelearning/nlp/llm/mllm/liuvisualinstructiontuning2023",
+      "file": "MachineLearning/NLP/LLM/MLLM/liuVisualInstructionTuning2023.md",
+      "source": "机器学习/多模态/Visual Instruction Tuning.md",
+      "published": "2025-11-04 10:15:05",
+      "sha256": "5b69e344b8b93385c05fda0bdd43e57a73d3f06d69e8803e68e92808ab384efc",
+      "legacy": true
+    },
+    "zotero:BLL3BT2S": {
+      "slug": "machinelearning/nlp/llm/mllm/wujanusdecouplingvisual2024",
+      "file": "MachineLearning/NLP/LLM/MLLM/wuJanusDecouplingVisual2024.md",
+      "source": "机器学习/多模态/Janus： Decoupling Visual Encoding for Unified Multimodal Understanding and Generation.md",
+      "published": "2025-11-04 10:34:30",
+      "sha256": "913e6869ee42ff4cb282c6698e9091b09b590685a7b6ddd35cecf633308d91cd",
+      "legacy": true
+    },
+    "note:a48dcde4-432f-4b6a-8ac5-3bd39b87575b": {
+      "slug": "machinelearning/nlp/llm/moe",
+      "file": "MachineLearning/NLP/LLM/MoE.md",
+      "source": "机器学习/大语言模型/混合专家模型.md",
+      "published": "2024-09-17",
+      "sha256": "ddaf18b7b52e5e58198ed336316cdfb91316d5a1adb42f3865914c1d1349cda9",
+      "legacy": true
+    },
+    "note:6d2547cb-430e-4301-940e-5ba9fc146785": {
+      "slug": "machinelearning/nlp/rag/rdf和sparql",
+      "file": "MachineLearning/NLP/RAG/RDF和SPARQL.md",
+      "source": "机器学习/检索增强生成/RDF和SPARQL.md",
+      "published": "2025-03-11",
+      "sha256": "0784ec94f4d4b2f7f921f9d4678e426cb738074417b5f9aff806df05017b2b7b",
+      "legacy": true
+    },
+    "zotero:2YMT26CV": {
+      "slug": "machinelearning/nlp/rag/thinkongraph/think-on-graphpdf",
+      "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH.pdf.md",
+      "source": "机器学习/检索增强生成/THINK-ON-GRAPH.md",
+      "published": "2025-03-07",
+      "sha256": "0984fb3b6d66d9cfbfb5060dc3c7c2498d26bb9374f44a509971d167a7f13daf",
+      "legacy": true
+    },
+    "note:b6c9ba3b-8bc5-4df5-949f-fb9fcae0a6cf": {
+      "slug": "machinelearning/nlp/rag/thinkongraph/think-on-graph20pdf",
+      "file": "MachineLearning/NLP/RAG/ThinkOnGraph/THINK-ON-GRAPH2.0.pdf.md",
+      "source": "机器学习/检索增强生成/Think-on-Graph 2.0.md",
+      "published": "2025-03-10",
+      "sha256": "b884a4cd77c70454885c0134528048ba67cc5b795967b7370de849a924482df2",
+      "legacy": true
+    },
+    "note:359db6c1-4087-4734-abeb-25f66661e897": {
+      "slug": "machinelearning/nlp/大模型词表",
+      "file": "MachineLearning/NLP/大模型词表.md",
+      "source": "机器学习/大语言模型/大模型词表.md",
+      "published": "2024-10-22",
+      "sha256": "9a61d4e006f774d5b59f8e2ee888f2b2cd4c3d479c2f19c2114a321f74e100ad",
+      "legacy": true
+    },
+    "note:69410357-0e47-4409-a4dc-763b49123528": {
+      "slug": "machinelearning/rl/ppo",
+      "file": "MachineLearning/RL/PPO.md",
+      "source": "机器学习/强化学习/PPO.md",
+      "published": "2025-07-23",
+      "sha256": "d72a3194a0edf772e57b8f674f6947bc634a89af9a45c726afe0443f54cd18b9",
+      "legacy": true
+    },
+    "note:4de5e437-9048-4835-80fe-0d5e0be96b51": {
+      "slug": "machinelearning/生成模型/ddpm/ddpm",
+      "file": "MachineLearning/生成模型/DDPM/DDPM.md",
+      "source": "机器学习/生成模型/DDPM：去噪扩散概率模型.md",
+      "published": "2024-08-14",
+      "sha256": "0e2e83705b13fc9ca4a617c0ea62c2d715a97c7f8afe14239fabef3e14085e0c",
+      "legacy": true
+    },
+    "note:b71941f7-4f15-4e94-b557-28f460b3cd99": {
+      "slug": "machinelearning/生成模型/vae/vae",
+      "file": "MachineLearning/生成模型/VAE/VAE.md",
+      "source": "机器学习/生成模型/VAE.md",
+      "published": "2024-07-29 00:00:00",
+      "sha256": "8171727e27dcac00737563fa33a1bb35afcca6c54be772558d93afdc2e3b308e",
+      "legacy": true
+    },
+    "note:09b1f280-59a2-4207-92ee-4dc7c50878f1": {
+      "slug": "expressive-code",
+      "file": "expressive-code.md",
+      "source": "参考/博客排版示例/Expressive Code Example.md",
+      "published": "2024-04-10",
+      "sha256": "24cb2514ad77d97ec473ce4a9c4f8102581f463cc986e6de96a230eeafc03495",
+      "legacy": true
+    },
+    "note:9afcff1d-5d01-481d-835d-78a301f31db6": {
+      "slug": "markdown-extended",
+      "file": "markdown-extended.md",
+      "source": "参考/博客排版示例/Markdown Extended Features.md",
+      "published": "2024-05-01 00:00:00",
+      "sha256": "c98eb2958e504d1183f4ee113056e3a04cef37a94166a9e63e7ee2f767b0d9e4",
+      "legacy": true
+    },
+    "note:cc0b6b4a-2a74-45e1-8bcd-75e67f65eecb": {
+      "slug": "markdown",
+      "file": "markdown.md",
+      "source": "参考/博客排版示例/Markdown Example.md",
+      "published": "2023-10-01 00:00:00",
+      "sha256": "b1a71d390b303f6acfdc232b4afecccf34af7e81125df1535d09bff8c01104d4",
+      "legacy": true
+    },
+    "note:10e94ecc-cc4e-43f5-bc03-20449393dd68": {
+      "slug": "数学/fisher信息矩阵",
+      "file": "数学/fisher信息矩阵.md",
+      "source": "数学/Fisher 信息矩阵.md",
+      "published": "2025-08-18",
+      "sha256": "04f5959cd8450f7da6b784a10cf83aaf0f1688f7e56ab5ad93ed187ba7e100df",
+      "legacy": true
+    },
+    "note:b39ba1d0-0aea-479f-8340-d7079580b8df": {
+      "slug": "数学/信息论/kl散度",
+      "file": "数学/信息论/KL散度.md",
+      "source": "数学/信息论/KL散度.md",
+      "published": "2024-10-08",
+      "sha256": "f58efd8f3e04889f82fc59941dd3d3cd0e116d9c293ef62821a174c7e88cd8db",
+      "legacy": true
+    },
+    "note:996bd4a9-f2f2-44c6-9e77-682b5c5a2a9b": {
+      "slug": "数学/信息论/互信息",
+      "file": "数学/信息论/互信息.md",
+      "source": "数学/信息论/互信息.md",
+      "published": "2024-10-11",
+      "sha256": "a1ca967c9ba1c0613fe96d3edeb9a5524262cf5391f10e89a2db5ac2b8dad15b",
+      "legacy": true
+    },
+    "note:bb047ca7-c484-48ae-af6f-f49733b724a6": {
+      "slug": "数学/信息论/交叉熵",
+      "file": "数学/信息论/交叉熵.md",
+      "source": "数学/信息论/交叉熵.md",
+      "published": "2024-10-08",
+      "sha256": "5e669fd2fcaabc954b4991e9fde89de5c1ce472bdae33efd71248bfd9b1a85b0",
+      "legacy": true
+    },
+    "note:69323a6d-52e5-46f3-91e0-439a0929e5aa": {
+      "slug": "数学/信息论/信息量",
+      "file": "数学/信息论/信息量.md",
+      "source": "数学/信息论/信息量与熵.md",
+      "published": "2024-10-08",
+      "sha256": "7228c48e52c616fbd508b3867272db586fc66b5a5774bd1e5b0b385d40699248",
+      "legacy": true
+    },
+    "note:09df54ab-d2bc-4c76-95f9-7f8510d0ed87": {
+      "slug": "数学/希腊字母对照表",
+      "file": "数学/希腊字母对照表.md",
+      "source": "数学/希腊字母对照表.md",
+      "published": "2024-10-11",
+      "sha256": "067f3a77cbac418d941bde58037c90954279a34499ca58c6ec139e3682d2334e",
+      "legacy": true
+    },
+    "note:41b4d20e-bd1b-4f00-9b7b-6fed05ad8ef0": {
+      "slug": "数学/拉普拉斯近似",
+      "file": "数学/拉普拉斯近似.md",
+      "source": "数学/拉普拉斯近似.md",
+      "published": "2025-08-18",
+      "sha256": "9cd53ab4865b96ac2f39643dd7a73c46b594a98a5932c6e2022212e70e7d4d79",
+      "legacy": true
+    },
+    "note:acb3c7a8-1c07-4368-b6f1-56c91093fe98": {
+      "slug": "数学/线性代数/线性代数",
+      "file": "数学/线性代数/线性代数.md",
+      "source": "数学/线性代数/线性代数.md",
+      "published": "2025-07-30",
+      "sha256": "559481d34beb54bef73c0bc69aebad9d7e54b9ce4858dbf8fc75fa3ab7081b1e",
+      "legacy": true
+    },
+    "note:529e8cc5-1a5d-499a-b3d9-64787d0f2dc1": {
+      "slug": "数学/重参数化技巧",
+      "file": "数学/重参数化技巧.md",
+      "source": "数学/重参数化技巧.md",
+      "published": "2024-10-11",
+      "sha256": "b82f5d4879f9f45213c5cee5e2d47b783810b926aeb48ead12de352907e8133a",
+      "legacy": true
+    },
+    "note:dfb5a6a5-194e-4c9a-98e2-b40279d1439d": {
+      "slug": "编程语言/python小技巧/fastapi/依赖注入",
+      "file": "编程语言/python小技巧/Fastapi/依赖注入.md",
+      "source": "编程/Python/FastAPI/依赖注入.md",
+      "published": "2025-01-05",
+      "sha256": "946045335c44bde7b6d0d07b5d3d4d36b5a858044453fbf82c32b1528d96d7a3",
+      "legacy": true
+    },
+    "note:1022c49b-59ba-4192-9d0a-b4de41dcc6cb": {
+      "slug": "编程语言/python小技巧/fastapi/参数校验",
+      "file": "编程语言/python小技巧/Fastapi/参数校验.md",
+      "source": "编程/Python/FastAPI/参数校验.md",
+      "published": "2025-01-05",
+      "sha256": "4f332676e085a7594e89d6b43579f65966f02af0c48f2eba5c244dd4299a8bff",
+      "legacy": true
+    },
+    "note:c3a7d2a3-f3f0-4c12-aba4-4710289876a1": {
+      "slug": "编程语言/python小技巧/fastapi/并发",
+      "file": "编程语言/python小技巧/Fastapi/并发.md",
+      "source": "编程/Python/FastAPI/并发 async：await.md",
+      "published": "2024-12-28",
+      "sha256": "1fbdac09d89a47986bd851448e562ce61ecb1640b46e0ffb90118157a87a6670",
+      "legacy": true
+    },
+    "note:dce048b2-b819-49e1-beeb-9fa9e854d9f4": {
+      "slug": "编程语言/python小技巧/fastapi/生命周期事件",
+      "file": "编程语言/python小技巧/Fastapi/生命周期事件.md",
+      "source": "编程/Python/FastAPI/生命周期事件.md",
+      "published": "2024-12-29",
+      "sha256": "131131e252f25a246bb301c4b6db29c91d80ca4a93823a745d395c5a17f8a26e",
+      "legacy": true
+    },
+    "note:32134c79-557b-4f6c-8970-76ea7cd71d91": {
+      "slug": "编程语言/python小技巧/fastapi/部署",
+      "file": "编程语言/python小技巧/Fastapi/部署.md",
+      "source": "编程/Python/FastAPI/部署.md",
+      "published": "2024-12-28",
+      "sha256": "4404d63ab54227c9bfc3ded330bcdb198155c17b73b204c9cd080a242c588760",
+      "legacy": true
+    },
+    "note:a8fc37ab-223b-4b75-9876-c6a474e7cf9e": {
+      "slug": "编程语言/python小技巧/loguru/loguru",
+      "file": "编程语言/python小技巧/loguru/loguru.md",
+      "source": "编程/Python/日志/loguru.md",
+      "published": "2025-01-05",
+      "sha256": "24720335f178ca31f32610645e7bed83339244e164954274f7f9df7e1b646579",
+      "legacy": true
+    },
+    "note:f6fcf596-c86d-4a59-bb62-08e448543923": {
+      "slug": "编程语言/python小技巧/python内置库/collections",
+      "file": "编程语言/python小技巧/python内置库/Collections.md",
+      "source": "编程/Python/语言与标准库/Collections.md",
+      "published": "2025-08-11",
+      "sha256": "b027d6af5cd4b6cc4fe61b37fde89079d0c6675d4fbd2bc97151d025ebe0c549",
+      "legacy": true
+    },
+    "note:73e0bf50-40df-4f62-bb0a-39338904301a": {
+      "slug": "编程语言/python小技巧/python内置库/python语法",
+      "file": "编程语言/python小技巧/python内置库/python语法.md",
+      "source": "编程/Python/语言与标准库/python语法.md",
+      "published": "2024-09-04",
+      "sha256": "1f72817a19cfb49e39d7b81aba44c754f16fa76c87ab2f073b4f4b9eff7eab13",
+      "legacy": true
+    },
+    "note:686d3ff9-9294-48c1-a066-d4da96b2dd12": {
+      "slug": "编程语言/python小技巧/python内置库/上下文管理器",
+      "file": "编程语言/python小技巧/python内置库/上下文管理器.md",
+      "source": "编程/Python/语言与标准库/上下文管理器.md",
+      "published": "2024-12-29",
+      "sha256": "92b0f66ed9e6cc587c88d730eca22f119322e88927f9a6f070d0707fe7a46841",
+      "legacy": true
+    },
+    "note:56546f5a-642d-4d7e-999e-3b1b35d96320": {
+      "slug": "编程语言/python小技巧/python内置库/文件夹操作",
+      "file": "编程语言/python小技巧/python内置库/文件夹操作.md",
+      "source": "编程/Python/语言与标准库/文件夹操作.md",
+      "published": "2024-10-24",
+      "sha256": "2ba96056b8c52377dda76a011c5aa912f4fd15c076dd9b7ff2f1cf678b0c152c",
+      "legacy": true
+    },
+    "note:84d8f49d-3ea0-474e-91cb-2e303a6785f5": {
+      "slug": "编程语言/python小技巧/python内置库/继承",
+      "file": "编程语言/python小技巧/python内置库/继承.md",
+      "source": "编程/Python/语言与标准库/继承.md",
+      "published": "2025-01-01",
+      "sha256": "635a5adf7c77704155cee013ebf0910a9c21e44490b728c4dbef81493ad47970",
+      "legacy": true
+    },
+    "note:375db517-4aa1-425e-8534-39217850ac31": {
+      "slug": "编程语言/python小技巧/pytorch基本知识/pytorch基本知识",
+      "file": "编程语言/python小技巧/pytorch基本知识/pytorch基本知识.md",
+      "source": "机器学习/PyTorch/PyTorch 基础.md",
+      "published": "2024-07-16",
+      "sha256": "c973d0b6d9ad625224137f813713799c96728513f5507c08626a5c901a415f2b",
+      "legacy": true
+    },
+    "note:b51f15f4-14d3-4dba-867e-f52ba5d22840": {
+      "slug": "编程语言/python小技巧/pytorch基本知识/爱因斯坦标识法",
+      "file": "编程语言/python小技巧/pytorch基本知识/爱因斯坦标识法.md",
+      "source": "机器学习/PyTorch/einops 与张量变换.md",
+      "published": "2024-09-14",
+      "sha256": "7ccbece1be87ba329709cac161eb8df11f226e0d6cc47e132eaf49efbd83fabd",
+      "legacy": true
+    },
+    "note:6a4da5ad-8125-48e8-873c-9a09fc482935": {
+      "slug": "编程语言/python小技巧/sqlmodel/基础使用",
+      "file": "编程语言/python小技巧/sqlmodel/基础使用.md",
+      "source": "编程/Python/SQLModel/基础使用.md",
+      "published": "2025-01-05",
+      "sha256": "2dd7a6e7db29e84674f493409cfea725c12976e95a5988a4e035ce0b964ada53",
+      "legacy": true
+    },
+    "note:230e54ab-d41b-476a-aa56-0662d88e4d28": {
+      "slug": "编程语言/python小技巧/sqlmodel/简介",
+      "file": "编程语言/python小技巧/sqlmodel/简介.md",
+      "source": "编程/Python/SQLModel/SQLModel 简介.md",
+      "published": "2025-01-05",
+      "sha256": "cce54091aecb0e32e80ef3cb7b79e3c486b7e7b211d7299dd28b936a85f29b1c",
+      "legacy": true
+    },
+    "note:148de354-fb86-4a41-aed8-a23d890b29f4": {
+      "slug": "编程语言/python小技巧/sqlmodel/联系",
+      "file": "编程语言/python小技巧/sqlmodel/联系.md",
+      "source": "编程/Python/SQLModel/SQLModel 关联与联表查询.md",
+      "published": "2025-01-05",
+      "sha256": "032b15099f8875ecdef66497b7fe34adf0f8f9197dc52783f52e5dd6c677bc49",
+      "legacy": true
+    },
+    "zotero:IHS2ZK95": {
+      "slug": "machinelearning/nlp/llm/mllm/像素级视觉大模型/vitronpdf",
+      "file": "MachineLearning/NLP/LLM/MLLM/像素级视觉大模型/Vitron.pdf.md",
+      "source": "机器学习/多模态/Vitron.md",
+      "published": "2024-10-21",
+      "sha256": "054a77adf4c496f585f02913737dcc04184dc0055e1dd6d966255f7ac82617d5",
+      "legacy": true
+    },
+    "zotero:ZJQAEI3J": {
+      "slug": "machinelearning/基础模块/normalization/dyt/dytpdf",
+      "file": "MachineLearning/基础模块/normalization/DyT/DyT.pdf.md",
+      "source": "机器学习/基础模块/DyT.md",
+      "published": "2025-04-01",
+      "sha256": "733123c583a0429a95cb34755b147d02d0a780d652170a54384700e475630250",
+      "legacy": true
+    }
+  }
+}

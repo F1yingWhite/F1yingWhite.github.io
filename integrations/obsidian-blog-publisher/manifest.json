@@ -1,0 +1,9 @@
+{
+  "id": "research-blog-publisher",
+  "name": "Research Blog Publisher",
+  "version": "1.0.0",
+  "minAppVersion": "1.14.5",
+  "description": "选择笔记、检查公开改动、预览并发布到个人博客。",
+  "author": "F1yingWhite",
+  "isDesktopOnly": true
+}

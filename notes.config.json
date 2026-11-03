@@ -1,0 +1,6 @@
+{
+  "site": "https://f1yingwhite.github.io",
+  "output": "src/content/posts",
+  "assets": "public/notes-assets",
+  "manifest": "notes-publication.json"
+}

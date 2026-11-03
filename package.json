@@ -6,11 +6,17 @@
     "dev": "astro dev",
     "start": "astro dev",
     "check": "astro check",
-    "build": "astro build && pagefind --site dist",
+    "build": "node scripts/validate-public-notes.mjs && astro build && pagefind --site dist && node scripts/verify-built-site.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "type-check": "tsc --noEmit --isolatedDeclarations",
     "new-post": "node scripts/new-post.js",
+    "notes:plan": "node scripts/notes.mjs plan",
+    "notes:list": "node scripts/notes.mjs list",
+    "notes:publish": "node scripts/notes.mjs publish",
+    "notes:unpublish": "node scripts/notes.mjs unpublish",
+    "notes:deploy": "node scripts/notes.mjs deploy",
+    "test:notes": "node --test scripts/tests/notes.test.mjs",
     "format": "biome format --write ./src",
     "lint": "biome check --write ./src",
     "preinstall": "npx only-allow pnpm"
@@ -70,7 +76,10 @@
     "@types/mdast": "^4.0.4",
     "@types/sanitize-html": "^2.16.0",
     "postcss-import": "^16.1.1",
-    "postcss-nesting": "^13.0.2"
+    "postcss-nesting": "^13.0.2",
+    "remark-parse": "11.0.0",
+    "unified": "11.0.5",
+    "yaml": "2.8.2"
   },
   "packageManager": "pnpm@10.15.1"
 }

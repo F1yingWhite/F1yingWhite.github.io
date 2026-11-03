@@ -15,7 +15,7 @@ const postsCollection = defineCollection({
 			return new Date('2000-01-01');
 		}, z.date()),
 		updated: z.date().optional(),
-		draft: z.boolean().optional().default(false),
+		draft: z.boolean().optional().default(true),
 		description: z.string().optional().nullable().transform((v) => (v == null ? "" : v)),
 		image: z.string().optional().default(""),
 		tags: z.array(z.string()).optional().default([]),
