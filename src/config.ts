@@ -17,8 +17,8 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/daylightallure-artist-Dusk-(Arknights)-7561599.jpeg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: 'top', // Equivalent to object-position, defaults center
+    src: 'assets/images/blue-flowers-banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    position: 'center', // Equivalent to object-position, defaults center
     credit: {
       enable: false,         // Display the credit text of the banner image
       text: '',              // Credit text to be displayed
