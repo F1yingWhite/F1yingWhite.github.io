@@ -430,7 +430,7 @@
       "file": "数学/微积分/00-学习路线与符号.md",
       "source": "数学/微积分/00-学习路线与符号.md",
       "published": "2026-11-03",
-      "sha256": "3ef3deeeb5c82eb7d0d209a016cbb2ff4c852f548fd3003fb5482b52b8eb00ba",
+      "sha256": "2d26713a46cdd52a46d533885e62a395ac44bec23790f089797c840bf55d41ee",
       "legacy": false
     },
     "note:b72a2a92-c4e7-55d0-9290-9dc75c9f788c": {
@@ -438,7 +438,7 @@
       "file": "数学/微积分/01-实数、极限与连续.md",
       "source": "数学/微积分/01-实数、极限与连续.md",
       "published": "2026-11-03",
-      "sha256": "cfa4c12b4b0305fbe22899afd63324348bea0b039b5a6d5e855c73954462d655",
+      "sha256": "caccf25109160bf3c419d712117fe49dc84be543811e5456670d89d0d784dfce",
       "legacy": false
     },
     "note:2c8cd544-e5a2-53a9-bfba-d381d97477f7": {
@@ -446,7 +446,7 @@
       "file": "数学/微积分/02-导数与局部线性近似.md",
       "source": "数学/微积分/02-导数与局部线性近似.md",
       "published": "2026-11-03",
-      "sha256": "280e87031055b89ffca47dfcf9cd92d7c73a1a15c593108a9f366fa2f8eaed90",
+      "sha256": "56dad099281ce43c8c8c2d99b9779c866d7461b662e5f823eb337f391fbb9a99",
       "legacy": false
     },
     "note:09f93a6b-517e-5cb0-b7b3-fd89d21835fb": {
@@ -454,7 +454,7 @@
       "file": "数学/微积分/03-中值定理、Taylor-展开与优化.md",
       "source": "数学/微积分/03-中值定理、Taylor 展开与优化.md",
       "published": "2026-11-03",
-      "sha256": "0764b46f8dea56fb0a6779459addbc522ee521e31b3ebc5f3c2ae6f42693d59e",
+      "sha256": "de139f2c5d6b47b372d8351e7bf685475e15d19988808966b8564308795b5c25",
       "legacy": false
     },
     "note:19958fb0-62a3-5012-84c1-822835b9f3af": {
@@ -462,7 +462,7 @@
       "file": "数学/微积分/04-定积分与微积分基本定理.md",
       "source": "数学/微积分/04-定积分与微积分基本定理.md",
       "published": "2026-11-03",
-      "sha256": "38f0e2b723b2bd1cf1448a5dff9c7562612f4ca335e390b8007b626a0119a765",
+      "sha256": "2b79d2f671dbfd717e5982480536fa26bfae506bea0175f07c496271b0a8b2d0",
       "legacy": false
     },
     "note:6a9b249d-107a-5ec1-bae3-8a1562d26d5d": {
@@ -470,7 +470,7 @@
       "file": "数学/微积分/05-积分技巧、反常积分与概率.md",
       "source": "数学/微积分/05-积分技巧、反常积分与概率.md",
       "published": "2026-11-03",
-      "sha256": "28301b596283ba347c2d49ffe53cadcb1051f31f340c3b10573d296979a08112",
+      "sha256": "0e017b230012203177605ba94aad2d5090a9bf69f0441ed69499800cada7cf83",
       "legacy": false
     },
     "note:f9ad68c2-881d-55ab-8843-c6922437e092": {
@@ -478,7 +478,7 @@
       "file": "数学/微积分/06-级数、幂级数与函数列.md",
       "source": "数学/微积分/06-级数、幂级数与函数列.md",
       "published": "2026-11-03",
-      "sha256": "308e0725c37a1295d8b620fb05ba6c086284671754db9768833cf5566e04ae12",
+      "sha256": "06c1fdbe16cd46177bfda8f3935be9c79252ca86bd16e8fb4133da10ccefb337",
       "legacy": false
     },
     "note:e356b451-8016-5a24-8adc-e8e9983a3d54": {
@@ -486,7 +486,7 @@
       "file": "数学/微积分/07-多变量微分与梯度.md",
       "source": "数学/微积分/07-多变量微分与梯度.md",
       "published": "2026-11-03",
-      "sha256": "158dba3a0bddb27f81be49fe04596a03a7016902ef8e480681bccf44339544d8",
+      "sha256": "e76642c69b20b2b415aa064d7d7f5bf70e478362e01e4809ea95e34361c48ed6",
       "legacy": false
     },
     "note:92dc342f-1ec2-51fc-ba75-3403a46fb063": {
@@ -494,7 +494,7 @@
       "file": "数学/微积分/08-多重积分、换元与积分次序.md",
       "source": "数学/微积分/08-多重积分、换元与积分次序.md",
       "published": "2026-11-03",
-      "sha256": "b784c1c836491515cc9389132ab38de11964e7e31f656666c1709fd275d9015c",
+      "sha256": "f5b28ee72b3c08813e89c56b36b200cc131e6aed995308c3cea5a1cb675ba465",
       "legacy": false
     },
     "note:a0dfe859-33e9-5bf2-a14b-bdfa23a32c37": {
@@ -502,7 +502,7 @@
       "file": "数学/微积分/09-约束优化与向量分析.md",
       "source": "数学/微积分/09-约束优化与向量分析.md",
       "published": "2026-11-03",
-      "sha256": "8fdeae30485474e57fd9cf4a67148a9abf0247ae21b005f66f1ac14a18f3e7fd",
+      "sha256": "27595bf5c4ef6fe537e186fb8913a8370171fc9aa91c9ea6dc794e76db4358c2",
       "legacy": false
     },
     "note:e0611776-883f-564f-aec3-95b9c5a6f2c0": {
@@ -510,7 +510,7 @@
       "file": "数学/微积分/10-微分方程、数值方法与复习.md",
       "source": "数学/微积分/10-微分方程、数值方法与复习.md",
       "published": "2026-11-03",
-      "sha256": "e22a21d175d03a1eea7b1988dfc8b782c2608316ee92fa809a029e176bfa01fb",
+      "sha256": "01bb8eafd48bd1f46741a2a98bf37a571f6d9e4698964ac413bb23402efbc539",
       "legacy": false
     },
     "note:a0dab87a-92df-5933-b38c-513f6de60e6a": {
@@ -678,7 +678,7 @@
       "file": "数学/线性代数教程/01-向量、线性组合与空间.md",
       "source": "数学/线性代数/01-向量、线性组合与空间.md",
       "published": "2026-11-03",
-      "sha256": "8dd8935f2e35171e981eed76a4efd6e5cd726664bb0fddef80cd70c8f76ab337",
+      "sha256": "055619576b45a5b998e0b8c1ca77217cb6e09281f9fb2fc31cabacce494b8ace",
       "legacy": false
     },
     "note:69fe45b8-67a6-5b0b-90c2-c3dfa7619233": {
@@ -686,7 +686,7 @@
       "file": "数学/线性代数教程/02-矩阵是一台变换机器.md",
       "source": "数学/线性代数/02-矩阵是一台变换机器.md",
       "published": "2026-11-03",
-      "sha256": "0e30c0be6196ffa2bd0bca70892295612d40fb253a9fec021c6aa4fbf4fde0f6",
+      "sha256": "aa62859d0c526b4822987b4b2bd997b2143e789e8fa29eb56ba7245242769148",
       "legacy": false
     },
     "note:dbaae049-f5f0-5e56-9882-cd99a1fe9af8": {
@@ -694,7 +694,7 @@
       "file": "数学/线性代数教程/03-消元、线性方程与四个子空间.md",
       "source": "数学/线性代数/03-消元、线性方程与四个子空间.md",
       "published": "2026-11-03",
-      "sha256": "ea2a4666ef315227cd2280a815205aeff2245a4a00addf87ddf542ce6feb10d3",
+      "sha256": "3f4938d98d8e8599f019b1da18a3c741d4a33ed20566b1478f43b48aaf0c7d45",
       "legacy": false
     },
     "note:b3c42114-f6c2-5073-bddf-2a89a9fe0a92": {
@@ -702,7 +702,7 @@
       "file": "数学/线性代数教程/04-基、维数、秩与商空间.md",
       "source": "数学/线性代数/04-基、维数、秩与商空间.md",
       "published": "2026-11-03",
-      "sha256": "55d26fdb9977a0ffd5bc49b37c0e5a25d5c62bc6c9df5e756cfeca628ce067da",
+      "sha256": "0e9784ea6dcb7263eb2e058da9632e2c03da9691ff344e7dd954f8000cff10d3",
       "legacy": false
     },
     "note:55b803d5-d3b3-5b71-8adf-98803481bed4": {
@@ -710,7 +710,7 @@
       "file": "数学/线性代数教程/05-行列式、逆矩阵与换基.md",
       "source": "数学/线性代数/05-行列式、逆矩阵与换基.md",
       "published": "2026-11-03",
-      "sha256": "96f5f4c7ea76f733ec7810d915718e77f166451341df18540e47efb4351be887",
+      "sha256": "f842b0b2d3321ae63f1d6cdb57e63f27e1f3a9f342f1c8e6af9448ac1292a676",
       "legacy": false
     },
     "note:874f5df6-1a28-57d3-843b-7e256c048469": {
@@ -718,7 +718,7 @@
       "file": "数学/线性代数教程/06-内积、正交与最近点.md",
       "source": "数学/线性代数/06-内积、正交与最近点.md",
       "published": "2026-11-03",
-      "sha256": "6ff4f88d5ad5c9da5ac9d0da45f64920f3154893c02d565e1cf2fd87043afad3",
+      "sha256": "92dfeb1be2e2b5d2c91837d4e116e08da05c70c4016fe1a2bf11f611deb00fae",
       "legacy": false
     },
     "note:8a09779c-175d-5498-8625-6d7e7634bfe4": {
@@ -726,7 +726,7 @@
       "file": "数学/线性代数教程/07-最小二乘、QR-与伪逆.md",
       "source": "数学/线性代数/07-最小二乘、QR 与伪逆.md",
       "published": "2026-11-03",
-      "sha256": "509f5d0dbb2901296cdddc81295e872171ce0bd9e67d66c2b1a5f2f0e4f9feba",
+      "sha256": "0d3394068879d7e2c821a2d340696c3287979b372083cd7fbfd11706618dde03",
       "legacy": false
     },
     "note:7b7cbf5a-0b7f-5143-aca7-c75cf8eee1ce": {
@@ -734,7 +734,7 @@
       "file": "数学/线性代数教程/08-特征值、对角化与谱定理.md",
       "source": "数学/线性代数/08-特征值、对角化与谱定理.md",
       "published": "2026-11-03",
-      "sha256": "2769c4e7c1d2a30e7a355f293c0518948fdfc9ff1f4172e6c3cd7ad3e646966b",
+      "sha256": "c34db78800e18c5b1ce8c2943faa196d6599ad8736a158caa404aaf3cd2d056e",
       "legacy": false
     },
     "note:1f6ee6c1-5da6-568a-b5dc-627a3f6bfc02": {
@@ -742,7 +742,7 @@
       "file": "数学/线性代数教程/09-奇异值分解与-PCA.md",
       "source": "数学/线性代数/09-奇异值分解与 PCA.md",
       "published": "2026-11-03",
-      "sha256": "390a638a90027518193c4d00c585d3ee2c128db6f1f4d42cc56f58c3862ddeb7",
+      "sha256": "9a166699b9b61603aaeca54f60068c930fa3eb263540bb844684c09115c1e129",
       "legacy": false
     },
     "note:e5e4065c-fb18-5b44-9064-3b7d2502eb73": {
@@ -750,7 +750,7 @@
       "file": "数学/线性代数教程/10-正定、矩阵微分与数值稳定性.md",
       "source": "数学/线性代数/10-正定、矩阵微分与数值稳定性.md",
       "published": "2026-11-03",
-      "sha256": "4ed2c41ed35c9b920ed690465ac53eb1a31c01756956743c9572baa391864077",
+      "sha256": "d449e32dbeed7454f7dd29d70932e79ee3183a682180266421f0cf9f2ab5baef",
       "legacy": false
     }
   }
