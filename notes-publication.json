@@ -760,6 +760,78 @@
       "published": "2026-11-10",
       "sha256": "f71fe21ad3dd6d7393c347955fb8e943178013df6e27c8fb73cccc42f62ccbeb",
       "legacy": true
+    },
+    "note:539800d1-67e4-48f6-b710-13de9295a54c": {
+      "slug": "ai/rsi/00-阅读路线",
+      "file": "AI/RSI/00-阅读路线.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "65dd04586127cdf7d1c2d7c9171630da438a3a4721e13319edd1b521340146c9",
+      "legacy": true
+    },
+    "note:1a9f038f-d711-40f6-930a-99fcc0794c50": {
+      "slug": "ai/rsi/01-当ai构建自身",
+      "file": "AI/RSI/01-当AI构建自身.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "5fbb0f460da9057da8578c9c5cd3889926c7a800b91e9e62c70e385797a8183e",
+      "legacy": true
+    },
+    "note:0cab2046-23fc-4dee-8334-1f991d66f063": {
+      "slug": "ai/rsi/02-照亮前沿",
+      "file": "AI/RSI/02-照亮前沿.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "7897ca25578d14548f303bb73c8327a4ba907f433be280603e77666b7e09d3d6",
+      "legacy": true
+    },
+    "note:061c1f2a-97be-4dd9-bc28-5727426e54e5": {
+      "slug": "ai/rsi/03-我们必须为前沿调速",
+      "file": "AI/RSI/03-我们必须为前沿调速.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "efa8ec1009d831f263ec6e77d489e70a5f10246da9462c7b7dcfafdabd28a87a",
+      "legacy": true
+    },
+    "note:1699b797-1675-47ef-b47a-9aa4ad02a20a": {
+      "slug": "ai/rsi/04-自动化弱到强研究员",
+      "file": "AI/RSI/04-自动化弱到强研究员.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "24880ec25c5c683f90e9444b96920d642f1ab77bd43dcde1253dc67640eb2b61",
+      "legacy": true
+    },
+    "note:7346f319-2c58-4583-9e03-886cae224374": {
+      "slug": "ai/rsi/05-ai如何改变anthropic的工作",
+      "file": "AI/RSI/05-AI如何改变Anthropic的工作.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "3370b38784d6d1515cd9f210cbb487089790a549e04de170fd79260f47e1f34f",
+      "legacy": true
+    },
+    "note:d2f50d91-edef-458f-8868-dd87e57bdcf0": {
+      "slug": "ai/rsi/06-2028两种全球ai领导权情景",
+      "file": "AI/RSI/06-2028两种全球AI领导权情景.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "e61e3348bbc5681d242004a48502140f6e6c32b3b7810d8bf36e5f088d5babc6",
+      "legacy": true
+    },
+    "note:a662c9c6-e32b-42d6-b815-4fb8e0736b1b": {
+      "slug": "ai/rsi/07-负责任扩展政策v3",
+      "file": "AI/RSI/07-负责任扩展政策v3.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "137131c959cfede9c181dbaf87ad992fbc535cc33c7aae35cdbfad69b7b14e7c",
+      "legacy": true
+    },
+    "note:7410659f-4618-46b5-a14d-66720303e3ff": {
+      "slug": "ai/rsi/08-rsi术语与指标",
+      "file": "AI/RSI/08-RSI术语与指标.md",
+      "source": "https://www.anthropic.com/institute",
+      "published": "2026-11-10",
+      "sha256": "9d73cb128a72cbb51e3cf61e4149ded8ef991bea56ea8e223e22f1f784337526",
+      "legacy": true
     }
   }
 }
