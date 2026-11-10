@@ -752,6 +752,14 @@
       "published": "2026-11-03",
       "sha256": "3fe773328b3c7eecf2afc0b62f2d427febcb7bd699c2433bd2fd31c6c8a54398",
       "legacy": false
+    },
+    "note:d9667168-e43f-4e8c-986c-de8efde17849": {
+      "slug": "ai/智能体记忆的组成部分",
+      "file": "AI/智能体记忆的组成部分.md",
+      "source": "https://www.anthropic.com/research/components-of-agent-memory",
+      "published": "2026-11-10",
+      "sha256": "f71fe21ad3dd6d7393c347955fb8e943178013df6e27c8fb73cccc42f62ccbeb",
+      "legacy": true
     }
   }
 }
